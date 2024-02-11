@@ -1,4 +1,4 @@
-NepalUSA Settings Repository
+                                                NepalUSA Settings Repository
 Welcome to the NepalUSA Settings repository! This repository serves as a central location for storing JSON configuration files for various applications used within NepalUSA, along with code storage.
 
 JSON Folder
