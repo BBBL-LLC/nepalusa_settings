@@ -1,10 +1,13 @@
-[{
-    "name": "Buddha Kharel", 
-    "email": "Buddha2042@gmail.com"
-},
-{
-    "name": "Prakash Timilsina", 
-    "email": "prakashtimilsina84@gmail.com"
-}, 
-    "content": "hello world"
+[
+    {
+        "name": "Buddha Kharel", 
+        "email": "Buddha2042@gmail.com"
+    },
+    {
+        "name": "Prakash Timilsina", 
+        "email": "prakashtimilsina84@gmail.com"
+    }, 
+    {
+        "content": "hello world"
+    }
 ]
