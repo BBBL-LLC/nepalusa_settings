@@ -1,0 +1,92 @@
+[
+  {
+    "id": "71be25e0-3660-4400-a6c3-6f61a1aed258",
+    "name": "Buddha Kharel",
+    "email": "buddha.kharel@nepalusa.org",
+    "user_name": "buddha_kharel",
+    "role": "Super Admin",
+    "reportTo": "Board",
+    "position": "CEO, Founder",
+    "gender": "Male"
+  },
+  {
+    "id": "88e47fb5-0cc4-4579-a89f-22910a7d3f94",
+    "name": "Pashupati Shah",
+    "email": "pashupati.shah@nepalusa.org",
+    "user_name": "pashupati_shah",
+    "role": "Manager",
+    "reportTo": "CEO",
+    "position": "Developer",
+    "gender": "Male"
+  },
+  {
+    "id": "b9c37ad6-3887-4147-946d-8e248c808107",
+    "name": "Ray Park",
+    "email": "ray.park@nepalusa.org",
+    "user_name": "ray_park",
+    "role": "CFO",
+    "reportTo": "BOARD",
+    "position": "Manager",
+    "gender": "Male"
+  },
+  {
+    "id": "e6f06461-77b6-4c4e-84d0-8c8aef784c13",
+    "name": "Romin Thapa",
+    "email": "romin.thapa@nepalusa.org",
+    "user_name": "romin_thapa",
+    "role": "Employee",
+    "reportTo": "Manager",
+    "position": "Developer",
+    "gender": "Male"
+  },
+  {
+    "id": "223956a1-9337-4321-9017-0ae8ebdf9aa9",
+    "name": "Hannah Khan",
+    "email": "hannah@example.com",
+    "user_name": "hannah_khan",
+    "role": "Employee",
+    "reportTo": "Manager",
+    "position": "Developer",
+    "gender": "Female"
+  },
+  {
+    "id": "5b8a859e-edf8-4cce-af2b-8d4f83889e43",
+    "name": "Abhishek Maharjan",
+    "email": "charlie@nepalusa.org",
+    "user_name": "abhishek_maharhan",
+    "role": "Employee",
+    "reportTo": "Pashupat Shah",
+    "position": "Volunteers",
+    "gender": "Male"
+  },
+  {
+    "id": "bb9c9fa3-ff02-4a16-9235-348a73eeba23",
+    "name": "Samip Luitel",
+    "email": "samip.luitel@nepalusa.org",
+    "user_name": "samip_luitel",
+    "role": "Employee",
+    "reportTo": "Manager",
+    "position": "Developer",
+    "gender": "Male"
+  },
+  {
+    "id": "ba91fa16-cc35-4a46-b706-71058346cb58",
+    "name": "Bishnu Adhikari",
+    "email": "bishnu.adhikari@nepalusa.org",
+    "user_name": "bishnu_adhikari",
+    "role": "Employee",
+    "reportTo": "Manager",
+    "position": "Designer",
+    "gender": "Male"
+  },
+  {
+    "id": "d2d600c4-4419-4a20-bef1-85347cbf773b",
+    "name": "Ella Davis",
+    "email": "ella@enepalusa.org",
+    "user_name": "ella_davis",
+    "role": "Employee",
+    "reportTo": "Manager",
+    "position": "Developer",
+    "gender": "Female"
+  }
+]
