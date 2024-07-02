@@ -89,15 +89,5 @@
     "reportTo": "Manager",
     "position": "Developer",
     "gender": "Female"
-  },
-  {
-    "id": "b991b936-3ee6-4035-903d-fdeecff5c762",
-    "name": "Bkharel",
-    "email": "test@test.com",
-    "user_name": "test_test",
-    "role": "Employee",
-    "reportTo": "Manager",
-    "position": "Developer",
-    "gender": "Male"
   }
 ]
