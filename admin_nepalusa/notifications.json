@@ -1,7 +1,8 @@
-{"notifications":{
+{
     "buddha.kharel@nepalusa.org": [
-        "you have new email", 
-        "new request came from india new-york bank"
+      {
+        "id": "74f675e0-ab29-4099-baa9-f41501389deb",
+        "message": "test"
+      }
     ]
-}
-}
+  }
