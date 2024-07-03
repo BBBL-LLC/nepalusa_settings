@@ -89,15 +89,5 @@
     "reportTo": "Manager",
     "position": "Developer",
     "gender": "Female"
-  },
-  {
-    "id": "6c32b5c4-ebf9-4f70-8837-9973fec51d24",
-    "name": "Laxmi Sapkota kharel",
-    "email": "laxmi.sapkota@nepalusa.org",
-    "user_name": "laxmi_sapkota",
-    "role": "Management Team",
-    "reportTo": "Buddha Kharel ",
-    "position": "CFO",
-    "gender": "female"
   }
 ]
