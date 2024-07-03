@@ -1,1 +1,9 @@
-"\"{\\n  \\\"buddha.kharel@nepalusa.org\\\": []\\n}\""
+{
+  "error": "Invalid GitHub response: missing content",
+  "buddha.kharel@nepalusa.org": [
+    {
+      "id": "c354007a-2f31-4b49-9528-1fa9975164ae",
+      "message": "new content assigned "
+    }
+  ]
+}
