@@ -167,5 +167,16 @@
     "position": "dsfafdsa",
     "gender": "male",
     "imageSrc": ""
+  },
+  {
+    "id": "81216135-e185-468b-9f99-8d41d8c5ce63",
+    "name": "Laxman Sapkota",
+    "email": "laxman@nepalusa.org",
+    "user_name": "laxman_sapkota",
+    "role": "Management Team",
+    "reportTo": "Buddha Kharel",
+    "position": "Engineer ",
+    "gender": "male",
+    "imageSrc": ""
   }
 ]
