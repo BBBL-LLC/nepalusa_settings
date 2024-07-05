@@ -91,16 +91,6 @@
     "gender": "Female"
   },
   {
-    "id": "f91326b8-9fb5-4d39-a91f-fd4c36136fb9",
-    "name": "Laxmi Sapkota Kharel",
-    "email": "laxmi.sapkota@nepalusa.org",
-    "user_name": "laxmi_sapkota",
-    "role": "Management Team",
-    "reportTo": "Buddha Kharel ",
-    "position": "CFO",
-    "gender": "female"
-  },
-  {
     "id": "22c407fd-6818-4664-b77d-6c55ac29d40f",
     "name": "Prasant Regmi ",
     "email": "prasant.regmi@nepalusa.org",
