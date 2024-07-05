@@ -79,16 +79,5 @@
     "reportTo": "Manager",
     "position": "Designer",
     "gender": "Male"
-  },
-  {
-    "id": "82e463bc-42ce-4914-a1e2-07450c39eee2",
-    "name": "dev kharel ",
-    "email": "bl_collection@hotmail.com",
-    "user_name": "dev_dev",
-    "role": "Volunteer",
-    "reportTo": "fdsafsa",
-    "position": "fdsafsad",
-    "gender": "male",
-    "imageSrc": ""
   }
 ]
