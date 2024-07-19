@@ -90,5 +90,16 @@
     "position": "CFO",
     "gender": "female",
     "imageSrc": ""
+  },
+  {
+    "id": "2b32add2-fa0f-4750-aa8f-37664538a19a",
+    "name": "Adi Kuriseni",
+    "email": "adi@nepalusa.org",
+    "user_name": "adi_kuriseni",
+    "role": "Volunteer",
+    "reportTo": "Laxmi Sapkota",
+    "position": "Volunteer ",
+    "gender": "male",
+    "imageSrc": ""
   }
 ]
