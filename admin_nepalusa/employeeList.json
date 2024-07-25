@@ -101,5 +101,16 @@
     "position": "Volunteer ",
     "gender": "male",
     "imageSrc": ""
+  },
+  {
+    "id": "05c0b44f-fed9-4187-a4f4-ee038f598b4b",
+    "name": "Admin Robo ",
+    "email": "bk_robo@buddhakharel.com",
+    "user_name": "admin_robo",
+    "role": "Management Team",
+    "reportTo": "Buddha Kharel ",
+    "position": "Manager",
+    "gender": "male",
+    "imageSrc": ""
   }
 ]
