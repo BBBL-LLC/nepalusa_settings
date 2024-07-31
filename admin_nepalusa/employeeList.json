@@ -112,16 +112,5 @@
     "position": "Manager",
     "gender": "male",
     "imageSrc": ""
-  },
-  {
-    "id": "bf9b02d3-22bb-48fb-a010-92843c1e8e94",
-    "name": "rac",
-    "email": "RamJabin@gmail.com",
-    "user_name": "RAV_AMIN",
-    "role": "Volunteer",
-    "reportTo": "RAB",
-    "position": "Manager ",
-    "gender": "male",
-    "imageSrc": "https://raw.githubusercontent.com/BBBL-LLC/nepalusa_settings/master/Image_Urls/profileImage-1722452447248-599209459.jpg"
   }
 ]
