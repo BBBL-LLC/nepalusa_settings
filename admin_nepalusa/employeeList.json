@@ -112,5 +112,16 @@
     "position": "Manager",
     "gender": "male",
     "imageSrc": ""
+  },
+  {
+    "id": "6a75c0be-bdff-4711-8494-c39f6d76ce08",
+    "name": "Robo Admin",
+    "email": "bk_robo@buddhakharel.com",
+    "user_name": "robo_admin",
+    "role": "Management Team",
+    "reportTo": "Buddha Kharel ",
+    "position": "Manager",
+    "gender": "male",
+    "imageSrc": "https://raw.githubusercontent.com/BBBL-LLC/nepalusa_settings/master/Image_Urls/NEW5PLY-ProfileImage-1722622960035.jpg"
   }
 ]
