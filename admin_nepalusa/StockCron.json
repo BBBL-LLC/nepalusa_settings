@@ -1,8 +1,8 @@
 {
-  "NewStock": "ABC",
-  "interval": 4,
-  "percentages": 4,
+  "NewStock": "AAPL",
+  "interval": "15",
+  "percentages": "3",
   "emails": [
-    "buddha2042@gmail.com"
+    "bbl_llc@hotmail.com, a@b.cpm"
   ]
 }
