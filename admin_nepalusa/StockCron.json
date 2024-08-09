@@ -1,8 +1,8 @@
 {
-  "NewStock": "AAPL",
-  "interval": "15",
-  "percentages": "3",
+  "NewStock": "SQ",
+  "interval": "10",
+  "percentages": "2",
   "emails": [
-    "bbl_llc@hotmail.com, a@b.cpm"
+    "bl_collection@hotmail.com"
   ]
 }
