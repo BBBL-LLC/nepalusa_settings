@@ -1,8 +1,8 @@
 {
-  "NewStock": "NVDA",
-  "interval": "10",
-  "percentages": "3",
+  "NewStock": "NCA",
+  "interval": "15",
+  "percentages": "1",
   "emails": [
-    "kb_collection@hotmail.com"
+    "bbl_llc@hotmail.com"
   ]
 }
