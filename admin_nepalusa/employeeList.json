@@ -112,5 +112,16 @@
     "position": "Manager",
     "gender": "male",
     "imageSrc": "https://raw.githubusercontent.com/BBBL-LLC/nepalusa_settings/master/Image_Urls/NEW5PLY-ProfileImage-1722622960035.jpg"
+  },
+  {
+    "id": "af590732-7585-4b0b-84fa-6c795c49c9fa",
+    "name": "Lax Kharel ",
+    "email": "lax.sapkota@gmail.com",
+    "user_name": "lax_sapkota",
+    "role": "Employee",
+    "reportTo": "Buddha Kharel ",
+    "position": "Developer ",
+    "gender": "female",
+    "imageSrc": ""
   }
 ]
