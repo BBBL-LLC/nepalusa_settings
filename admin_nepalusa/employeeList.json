@@ -123,5 +123,10 @@
     "position": "Developer ",
     "gender": "female",
     "imageSrc": ""
+  },
+  {
+    "id": "b9c37ad6-3887-4147-946d-8e248c808107",
+    "email": "buddha.kharel@nepalusa.org",
+    "role": "Super Admin"
   }
 ]
