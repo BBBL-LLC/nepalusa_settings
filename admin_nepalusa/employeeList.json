@@ -122,8 +122,10 @@
     "imageSrc": ""
   },
   {
-    "id": "b9c37ad6-3887-4147-946d-8e248c808107",
+    "id": "71be25e0-3660-4400-a6c3-6f61a1aed258",
     "email": "buddha.kharel@nepalusa.org",
-    "role": "Super Admin"
+    "role": "Super Admin",
+    "gender": "Female",
+    "group": "USA"
   }
 ]
