@@ -120,6 +120,13 @@
     "reportTo": "Buddha Kharel ",
     "position": "Developer ",
     "gender": "female",
-    "imageSrc": ""
+    "imageSrc": "",
+    "data": {
+      "id": "af590732-7585-4b0b-84fa-6c795c49c9fa",
+      "email": "lax.sapkota@gmail.com",
+      "role": "Employee",
+      "group": "USA",
+      "gender": "Male"
+    }
   }
 ]
