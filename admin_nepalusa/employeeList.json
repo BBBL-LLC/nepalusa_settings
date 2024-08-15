@@ -22,12 +22,8 @@
   },
   {
     "id": "b9c37ad6-3887-4147-946d-8e248c808107",
-    "name": "Ray Park",
-    "email": "ray.park@nepalusa.org",
-    "user_name": "ray_park",
-    "role": "CFO",
-    "reportTo": "BOARD",
-    "position": "Manager",
+    "email": "buddha.kharel@nepalusa.org",
+    "role": "Super Admin",
     "gender": "Male"
   },
   {
