@@ -9,8 +9,7 @@
     "position": "CEO, Founder",
     "gender": "Male",
     "imageSrc": "https://raw.githubusercontent.com/BBBL-LLC/nepalusa_settings/master/Image_Urls/AED258-ProfileImage-1723647738456.jpg",
-    "group": "USA",
-    "robo": "test me "
+    "group": "USA"
   },
   {
     "id": "88e47fb5-0cc4-4579-a89f-22910a7d3f94",
@@ -122,12 +121,5 @@
     "position": "Developer ",
     "gender": "female",
     "imageSrc": ""
-  },
-  {
-    "id": "71be25e0-3660-4400-a6c3-6f61a1aed258",
-    "email": "buddha.kharel@nepalusa.org",
-    "role": "Super Admin",
-    "gender": "Female",
-    "group": "USA"
   }
 ]
