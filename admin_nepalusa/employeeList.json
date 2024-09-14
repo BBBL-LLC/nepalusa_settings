@@ -29,13 +29,6 @@
     "gender": "Male"
   },
   {
-    "id": "71be25e0-3660-4400-a6c3-6f61a1aed258",
-    "email": "buddha.kharel@nepalusa.org",
-    "role": "Super Admin",
-    "gender": "Female",
-    "group": "USA"
-  },
-  {
     "id": "e6f06461-77b6-4c4e-84d0-8c8aef784c13",
     "name": "Romin Thapa",
     "email": "romin.thapa@nepalusa.org",
@@ -108,23 +101,5 @@
     "position": "Manager",
     "gender": "male",
     "imageSrc": "https://raw.githubusercontent.com/BBBL-LLC/nepalusa_settings/master/Image_Urls/NEW5PLY-ProfileImage-1722622960035.jpg"
-  },
-  {
-    "id": "af590732-7585-4b0b-84fa-6c795c49c9fa",
-    "name": "Lax Kharel ",
-    "email": "lax.sapkota@gmail.com",
-    "user_name": "lax_sapkota",
-    "role": "Employee",
-    "reportTo": "Buddha Kharel ",
-    "position": "Developer ",
-    "gender": "female",
-    "imageSrc": "",
-    "data": {
-      "id": "af590732-7585-4b0b-84fa-6c795c49c9fa",
-      "email": "lax.sapkota@gmail.com",
-      "role": "Employee",
-      "group": "USA",
-      "gender": "Male"
-    }
   }
 ]
