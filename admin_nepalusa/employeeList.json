@@ -56,16 +56,6 @@
     "gender": "Female"
   },
   {
-    "id": "5b8a859e-edf8-4cce-af2b-8d4f83889e43",
-    "name": "Abhishek Maharjan",
-    "email": "charlie@nepalusa.org",
-    "user_name": "abhishek_maharhan",
-    "role": "Employee",
-    "reportTo": "Pashupat Shah",
-    "position": "Volunteers",
-    "gender": "Male"
-  },
-  {
     "id": "bb9c9fa3-ff02-4a16-9235-348a73eeba23",
     "name": "Samip Luitel",
     "email": "samip.luitel@nepalusa.org",
