@@ -1,6 +1,6 @@
 {
   "NewStock": "NVDA",
-  "interval": 60,
+  "interval": 1,
   "percentages": 3,
   "on": true, 
   "emails": [
