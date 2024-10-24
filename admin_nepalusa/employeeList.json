@@ -51,7 +51,14 @@
     "role": "Employee",
     "reportTo": "Manager",
     "position": "Developer",
-    "gender": "Male"
+    "gender": "Male",
+    "data": {
+      "id": "bb9c9fa3-ff02-4a16-9235-348a73eeba23",
+      "email": "samip.luitel@nepalusa.org",
+      "role": "IT Manager",
+      "group": null,
+      "gender": "Male"
+    }
   },
   {
     "id": "ba91fa16-cc35-4a46-b706-71058346cb58",
