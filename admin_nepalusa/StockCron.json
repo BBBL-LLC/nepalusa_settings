@@ -1,9 +1,9 @@
 {
   "NewStock": "NVDA",
-  "interval": 0,
+  "interval": 60,
   "percentages": 5,
   "emails": [
     "buddha2042@gmail.com"
   ],
-  "scheduler": "OFF"
+  "scheduler": "ON"
 }
