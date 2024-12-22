@@ -20,7 +20,8 @@
     "role": "Manager",
     "reportTo": "CEO",
     "position": "Developer",
-    "gender": "Male"
+    "gender": "Female",
+    "group": "USA"
   },
   {
     "id": "e6f06461-77b6-4c4e-84d0-8c8aef784c13",
