@@ -28,11 +28,12 @@
     "name": "Romin Thapa",
     "email": "romin.thapa@nepalusa.org",
     "user_name": "romin_thapa",
-    "role": "Employee",
+    "role": "IT Manager",
     "reportTo": "Manager",
     "position": "Developer",
     "gender": "Male",
-    "imageSrc": "https://raw.githubusercontent.com/BBBL-LLC/nepalusa_settings/master/Image_Urls/784C13-ProfileImage-1726354240868.jpeg"
+    "imageSrc": "https://raw.githubusercontent.com/BBBL-LLC/nepalusa_settings/master/Image_Urls/784C13-ProfileImage-1726354240868.jpeg",
+    "group": null
   },
   {
     "id": "223956a1-9337-4321-9017-0ae8ebdf9aa9",
