@@ -43,7 +43,8 @@
     "role": "Employee",
     "reportTo": "Manager",
     "position": "Developer",
-    "gender": "Female"
+    "gender": "Male",
+    "group": null
   },
   {
     "id": "bb9c9fa3-ff02-4a16-9235-348a73eeba23",
