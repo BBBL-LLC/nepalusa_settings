@@ -72,7 +72,8 @@
     "role": "Employee",
     "reportTo": "Manager",
     "position": "Designer",
-    "gender": "Male"
+    "gender": "Female",
+    "group": null
   },
   {
     "id": "f120148e-bad2-42af-ab89-d4eac211ce2a",
