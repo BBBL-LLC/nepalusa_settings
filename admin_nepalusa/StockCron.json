@@ -1,9 +1,9 @@
 {
   "NewStock": "IONQ",
   "interval": 60,
-  "percentages": 6,
+  "percentages": 7,
   "emails": [
     "buddha2042@gmail.com"
   ],
-  "scheduler": "ON"
+  "scheduler": "OFF"
 }
