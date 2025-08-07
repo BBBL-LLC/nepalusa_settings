@@ -1,1 +1,18 @@
-// comm
+// // ap_jp-front
+// #openai configs
+// OPEN= "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"
+// OPENAI_LLM_MODEL= "gpt-4o-mini"
+// OPENAI_EMBEDDING_MODEL= "text-embedding-3-small"
+
+// #groq configs
+// GAK= "_qsQllOIHrVokQHRA5ICqWGdyb3FYDHrX6AjrSSyzUTig7f1NCL7N"
+// GROQ_LLM_MODEL=  "llama-3.1-8b-instant" 
+
+// # VITE_DESCOPE_TENANT_ID="UDJEQTNRcXlGM04zQmxtSXFuMW5yMExNRmhydzpLMmp1QkFUc3lEeE14YjBYa1J5dWc2c2lDdTBm"
+// # VITE_DESCOPE_PROJECT_ID="P2wEI71q2qWsY8CjSALdGsofKW7B"
+
+// VITE_DESCOPE_TENANT_ID="UDJEQTNRcXlGM04zQmxtSXFuMW5yMExNRmhydzpLMmp1QkFUc3lEeE14YjBYa1J5dWc2c2lDdTBm"
+// VITE_DESCOPE_PROJECT_ID="P2jdNM7DPvI2pKGCgMwg8mTKDzE5"
+
+// VITE_BACKEND_BASE_URL=http://127.0.0.1:8001/api/v1
+// VITE_LLM_SERVICE_URL=http://127.0.0.1:8000
