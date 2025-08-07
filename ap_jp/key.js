@@ -16,3 +16,36 @@
 
 // VITE_BACKEND_BASE_URL=http://127.0.0.1:8001/api/v1
 // VITE_LLM_SERVICE_URL=http://127.0.0.1:8000
+
+
+// api_jp-back
+// #openai configs
+// OPENAI= "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"
+// OPENAI_LLM_MODEL= "gpt-4o-mini"
+// OPENAI_EMBEDDING_MODEL= "text-embedding-3-small"
+
+// #groq configs
+// GROQ= "_qsQllOIHrVokQHRA5ICqWGdyb3FYDHrX6AjrSSyzUTig7f1NCL7N"
+// GROQ_LLM_MODEL=  "llama-3.1-8b-instant" 
+
+// ENVIRONMENT=LOCALDEV
+// PORT=8001
+// DBPORT=5432
+// HOST=localhost
+// DB_PORT=5432
+// USERNAME=apiuser
+// PASSWORD=password
+// DATABASE=astoria
+
+// AZURE=8nFL4bpcY4jUcAMzjbz+WsGc/AqNUXgS8l0GfPPxIWGhI+FJfZOIk0vTiZ/RfgTUxMCXqgETN+AStc/7p+g==
+// AZURE_ACCOUNT_NAME=astoriaai
+// AZURE_STORAGE_CONNECTION_STRING=
+// AZURE_CONTAINER_NAME=astoria-test
+
+// # DESCOPE_PROJECT_ID="P2wEI71q2qWsY8CjSALdGsofKW7B"
+// # DESCOPE="UDJEQTNRcXlGM04zQmxtSXFuMW5yMExNRmhydzpLMmp1QkFUc3lEeE14YjBYa1J5dWc2c2lDdTBm"
+
+// DESCOPE=
+// DESCOPE_PROJECT_ID=
+
+TYPEORM_SYNC=true
