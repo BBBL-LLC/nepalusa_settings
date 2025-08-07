@@ -48,4 +48,19 @@
 // DESCOPE=
 // DESCOPE_PROJECT_ID=
 
-TYPEORM_SYNC=true
+// TYPEORM_SYNC=true
+
+// ap_jp llm
+#openai configs
+OPENAI_API_KEY=
+OPENAI_LLM_MODEL= "gpt-4o-mini"
+OPENAI_EMBEDDING_MODEL= "text-embedding-3-small"
+
+#groq configs
+GROQ_API_KEY= 
+GROQ_LLM_MODEL=  "llama-3.1-8b-instant" 
+
+# DESCOPE_PROJECT_ID="P2wEI71q2qWsY8CjSALdGsofKW7B"
+DESCOPE_PROJECT_ID="P2jdNM7DPvI2pKGCgMwg8mTKDzE5"
+
+
