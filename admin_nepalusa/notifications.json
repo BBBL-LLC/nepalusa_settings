@@ -7,7 +7,12 @@
     }
   ],
   "laxmee_sapkota@nepalusa.org": [],
-  "bk_robo@buddhakharel.com": [],
+  "bk_robo@buddhakharel.com": [
+    {
+      "id": "35bce296-dbdb-4131-bbc5-8838a2d496fb",
+      "message": "test"
+    }
+  ],
   "bishnu.adhikari@nepalusa.org": [
     {
       "id": "aae84369-b75a-47fd-9da0-47fe5f01bbd8",
