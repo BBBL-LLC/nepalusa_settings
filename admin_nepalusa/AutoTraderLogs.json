@@ -1,6 +1,17 @@
 {
   "logs": [
     {
+      "id": "log_1779656992826_a33o0i",
+      "createdAt": "2026-05-24T21:09:52.826Z",
+      "agentName": "alpaca.service",
+      "status": "success",
+      "message": "Alpaca live account connection test succeeded.",
+      "payload": {
+        "marketOpen": false,
+        "brokerMode": "live"
+      }
+    },
+    {
       "id": "log_1779656852843_jnve2i",
       "createdAt": "2026-05-24T21:07:32.843Z",
       "agentName": "alpaca.service",
