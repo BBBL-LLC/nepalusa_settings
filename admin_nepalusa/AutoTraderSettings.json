@@ -1,0 +1,18 @@
+{
+  "mode": "live",
+  "brokerMode": "live",
+  "paperTradingOnly": false,
+  "liveTradingEnabled": false,
+  "autoTradingEnabled": false,
+  "autoExecuteApprovedSignals": false,
+  "maxTradeAmount": 1000,
+  "maxDailyLoss": 200,
+  "maxTradesPerDay": 3,
+  "confidenceThreshold": 80,
+  "scannerMinPrice": 5,
+  "scannerMaxPrice": 1000,
+  "scannerMinRelativeVolume": 1,
+  "scannerMaxCandidates": 10,
+  "excludedSymbols": [],
+  "updatedAt": "2026-05-24T21:33:43.977Z"
+}
