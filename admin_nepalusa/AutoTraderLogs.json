@@ -1,14 +1,33 @@
 {
   "logs": [
     {
-      "id": "log_1779661456207_43euyd",
-      "createdAt": "2026-05-24T22:24:16.207Z",
-      "agentName": "alpaca.service",
+      "id": "log_1779661457016_7puv6s",
+      "createdAt": "2026-05-24T22:24:17.016Z",
+      "agentName": "settings",
       "status": "success",
-      "message": "Alpaca paper account connection test succeeded.",
+      "message": "Auto Trader settings updated.",
       "payload": {
-        "marketOpen": false,
-        "brokerMode": "paper"
+        "mode": "live",
+        "brokerMode": "live",
+        "paperTradingOnly": false,
+        "liveTradingEnabled": false,
+        "autoTradingEnabled": false,
+        "autoExecuteApprovedSignals": false,
+        "maxTradeAmount": 1000,
+        "maxDailyLoss": 200,
+        "dailyProfitTarget": 500,
+        "maxTradesPerDay": 3,
+        "confidenceThreshold": 80,
+        "scannerMinPrice": 5,
+        "scannerMaxPrice": 1000,
+        "scannerMinRelativeVolume": 1,
+        "scannerMaxCandidates": 10,
+        "excludedSymbols": [],
+        "updatedAt": "2026-05-24T22:24:15.326Z",
+        "availableModes": {
+          "paper": true,
+          "live": true
+        }
       }
     },
     {
