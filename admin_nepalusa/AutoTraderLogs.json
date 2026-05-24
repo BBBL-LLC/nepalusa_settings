@@ -1,20 +1,44 @@
 {
   "logs": [
     {
-      "id": "log_1779664163230_zgjk87",
-      "createdAt": "2026-05-24T23:09:23.230Z",
-      "agentName": "morningPrep.cron",
-      "status": "error",
-      "message": "Morning prep blocked for 2026-05-24: Today is not a market trading day., No premarket candidates are available.",
+      "id": "log_1779664165493_fzc4c7",
+      "createdAt": "2026-05-24T23:09:25.493Z",
+      "agentName": "alpaca.service",
+      "status": "success",
+      "message": "Alpaca paper account connection test succeeded.",
       "payload": {
-        "tradingDate": "2026-05-24",
+        "marketOpen": false,
+        "brokerMode": "paper"
+      }
+    },
+    {
+      "id": "log_1779664161805_adxu4m",
+      "createdAt": "2026-05-24T23:09:21.805Z",
+      "agentName": "settings",
+      "status": "success",
+      "message": "Auto Trader settings updated.",
+      "payload": {
         "mode": "paper",
-        "reasons": [
-          "Today is not a market trading day.",
-          "No premarket candidates are available."
-        ],
-        "candidateCount": 0,
-        "activeSymbols": []
+        "brokerMode": "paper",
+        "paperTradingOnly": true,
+        "liveTradingEnabled": false,
+        "autoTradingEnabled": true,
+        "autoExecuteApprovedSignals": true,
+        "maxTradeAmount": 10000,
+        "maxDailyLoss": 200,
+        "dailyProfitTarget": 500,
+        "maxTradesPerDay": 30,
+        "confidenceThreshold": 80,
+        "scannerMinPrice": 5,
+        "scannerMaxPrice": 1000,
+        "scannerMinRelativeVolume": 1,
+        "scannerMaxCandidates": 10,
+        "excludedSymbols": [],
+        "updatedAt": "2026-05-24T23:09:19.457Z",
+        "availableModes": {
+          "paper": true,
+          "live": true
+        }
       }
     },
     {
