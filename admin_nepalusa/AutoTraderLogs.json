@@ -1,6 +1,36 @@
 {
   "logs": [
     {
+      "id": "log_1779658941722_3993xt",
+      "createdAt": "2026-05-24T21:42:21.722Z",
+      "agentName": "settings",
+      "status": "success",
+      "message": "Auto Trader settings updated.",
+      "payload": {
+        "mode": "live",
+        "brokerMode": "live",
+        "paperTradingOnly": false,
+        "liveTradingEnabled": false,
+        "autoTradingEnabled": false,
+        "autoExecuteApprovedSignals": false,
+        "maxTradeAmount": 1000,
+        "maxDailyLoss": 200,
+        "dailyProfitTarget": 500,
+        "maxTradesPerDay": 3,
+        "confidenceThreshold": 80,
+        "scannerMinPrice": 5,
+        "scannerMaxPrice": 1000,
+        "scannerMinRelativeVolume": 1,
+        "scannerMaxCandidates": 10,
+        "excludedSymbols": [],
+        "updatedAt": "2026-05-24T21:42:20.456Z",
+        "availableModes": {
+          "paper": true,
+          "live": true
+        }
+      }
+    },
+    {
       "id": "log_1779658590610_virslo",
       "createdAt": "2026-05-24T21:36:30.610Z",
       "agentName": "alpaca.service",
