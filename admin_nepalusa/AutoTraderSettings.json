@@ -8,14 +8,14 @@
   "maxTradeAmount": 10000,
   "maxDailyLoss": 200,
   "dailyProfitTarget": 500,
-  "maxTradesPerDay": 3,
+  "maxTradesPerDay": 30,
   "confidenceThreshold": 80,
   "scannerMinPrice": 5,
   "scannerMaxPrice": 1000,
   "scannerMinRelativeVolume": 1,
   "scannerMaxCandidates": 10,
   "excludedSymbols": [],
-  "updatedAt": "2026-05-24T23:09:09.280Z",
+  "updatedAt": "2026-05-24T23:09:19.457Z",
   "availableModes": {
     "paper": true,
     "live": true
