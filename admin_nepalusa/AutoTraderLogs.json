@@ -1,6 +1,50 @@
 {
   "logs": [
     {
+      "id": "log_1779666251687_lltxuh",
+      "createdAt": "2026-05-24T23:44:11.687Z",
+      "agentName": "settings",
+      "status": "success",
+      "message": "Auto Trader settings updated.",
+      "payload": {
+        "mode": "live",
+        "brokerMode": "live",
+        "paperTradingOnly": false,
+        "liveTradingEnabled": true,
+        "autoTradingEnabled": true,
+        "autoExecuteApprovedSignals": true,
+        "maxTradeAmount": 10000,
+        "maxDailyLoss": 200,
+        "dailyProfitTarget": 500,
+        "maxTradesPerDay": 100,
+        "aiStrategyEnabled": true,
+        "strategyProfile": "momentum_day_trade",
+        "tradeDirection": "long_only",
+        "entryStrategy": "breakout_or_vwap_reclaim",
+        "exitStrategy": "bracket_target_stop",
+        "maxHoldMinutes": 120,
+        "minRewardRiskRatio": 1.5,
+        "plannedTradesToday": 1,
+        "tradingDirective": "OBSERVE",
+        "maxPositionAmountToday": 1000,
+        "dailyRiskBudget": 200,
+        "trailingStopEnabled": false,
+        "lastStrategyDecision": null,
+        "confidenceThreshold": 80,
+        "scannerMinPrice": 5,
+        "scannerMaxPrice": 1000,
+        "scannerMinRelativeVolume": 1,
+        "scannerMaxCandidates": 10,
+        "preferredSymbols": [],
+        "excludedSymbols": [],
+        "updatedAt": "2026-05-24T23:44:10.480Z",
+        "availableModes": {
+          "paper": true,
+          "live": true
+        }
+      }
+    },
+    {
       "id": "log_1779666139995_sitwch",
       "createdAt": "2026-05-24T23:42:19.995Z",
       "agentName": "morningPrep.cron",
