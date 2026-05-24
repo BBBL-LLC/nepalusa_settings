@@ -1,17 +1,33 @@
 {
-  "status": "not_ready",
-  "tradingDate": null,
-  "mode": null,
+  "status": "blocked",
+  "tradingDate": "2026-05-24",
+  "mode": "paper",
   "ready": false,
   "reasons": [
-    "Morning preparation has not run."
+    "Today is not a market trading day.",
+    "No premarket candidates are available."
   ],
-  "marketDay": null,
-  "account": null,
+  "marketDay": {
+    "isMarketDay": false,
+    "date": "2026-05-24",
+    "nextOpen": "2026-05-26T09:30:00-04:00",
+    "nextClose": "2026-05-26T16:00:00-04:00"
+  },
+  "account": {
+    "status": "ACTIVE",
+    "tradingBlocked": false,
+    "accountBlocked": false,
+    "transfersBlocked": false,
+    "buyingPower": 200000,
+    "cash": 100000,
+    "portfolioValue": 100000,
+    "patternDayTrader": false
+  },
   "positions": [],
   "openOrders": [],
   "activeSymbols": [],
   "candidates": [],
-  "preparedAt": null,
-  "updatedAt": null
+  "preparedAt": "2026-05-24T23:09:20.303Z",
+  "updatedAt": "2026-05-24T23:09:20.555Z",
+  "candidateError": null
 }
