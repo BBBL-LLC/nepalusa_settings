@@ -1,10 +1,10 @@
 {
   "signals": [
     {
-      "id": "signal_1779657540296_nx375t",
-      "scanDate": "2026-05-24T21:18:55.677Z",
+      "id": "signal_1779657811384_bntkau",
+      "scanDate": "2026-05-24T21:23:28.056Z",
       "marketCondition": "neutral",
-      "createdAt": "2026-05-24T21:19:00.296Z",
+      "createdAt": "2026-05-24T21:23:31.384Z",
       "mode": "live",
       "symbol": "NVDA",
       "action": "BUY",
@@ -12,46 +12,44 @@
       "entryMax": 922.5,
       "targetPrice": 931.24,
       "stopLoss": 916.06,
-      "confidence": 75,
+      "confidence": 85,
       "riskLevel": "medium",
-      "positionAmount": 1000,
-      "reason": "NVDA is in an uptrend with strong relative volume (3.2) and a favorable reward/risk ratio. The entry range is close to the breakout level, and the target is near the resistance level. The RSI is slightly elevated but not overbought.",
+      "positionAmount": 500,
+      "reason": "NVDA is in an uptrend with a strong relative volume of 3.2, indicating significant interest. The price is above VWAP, suggesting bullish momentum. The RSI is at 63, which is not overbought, allowing room for upward movement. The entry range is close to the breakout level, with a favorable risk/reward ratio.",
       "status": "rejected",
       "rejectionReasons": [
         "Live trading is disabled in settings.",
         "Market is not open.",
-        "Auto trading is disabled in settings.",
-        "Confidence is below threshold."
+        "Auto trading is disabled in settings."
       ],
       "riskDecision": {
         "approved": false,
         "reasons": [
           "Live trading is disabled in settings.",
           "Market is not open.",
-          "Auto trading is disabled in settings.",
-          "Confidence is below threshold."
+          "Auto trading is disabled in settings."
         ],
-        "adjustedPositionAmount": 1000,
+        "adjustedPositionAmount": 500,
         "riskSnapshot": {
           "currentPrice": 920.2,
           "entryMin": 918.82,
           "entryMax": 922.5,
           "targetPrice": 931.24,
           "stopLoss": 916.06,
-          "confidence": 75,
+          "confidence": 85,
           "dailyLoss": 0,
           "todayTradeCount": 0
         }
       },
       "rawCandidate": {
-        "id": "candidate_1779657535677_kto43p",
+        "id": "candidate_1779657808056_ts8gv5",
         "symbol": "NVDA",
         "price": 920.2,
         "gapPercent": 2.1,
         "relativeVolume": 3.2,
         "trend": "up",
         "volatility": 2.8,
-        "scannedAt": "2026-05-24T21:18:55.677Z",
+        "scannedAt": "2026-05-24T21:23:28.056Z",
         "catalystScore": 0,
         "newsSentiment": "unknown",
         "catalystReason": "No external catalyst feed connected in MVP.",
@@ -68,10 +66,10 @@
       }
     },
     {
-      "id": "signal_1779657540296_k2x5sv",
-      "scanDate": "2026-05-24T21:18:55.677Z",
+      "id": "signal_1779657811384_ccet53",
+      "scanDate": "2026-05-24T21:23:28.056Z",
       "marketCondition": "neutral",
-      "createdAt": "2026-05-24T21:19:00.296Z",
+      "createdAt": "2026-05-24T21:23:31.384Z",
       "mode": "live",
       "symbol": "AAPL",
       "action": "BUY",
@@ -79,46 +77,44 @@
       "entryMax": 191.28,
       "targetPrice": 193.09,
       "stopLoss": 189.94,
-      "confidence": 70,
+      "confidence": 80,
       "riskLevel": "medium",
-      "positionAmount": 1000,
-      "reason": "AAPL shows a strong uptrend with good relative volume (2.4) and a clear entry range. The target is near the resistance level, providing a reasonable reward/risk ratio. RSI is elevated but not overbought.",
+      "positionAmount": 500,
+      "reason": "AAPL is trending up with a relative volume of 2.4, indicating good interest. The price is above VWAP, supporting bullish sentiment. RSI is at 63, not overbought, allowing potential for further gains. The entry range is near the breakout level, with a reasonable risk/reward ratio.",
       "status": "rejected",
       "rejectionReasons": [
         "Live trading is disabled in settings.",
         "Market is not open.",
-        "Auto trading is disabled in settings.",
-        "Confidence is below threshold."
+        "Auto trading is disabled in settings."
       ],
       "riskDecision": {
         "approved": false,
         "reasons": [
           "Live trading is disabled in settings.",
           "Market is not open.",
-          "Auto trading is disabled in settings.",
-          "Confidence is below threshold."
+          "Auto trading is disabled in settings."
         ],
-        "adjustedPositionAmount": 1000,
+        "adjustedPositionAmount": 500,
         "riskSnapshot": {
           "currentPrice": 190.8,
           "entryMin": 190.51,
           "entryMax": 191.28,
           "targetPrice": 193.09,
           "stopLoss": 189.94,
-          "confidence": 70,
+          "confidence": 80,
           "dailyLoss": 0,
           "todayTradeCount": 0
         }
       },
       "rawCandidate": {
-        "id": "candidate_1779657535677_l2kf1v",
+        "id": "candidate_1779657808056_2nhoxt",
         "symbol": "AAPL",
         "price": 190.8,
         "gapPercent": 1.6,
         "relativeVolume": 2.4,
         "trend": "up",
         "volatility": 1.1,
-        "scannedAt": "2026-05-24T21:18:55.677Z",
+        "scannedAt": "2026-05-24T21:23:28.056Z",
         "catalystScore": 0,
         "newsSentiment": "unknown",
         "catalystReason": "No external catalyst feed connected in MVP.",
@@ -135,10 +131,10 @@
       }
     },
     {
-      "id": "signal_1779657540296_c15g8k",
-      "scanDate": "2026-05-24T21:18:55.677Z",
+      "id": "signal_1779657811384_bbnoya",
+      "scanDate": "2026-05-24T21:23:28.056Z",
       "marketCondition": "neutral",
-      "createdAt": "2026-05-24T21:19:00.296Z",
+      "createdAt": "2026-05-24T21:23:31.384Z",
       "mode": "live",
       "symbol": "MSFT",
       "action": "HOLD",
@@ -146,10 +142,10 @@
       "entryMax": 416.54,
       "targetPrice": 418.82,
       "stopLoss": 413.63,
-      "confidence": 60,
-      "riskLevel": "medium",
+      "confidence": 70,
+      "riskLevel": "low",
       "positionAmount": 0,
-      "reason": "MSFT is in a neutral trend with moderate relative volume (1.7). The setup lacks strong momentum and the reward/risk ratio is less favorable compared to other candidates. RSI is neutral, indicating no strong directional bias.",
+      "reason": "MSFT is in a neutral trend with moderate relative volume of 1.7. The RSI is at 55, indicating no strong momentum. The setup lacks a clear catalyst or strong trend, making it less favorable compared to other candidates.",
       "status": "rejected",
       "rejectionReasons": [
         "Live trading is disabled in settings.",
@@ -176,20 +172,20 @@
           "entryMax": 416.54,
           "targetPrice": 418.82,
           "stopLoss": 413.63,
-          "confidence": 60,
+          "confidence": 70,
           "dailyLoss": 0,
           "todayTradeCount": 0
         }
       },
       "rawCandidate": {
-        "id": "candidate_1779657535677_bwjr36",
+        "id": "candidate_1779657808056_ope5c5",
         "symbol": "MSFT",
         "price": 415.5,
         "gapPercent": 0.8,
         "relativeVolume": 1.7,
         "trend": "neutral",
         "volatility": 0.9,
-        "scannedAt": "2026-05-24T21:18:55.677Z",
+        "scannedAt": "2026-05-24T21:23:28.056Z",
         "catalystScore": 0,
         "newsSentiment": "unknown",
         "catalystReason": "No external catalyst feed connected in MVP.",
