@@ -1,3 +1,22 @@
 {
-  "messages": []
+  "messages": [
+    {
+      "id": "chat_user_1779667170378_lemi96",
+      "role": "user",
+      "content": "what going on ?",
+      "createdAt": "2026-05-24T23:59:30.378Z"
+    },
+    {
+      "id": "chat_assistant_1779667170378_al1ja1",
+      "role": "assistant",
+      "content": "I cannot fully verify trading status because Alpaca daily context failed: Request failed with status code 422. I would not trust new execution until that is fixed.",
+      "createdAt": "2026-05-24T23:59:30.378Z",
+      "metadata": {
+        "actionTypes": [
+          "ASK_STATUS"
+        ],
+        "scanTriggered": false
+      }
+    }
+  ]
 }
