@@ -1,11 +1,18 @@
 {
   "logs": [
     {
-      "id": "log_1779655861769_vwc6jz",
-      "createdAt": "2026-05-24T20:51:01.769Z",
-      "agentName": "alpaca.service",
-      "status": "error",
-      "message": "Request failed with status code 401"
+      "id": "log_1779655904845_wt6gh9",
+      "createdAt": "2026-05-24T20:51:44.845Z",
+      "agentName": "mockScan",
+      "status": "success",
+      "message": "Mock scan completed with 3 evaluated signals.",
+      "payload": {
+        "symbols": [
+          "NVDA",
+          "AAPL",
+          "MSFT"
+        ]
+      }
     },
     {
       "id": "log_1779655800427_o36qsa",
