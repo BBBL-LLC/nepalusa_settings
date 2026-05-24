@@ -1,3 +1,214 @@
 {
-  "signals": []
+  "signals": [
+    {
+      "id": "signal_1779659945364_k8hv1f",
+      "scanDate": "2026-05-24T21:59:01.443Z",
+      "marketCondition": "neutral",
+      "createdAt": "2026-05-24T21:59:05.364Z",
+      "mode": "live",
+      "symbol": "NVDA",
+      "action": "HOLD",
+      "entryMin": 215.01,
+      "entryMax": 215.87,
+      "targetPrice": 217.05,
+      "stopLoss": 214.36,
+      "confidence": 70,
+      "riskLevel": "medium",
+      "positionAmount": 0,
+      "reason": "The trend is down with no significant catalyst or positive sentiment. RSI is neutral, and the price is below VWAP, indicating potential weakness. The reward/risk ratio is not compelling enough to justify a trade.",
+      "status": "rejected",
+      "rejectionReasons": [
+        "Market is not open.",
+        "Signal action HOLD is not executable.",
+        "Confidence is below threshold.",
+        "Position amount exceeds max trade amount."
+      ],
+      "riskDecision": {
+        "approved": false,
+        "reasons": [
+          "Market is not open.",
+          "Signal action HOLD is not executable.",
+          "Confidence is below threshold.",
+          "Position amount exceeds max trade amount."
+        ],
+        "adjustedPositionAmount": 0,
+        "riskSnapshot": {
+          "currentPrice": 215.3300018310547,
+          "entryMin": 215.01,
+          "entryMax": 215.87,
+          "targetPrice": 217.05,
+          "stopLoss": 214.36,
+          "confidence": 70,
+          "dailyLoss": 0,
+          "dailyProfit": 0,
+          "todayTradeCount": 0
+        }
+      },
+      "rawCandidate": {
+        "symbol": "NVDA",
+        "price": 215.3300018310547,
+        "gapPercent": -0.23859685734479752,
+        "relativeVolume": 1,
+        "trend": "down",
+        "volatility": 0.04650483476699226,
+        "marketDataSource": "yahoo",
+        "quoteTime": "2026-05-22T20:00:00.000Z",
+        "id": "candidate_1779659941443_2hdw68",
+        "scannedAt": "2026-05-24T21:59:01.443Z",
+        "catalystScore": 0,
+        "newsSentiment": "unknown",
+        "catalystReason": "No external catalyst feed connected in MVP.",
+        "rsi": 47,
+        "vwapRelation": "below",
+        "volumeRatio": 1,
+        "support": 214.36,
+        "resistance": 217.05,
+        "breakoutLevel": 215.87,
+        "suggestedEntryMin": 215.01,
+        "suggestedEntryMax": 215.87,
+        "suggestedTarget": 217.05,
+        "suggestedStop": 214.36
+      }
+    },
+    {
+      "id": "signal_1779659945364_ozhsv8",
+      "scanDate": "2026-05-24T21:59:01.443Z",
+      "marketCondition": "neutral",
+      "createdAt": "2026-05-24T21:59:05.364Z",
+      "mode": "live",
+      "symbol": "AAPL",
+      "action": "HOLD",
+      "entryMin": 308.36,
+      "entryMax": 309.59,
+      "targetPrice": 311.29,
+      "stopLoss": 307.43,
+      "confidence": 70,
+      "riskLevel": "medium",
+      "positionAmount": 0,
+      "reason": "Similar to NVDA, AAPL is in a downtrend with no catalyst or positive sentiment. The RSI is neutral, and the price is below VWAP. The reward/risk ratio is not favorable enough to initiate a trade.",
+      "status": "rejected",
+      "rejectionReasons": [
+        "Market is not open.",
+        "Signal action HOLD is not executable.",
+        "Confidence is below threshold.",
+        "Position amount exceeds max trade amount."
+      ],
+      "riskDecision": {
+        "approved": false,
+        "reasons": [
+          "Market is not open.",
+          "Signal action HOLD is not executable.",
+          "Confidence is below threshold.",
+          "Position amount exceeds max trade amount."
+        ],
+        "adjustedPositionAmount": 0,
+        "riskSnapshot": {
+          "currentPrice": 308.82000732421875,
+          "entryMin": 308.36,
+          "entryMax": 309.59,
+          "targetPrice": 311.29,
+          "stopLoss": 307.43,
+          "confidence": 70,
+          "dailyLoss": 0,
+          "dailyProfit": 0,
+          "todayTradeCount": 0
+        }
+      },
+      "rawCandidate": {
+        "symbol": "AAPL",
+        "price": 308.82000732421875,
+        "gapPercent": -0.1423054549437602,
+        "relativeVolume": 1,
+        "trend": "down",
+        "volatility": 0.03128440852790987,
+        "marketDataSource": "yahoo",
+        "quoteTime": "2026-05-22T20:00:00.000Z",
+        "id": "candidate_1779659941443_ywornw",
+        "scannedAt": "2026-05-24T21:59:01.443Z",
+        "catalystScore": 0,
+        "newsSentiment": "unknown",
+        "catalystReason": "No external catalyst feed connected in MVP.",
+        "rsi": 47,
+        "vwapRelation": "below",
+        "volumeRatio": 1,
+        "support": 307.43,
+        "resistance": 311.29,
+        "breakoutLevel": 309.59,
+        "suggestedEntryMin": 308.36,
+        "suggestedEntryMax": 309.59,
+        "suggestedTarget": 311.29,
+        "suggestedStop": 307.43
+      }
+    },
+    {
+      "id": "signal_1779659945364_ov0usj",
+      "scanDate": "2026-05-24T21:59:01.443Z",
+      "marketCondition": "neutral",
+      "createdAt": "2026-05-24T21:59:05.364Z",
+      "mode": "live",
+      "symbol": "MSFT",
+      "action": "HOLD",
+      "entryMin": 417.94,
+      "entryMax": 419.62,
+      "targetPrice": 421.92,
+      "stopLoss": 416.69,
+      "confidence": 70,
+      "riskLevel": "medium",
+      "positionAmount": 0,
+      "reason": "MSFT is also in a downtrend with no catalyst or positive sentiment. The RSI is neutral, and the price is below VWAP. The reward/risk ratio does not justify a trade under current conditions.",
+      "status": "rejected",
+      "rejectionReasons": [
+        "Market is not open.",
+        "Signal action HOLD is not executable.",
+        "Confidence is below threshold.",
+        "Position amount exceeds max trade amount."
+      ],
+      "riskDecision": {
+        "approved": false,
+        "reasons": [
+          "Market is not open.",
+          "Signal action HOLD is not executable.",
+          "Confidence is below threshold.",
+          "Position amount exceeds max trade amount."
+        ],
+        "adjustedPositionAmount": 0,
+        "riskSnapshot": {
+          "currentPrice": 418.57000732421875,
+          "entryMin": 417.94,
+          "entryMax": 419.62,
+          "targetPrice": 421.92,
+          "stopLoss": 416.69,
+          "confidence": 70,
+          "dailyLoss": 0,
+          "dailyProfit": 0,
+          "todayTradeCount": 0
+        }
+      },
+      "rawCandidate": {
+        "symbol": "MSFT",
+        "price": 418.57000732421875,
+        "gapPercent": -0.0644611345698864,
+        "relativeVolume": 1,
+        "trend": "down",
+        "volatility": 0.027557401128266955,
+        "marketDataSource": "yahoo",
+        "quoteTime": "2026-05-22T20:00:00.000Z",
+        "id": "candidate_1779659941443_hvm7wt",
+        "scannedAt": "2026-05-24T21:59:01.443Z",
+        "catalystScore": 0,
+        "newsSentiment": "unknown",
+        "catalystReason": "No external catalyst feed connected in MVP.",
+        "rsi": 47,
+        "vwapRelation": "below",
+        "volumeRatio": 1,
+        "support": 416.69,
+        "resistance": 421.92,
+        "breakoutLevel": 419.62,
+        "suggestedEntryMin": 417.94,
+        "suggestedEntryMax": 419.62,
+        "suggestedTarget": 421.92,
+        "suggestedStop": 416.69
+      }
+    }
+  ]
 }
