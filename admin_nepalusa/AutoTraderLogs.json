@@ -1,11 +1,15 @@
 {
   "logs": [
     {
-      "id": "log_1779657813455_34wbfo",
-      "createdAt": "2026-05-24T21:23:33.455Z",
-      "agentName": "mockScan",
-      "status": "error",
-      "message": "Request failed with status code 409"
+      "id": "log_1779657814771_7nn1co",
+      "createdAt": "2026-05-24T21:23:34.771Z",
+      "agentName": "alpaca.service",
+      "status": "success",
+      "message": "Alpaca live account connection test succeeded.",
+      "payload": {
+        "marketOpen": false,
+        "brokerMode": "live"
+      }
     },
     {
       "id": "log_1779657789345_hjlu1p",
