@@ -1,11 +1,10 @@
 {
   "status": "blocked",
   "tradingDate": "2026-05-24",
-  "mode": "live",
+  "mode": "paper",
   "ready": false,
   "reasons": [
     "Today is not a market trading day.",
-    "Buying power is below max trade amount.",
     "No premarket candidates are available."
   ],
   "marketDay": {
@@ -19,16 +18,16 @@
     "tradingBlocked": false,
     "accountBlocked": false,
     "transfersBlocked": false,
-    "buyingPower": 0,
-    "cash": 0,
-    "portfolioValue": 0,
+    "buyingPower": 200000,
+    "cash": 100000,
+    "portfolioValue": 100000,
     "patternDayTrader": false
   },
   "positions": [],
   "openOrders": [],
   "activeSymbols": [],
   "candidates": [],
-  "preparedAt": "2026-05-24T23:44:51.753Z",
-  "updatedAt": "2026-05-24T23:44:52.379Z",
+  "preparedAt": "2026-05-24T23:45:13.352Z",
+  "updatedAt": "2026-05-24T23:45:13.641Z",
   "candidateError": null
 }
