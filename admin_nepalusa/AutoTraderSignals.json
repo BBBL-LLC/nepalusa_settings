@@ -1,0 +1,196 @@
+{
+  "signals": [
+    {
+      "id": "signal_1779655903488_ow2ubl",
+      "scanDate": "2026-05-24T20:51:39.849Z",
+      "marketCondition": "neutral",
+      "createdAt": "2026-05-24T20:51:43.488Z",
+      "symbol": "NVDA",
+      "action": "BUY",
+      "entryMin": 918.82,
+      "entryMax": 922.5,
+      "targetPrice": 931.24,
+      "stopLoss": 916.06,
+      "confidence": 85,
+      "riskLevel": "medium",
+      "positionAmount": 1000,
+      "reason": "NVDA is in an uptrend with strong relative volume and a favorable risk/reward ratio. The entry range is close to the breakout level, and the target is near the resistance level, providing a good opportunity for a trade.",
+      "status": "rejected",
+      "rejectionReasons": [
+        "Market is not open.",
+        "Auto trading is disabled in settings."
+      ],
+      "riskDecision": {
+        "approved": false,
+        "reasons": [
+          "Market is not open.",
+          "Auto trading is disabled in settings."
+        ],
+        "adjustedPositionAmount": 1000,
+        "riskSnapshot": {
+          "currentPrice": 920.2,
+          "entryMin": 918.82,
+          "entryMax": 922.5,
+          "targetPrice": 931.24,
+          "stopLoss": 916.06,
+          "confidence": 85,
+          "dailyLoss": 0,
+          "todayTradeCount": 0
+        }
+      },
+      "rawCandidate": {
+        "id": "candidate_1779655899849_tk9izf",
+        "symbol": "NVDA",
+        "price": 920.2,
+        "gapPercent": 2.1,
+        "relativeVolume": 3.2,
+        "trend": "up",
+        "volatility": 2.8,
+        "scannedAt": "2026-05-24T20:51:39.849Z",
+        "catalystScore": 0,
+        "newsSentiment": "unknown",
+        "catalystReason": "No external catalyst feed connected in MVP.",
+        "rsi": 63,
+        "vwapRelation": "above",
+        "volumeRatio": 3.2,
+        "support": 916.06,
+        "resistance": 931.24,
+        "breakoutLevel": 922.5,
+        "suggestedEntryMin": 918.82,
+        "suggestedEntryMax": 922.5,
+        "suggestedTarget": 931.24,
+        "suggestedStop": 916.06
+      }
+    },
+    {
+      "id": "signal_1779655903488_c4wyg2",
+      "scanDate": "2026-05-24T20:51:39.849Z",
+      "marketCondition": "neutral",
+      "createdAt": "2026-05-24T20:51:43.488Z",
+      "symbol": "AAPL",
+      "action": "BUY",
+      "entryMin": 190.51,
+      "entryMax": 191.28,
+      "targetPrice": 193.09,
+      "stopLoss": 189.94,
+      "confidence": 82,
+      "riskLevel": "medium",
+      "positionAmount": 1000,
+      "reason": "AAPL is trending up with a good relative volume and a clear entry range. The risk/reward ratio is favorable, and the target is near the resistance level, making it a viable trade.",
+      "status": "rejected",
+      "rejectionReasons": [
+        "Market is not open.",
+        "Auto trading is disabled in settings."
+      ],
+      "riskDecision": {
+        "approved": false,
+        "reasons": [
+          "Market is not open.",
+          "Auto trading is disabled in settings."
+        ],
+        "adjustedPositionAmount": 1000,
+        "riskSnapshot": {
+          "currentPrice": 190.8,
+          "entryMin": 190.51,
+          "entryMax": 191.28,
+          "targetPrice": 193.09,
+          "stopLoss": 189.94,
+          "confidence": 82,
+          "dailyLoss": 0,
+          "todayTradeCount": 0
+        }
+      },
+      "rawCandidate": {
+        "id": "candidate_1779655899849_nldojr",
+        "symbol": "AAPL",
+        "price": 190.8,
+        "gapPercent": 1.6,
+        "relativeVolume": 2.4,
+        "trend": "up",
+        "volatility": 1.1,
+        "scannedAt": "2026-05-24T20:51:39.849Z",
+        "catalystScore": 0,
+        "newsSentiment": "unknown",
+        "catalystReason": "No external catalyst feed connected in MVP.",
+        "rsi": 63,
+        "vwapRelation": "above",
+        "volumeRatio": 2.4,
+        "support": 189.94,
+        "resistance": 193.09,
+        "breakoutLevel": 191.28,
+        "suggestedEntryMin": 190.51,
+        "suggestedEntryMax": 191.28,
+        "suggestedTarget": 193.09,
+        "suggestedStop": 189.94
+      }
+    },
+    {
+      "id": "signal_1779655903488_62k6fo",
+      "scanDate": "2026-05-24T20:51:39.849Z",
+      "marketCondition": "neutral",
+      "createdAt": "2026-05-24T20:51:43.488Z",
+      "symbol": "MSFT",
+      "action": "HOLD",
+      "entryMin": 414.88,
+      "entryMax": 416.54,
+      "targetPrice": 418.82,
+      "stopLoss": 413.63,
+      "confidence": 70,
+      "riskLevel": "medium",
+      "positionAmount": 0,
+      "reason": "MSFT is in a neutral trend with lower relative volume and a less favorable risk/reward ratio. The setup lacks strong confirmation, making it less ideal for a trade at this time.",
+      "status": "rejected",
+      "rejectionReasons": [
+        "Market is not open.",
+        "Auto trading is disabled in settings.",
+        "Signal action HOLD is not executable.",
+        "Confidence is below threshold.",
+        "Position amount exceeds max trade amount."
+      ],
+      "riskDecision": {
+        "approved": false,
+        "reasons": [
+          "Market is not open.",
+          "Auto trading is disabled in settings.",
+          "Signal action HOLD is not executable.",
+          "Confidence is below threshold.",
+          "Position amount exceeds max trade amount."
+        ],
+        "adjustedPositionAmount": 0,
+        "riskSnapshot": {
+          "currentPrice": 415.5,
+          "entryMin": 414.88,
+          "entryMax": 416.54,
+          "targetPrice": 418.82,
+          "stopLoss": 413.63,
+          "confidence": 70,
+          "dailyLoss": 0,
+          "todayTradeCount": 0
+        }
+      },
+      "rawCandidate": {
+        "id": "candidate_1779655899849_48qojt",
+        "symbol": "MSFT",
+        "price": 415.5,
+        "gapPercent": 0.8,
+        "relativeVolume": 1.7,
+        "trend": "neutral",
+        "volatility": 0.9,
+        "scannedAt": "2026-05-24T20:51:39.849Z",
+        "catalystScore": 0,
+        "newsSentiment": "unknown",
+        "catalystReason": "No external catalyst feed connected in MVP.",
+        "rsi": 55,
+        "vwapRelation": "above",
+        "volumeRatio": 1.7,
+        "support": 413.63,
+        "resistance": 418.82,
+        "breakoutLevel": 416.54,
+        "suggestedEntryMin": 414.88,
+        "suggestedEntryMax": 416.54,
+        "suggestedTarget": 418.82,
+        "suggestedStop": 413.63
+      }
+    }
+  ]
+}
