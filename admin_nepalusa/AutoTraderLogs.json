@@ -1,3 +1,34 @@
 {
-  "logs": []
+  "logs": [
+    {
+      "id": "log_1779659887933_nndpq6",
+      "createdAt": "2026-05-24T21:58:07.933Z",
+      "agentName": "settings",
+      "status": "success",
+      "message": "Auto Trader settings updated.",
+      "payload": {
+        "mode": "paper",
+        "brokerMode": "paper",
+        "paperTradingOnly": true,
+        "liveTradingEnabled": false,
+        "autoTradingEnabled": true,
+        "autoExecuteApprovedSignals": true,
+        "maxTradeAmount": 1000,
+        "maxDailyLoss": 200,
+        "dailyProfitTarget": 500,
+        "maxTradesPerDay": 3,
+        "confidenceThreshold": 80,
+        "scannerMinPrice": 5,
+        "scannerMaxPrice": 1000,
+        "scannerMinRelativeVolume": 1,
+        "scannerMaxCandidates": 10,
+        "excludedSymbols": [],
+        "updatedAt": "2026-05-24T21:58:06.593Z",
+        "availableModes": {
+          "paper": true,
+          "live": true
+        }
+      }
+    }
+  ]
 }
