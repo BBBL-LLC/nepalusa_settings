@@ -1,6 +1,35 @@
 {
   "logs": [
     {
+      "id": "log_1779666666272_a7xru1",
+      "createdAt": "2026-05-24T23:51:06.272Z",
+      "agentName": "userInstruction.agent",
+      "status": "success",
+      "message": "User asked what profit target is currently set up; no settings change requested.",
+      "payload": {
+        "instruction": "what profit is setuped ?",
+        "interpretation": {
+          "summary": "User asked what profit target is currently set up; no settings change requested.",
+          "actions": [
+            {
+              "type": "NOOP",
+              "engineEnabled": null,
+              "mode": null,
+              "maxTradeAmount": null,
+              "maxDailyLoss": null,
+              "dailyProfitTarget": null,
+              "symbols": [],
+              "reason": "Informational question only. Current dailyProfitTarget is 500 (paper mode)."
+            }
+          ]
+        },
+        "appliedActions": [],
+        "patch": {},
+        "oneTimeFocusSymbols": [],
+        "scanTriggered": false
+      }
+    },
+    {
       "id": "log_1779666606308_3ku3bl",
       "createdAt": "2026-05-24T23:50:06.308Z",
       "agentName": "alpaca.service",
