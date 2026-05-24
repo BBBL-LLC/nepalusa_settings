@@ -1,6 +1,23 @@
 {
   "logs": [
     {
+      "id": "log_1779666315183_x84bok",
+      "createdAt": "2026-05-24T23:45:15.183Z",
+      "agentName": "morningPrep.cron",
+      "status": "error",
+      "message": "Morning prep blocked for 2026-05-24: Today is not a market trading day., No premarket candidates are available.",
+      "payload": {
+        "tradingDate": "2026-05-24",
+        "mode": "paper",
+        "reasons": [
+          "Today is not a market trading day.",
+          "No premarket candidates are available."
+        ],
+        "candidateCount": 0,
+        "activeSymbols": []
+      }
+    },
+    {
       "id": "log_1779666309481_bhcmeb",
       "createdAt": "2026-05-24T23:45:09.481Z",
       "agentName": "alpaca.service",
