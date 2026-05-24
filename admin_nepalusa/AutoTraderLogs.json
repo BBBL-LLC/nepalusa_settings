@@ -1,14 +1,19 @@
 {
   "logs": [
     {
-      "id": "log_1779657512119_g94u6p",
-      "createdAt": "2026-05-24T21:18:32.119Z",
-      "agentName": "alpaca.service",
+      "id": "log_1779657542076_islt36",
+      "createdAt": "2026-05-24T21:19:02.076Z",
+      "agentName": "mockScan",
       "status": "success",
-      "message": "Alpaca live account connection test succeeded.",
+      "message": "Mock scan completed with 3 evaluated signals.",
       "payload": {
-        "marketOpen": false,
-        "brokerMode": "live"
+        "symbols": [
+          "NVDA",
+          "AAPL",
+          "MSFT"
+        ],
+        "autoExecuteApprovedSignals": false,
+        "mode": "live"
       }
     },
     {
