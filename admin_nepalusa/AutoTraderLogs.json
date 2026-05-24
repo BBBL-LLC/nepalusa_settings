@@ -1,6 +1,24 @@
 {
   "logs": [
     {
+      "id": "log_1779666260127_ld1jwv",
+      "createdAt": "2026-05-24T23:44:20.127Z",
+      "agentName": "morningPrep.cron",
+      "status": "error",
+      "message": "Morning prep blocked for 2026-05-24: Today is not a market trading day., Buying power is below max trade amount., No premarket candidates are available.",
+      "payload": {
+        "tradingDate": "2026-05-24",
+        "mode": "live",
+        "reasons": [
+          "Today is not a market trading day.",
+          "Buying power is below max trade amount.",
+          "No premarket candidates are available."
+        ],
+        "candidateCount": 0,
+        "activeSymbols": []
+      }
+    },
+    {
       "id": "log_1779666255182_7ihlka",
       "createdAt": "2026-05-24T23:44:15.182Z",
       "agentName": "alpaca.service",
