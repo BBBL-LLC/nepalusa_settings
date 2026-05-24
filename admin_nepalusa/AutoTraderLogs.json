@@ -1,6 +1,17 @@
 {
   "logs": [
     {
+      "id": "log_1779660280238_p3xs4i",
+      "createdAt": "2026-05-24T22:04:40.238Z",
+      "agentName": "autoTrader.cron",
+      "status": "success",
+      "message": "ROBO TRADER cron started for live mode.",
+      "payload": {
+        "schedule": "*/15 8-15 * * 1-5",
+        "timezone": "America/Chicago"
+      }
+    },
+    {
       "id": "log_1779660278449_v2lvny",
       "createdAt": "2026-05-24T22:04:38.450Z",
       "agentName": "settings",
