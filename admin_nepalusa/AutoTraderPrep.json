@@ -1,0 +1,17 @@
+{
+  "status": "not_ready",
+  "tradingDate": null,
+  "mode": null,
+  "ready": false,
+  "reasons": [
+    "Morning preparation has not run."
+  ],
+  "marketDay": null,
+  "account": null,
+  "positions": [],
+  "openOrders": [],
+  "activeSymbols": [],
+  "candidates": [],
+  "preparedAt": null,
+  "updatedAt": null
+}
