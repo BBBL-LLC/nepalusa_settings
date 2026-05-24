@@ -1,6 +1,35 @@
 {
   "logs": [
     {
+      "id": "log_1779666438339_6gx4kx",
+      "createdAt": "2026-05-24T23:47:18.339Z",
+      "agentName": "userInstruction.agent",
+      "status": "success",
+      "message": "User expresses positive sentiment about today; no explicit trading action or settings change requested.",
+      "payload": {
+        "instruction": "today is good day",
+        "interpretation": {
+          "summary": "User expresses positive sentiment about today; no explicit trading action or settings change requested.",
+          "actions": [
+            {
+              "type": "NOOP",
+              "engineEnabled": null,
+              "mode": null,
+              "maxTradeAmount": null,
+              "maxDailyLoss": null,
+              "dailyProfitTarget": null,
+              "symbols": [],
+              "reason": "No actionable instruction (no request to start/stop trading, scan, focus/exclude symbols, or change limits/mode)."
+            }
+          ]
+        },
+        "appliedActions": [],
+        "patch": {},
+        "oneTimeFocusSymbols": [],
+        "scanTriggered": false
+      }
+    },
+    {
       "id": "log_1779666315183_x84bok",
       "createdAt": "2026-05-24T23:45:15.183Z",
       "agentName": "morningPrep.cron",
