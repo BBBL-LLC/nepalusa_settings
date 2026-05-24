@@ -1,8 +1,8 @@
 {
   "logs": [
     {
-      "id": "log_1779657710343_nn151k",
-      "createdAt": "2026-05-24T21:21:50.343Z",
+      "id": "log_1779657779288_u7vrt2",
+      "createdAt": "2026-05-24T21:22:59.288Z",
       "agentName": "alpaca.service",
       "status": "success",
       "message": "Alpaca live account connection test succeeded.",
