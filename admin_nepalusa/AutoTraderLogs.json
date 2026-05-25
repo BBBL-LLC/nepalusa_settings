@@ -1,14 +1,44 @@
 {
   "logs": [
     {
-      "id": "log_1779667575675_69cdwi",
-      "createdAt": "2026-05-25T00:06:15.675Z",
-      "agentName": "alpaca.service",
+      "id": "log_1779667623290_zfbsa3",
+      "createdAt": "2026-05-25T00:07:03.290Z",
+      "agentName": "userInstruction.agent",
       "status": "success",
-      "message": "Alpaca paper account connection test succeeded.",
+      "message": "User is asking for current bot/activity status and explanation of what is happening.",
       "payload": {
-        "marketOpen": false,
-        "brokerMode": "paper"
+        "instruction": "whats going on ?",
+        "interpretation": {
+          "summary": "User is asking for current bot/activity status and explanation of what is happening.",
+          "actions": [
+            {
+              "type": "ASK_STATUS",
+              "engineEnabled": null,
+              "mode": null,
+              "maxTradeAmount": null,
+              "maxDailyLoss": null,
+              "dailyProfitTarget": null,
+              "symbols": [],
+              "reason": "User asked: 'whats going on ?' — request current trading status, recent actions, and why/why not trading."
+            }
+          ]
+        },
+        "appliedActions": [
+          {
+            "type": "ASK_STATUS",
+            "engineEnabled": null,
+            "mode": null,
+            "maxTradeAmount": null,
+            "maxDailyLoss": null,
+            "dailyProfitTarget": null,
+            "symbols": [],
+            "reason": "User asked: 'whats going on ?' — request current trading status, recent actions, and why/why not trading."
+          }
+        ],
+        "patch": {},
+        "oneTimeFocusSymbols": [],
+        "emergencyResults": [],
+        "scanTriggered": false
       }
     }
   ]
