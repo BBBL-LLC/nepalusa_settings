@@ -1,8 +1,8 @@
 {
-  "mode": "paper",
-  "brokerMode": "paper",
-  "paperTradingOnly": true,
-  "liveTradingEnabled": false,
+  "mode": "live",
+  "brokerMode": "live",
+  "paperTradingOnly": false,
+  "liveTradingEnabled": true,
   "autoTradingEnabled": true,
   "autoExecuteApprovedSignals": true,
   "maxTradeAmount": 10000,
@@ -18,6 +18,9 @@
   "minRewardRiskRatio": 1.5,
   "plannedTradesToday": 1,
   "tradingDirective": "OBSERVE",
+  "emergencyStopEnabled": false,
+  "emergencyStopReason": null,
+  "emergencyStoppedAt": null,
   "maxPositionAmountToday": 1000,
   "dailyRiskBudget": 200,
   "lastStrategyDecision": null,
@@ -41,7 +44,7 @@
   "scannerMaxCandidates": 10,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-05-25T23:15:23.362Z",
+  "updatedAt": "2026-05-25T23:59:02.835Z",
   "availableModes": {
     "paper": true,
     "live": true
