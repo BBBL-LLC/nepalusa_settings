@@ -1,6 +1,18 @@
 {
   "logs": [
     {
+      "id": "log_1779750981824_yfo841",
+      "createdAt": "2026-05-25T23:16:21.824Z",
+      "agentName": "autoTrader.cron",
+      "status": "success",
+      "message": "ROBO TRADER cron started for paper mode.",
+      "payload": {
+        "schedule": "*/15 8-15 * * 1-5",
+        "morningPrepSchedule": "0 8 * * 1-5",
+        "timezone": "America/Chicago"
+      }
+    },
+    {
       "id": "log_1779750949101_5te0b1",
       "createdAt": "2026-05-25T23:15:49.101Z",
       "agentName": "alpaca.service",
