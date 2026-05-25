@@ -1,6 +1,17 @@
 {
   "logs": [
     {
+      "id": "log_1779751405874_ngclkt",
+      "createdAt": "2026-05-25T23:23:25.874Z",
+      "agentName": "alpaca.service",
+      "status": "success",
+      "message": "Alpaca paper account connection test succeeded.",
+      "payload": {
+        "marketOpen": false,
+        "brokerMode": "paper"
+      }
+    },
+    {
       "id": "log_1779751399850_np3ffx",
       "createdAt": "2026-05-25T23:23:19.850Z",
       "agentName": "alpaca.service",
