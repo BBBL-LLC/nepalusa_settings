@@ -1,6 +1,47 @@
 {
   "logs": [
     {
+      "id": "log_1779752100054_ff8x6x",
+      "createdAt": "2026-05-25T23:35:00.054Z",
+      "agentName": "userInstruction.agent",
+      "status": "success",
+      "message": "User asked for an update on how the market is doing today.",
+      "payload": {
+        "instruction": "how market is doing today ?",
+        "interpretation": {
+          "summary": "User asked for an update on how the market is doing today.",
+          "actions": [
+            {
+              "type": "ASK_STATUS",
+              "engineEnabled": null,
+              "mode": null,
+              "maxTradeAmount": null,
+              "maxDailyLoss": null,
+              "dailyProfitTarget": null,
+              "symbols": [],
+              "reason": "Provide current market/today performance overview and what the system is seeing; no trading changes requested."
+            }
+          ]
+        },
+        "appliedActions": [
+          {
+            "type": "ASK_STATUS",
+            "engineEnabled": null,
+            "mode": null,
+            "maxTradeAmount": null,
+            "maxDailyLoss": null,
+            "dailyProfitTarget": null,
+            "symbols": [],
+            "reason": "Provide current market/today performance overview and what the system is seeing; no trading changes requested."
+          }
+        ],
+        "patch": {},
+        "oneTimeFocusSymbols": [],
+        "emergencyResults": [],
+        "scanTriggered": false
+      }
+    },
+    {
       "id": "log_1779752051767_ao5o4n",
       "createdAt": "2026-05-25T23:34:11.767Z",
       "agentName": "userInstruction.agent",
