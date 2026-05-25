@@ -1,9 +1,9 @@
 {
   "logs": [
     {
-      "id": "log_1779714003218_ko0rci",
-      "createdAt": "2026-05-25T13:00:03.218Z",
-      "agentName": "morningPrep.cron",
+      "id": "log_1779714004034_phbgv7",
+      "createdAt": "2026-05-25T13:00:04.034Z",
+      "agentName": "autoTrader.preScanPrep",
       "status": "error",
       "message": "Morning prep blocked for 2026-05-25: Today is not a market trading day., No premarket candidates are available.",
       "payload": {
