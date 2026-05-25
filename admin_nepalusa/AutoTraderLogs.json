@@ -1,6 +1,47 @@
 {
   "logs": [
     {
+      "id": "log_1779668474026_o52ehy",
+      "createdAt": "2026-05-25T00:21:14.026Z",
+      "agentName": "userInstruction.agent",
+      "status": "success",
+      "message": "User is asking for a status update on what the system is doing.",
+      "payload": {
+        "instruction": "whats going on ?",
+        "interpretation": {
+          "summary": "User is asking for a status update on what the system is doing.",
+          "actions": [
+            {
+              "type": "ASK_STATUS",
+              "engineEnabled": null,
+              "mode": null,
+              "maxTradeAmount": null,
+              "maxDailyLoss": null,
+              "dailyProfitTarget": null,
+              "symbols": [],
+              "reason": "User asked: 'whats going on ?' Request current trading/scanning/activity status and recent actions."
+            }
+          ]
+        },
+        "appliedActions": [
+          {
+            "type": "ASK_STATUS",
+            "engineEnabled": null,
+            "mode": null,
+            "maxTradeAmount": null,
+            "maxDailyLoss": null,
+            "dailyProfitTarget": null,
+            "symbols": [],
+            "reason": "User asked: 'whats going on ?' Request current trading/scanning/activity status and recent actions."
+          }
+        ],
+        "patch": {},
+        "oneTimeFocusSymbols": [],
+        "emergencyResults": [],
+        "scanTriggered": false
+      }
+    },
+    {
       "id": "log_1779668461240_k8su2s",
       "createdAt": "2026-05-25T00:21:01.240Z",
       "agentName": "alpaca.service",
