@@ -1,6 +1,13 @@
 {
   "logs": [
     {
+      "id": "log_1779671594996_q6vycq",
+      "createdAt": "2026-05-25T01:13:14.996Z",
+      "agentName": "alpaca.service",
+      "status": "error",
+      "message": "Request failed with status code 401"
+    },
+    {
       "id": "log_1779671593641_o855lq",
       "createdAt": "2026-05-25T01:13:13.641Z",
       "agentName": "alpaca.service",
