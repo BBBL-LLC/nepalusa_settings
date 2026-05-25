@@ -1,6 +1,47 @@
 {
   "logs": [
     {
+      "id": "log_1779751931077_ezsvgn",
+      "createdAt": "2026-05-25T23:32:11.077Z",
+      "agentName": "userInstruction.agent",
+      "status": "success",
+      "message": "User asked a general status question ('how is you doing today').",
+      "payload": {
+        "instruction": "how is you doing today",
+        "interpretation": {
+          "summary": "User asked a general status question ('how is you doing today').",
+          "actions": [
+            {
+              "type": "ASK_STATUS",
+              "engineEnabled": null,
+              "mode": null,
+              "maxTradeAmount": null,
+              "maxDailyLoss": null,
+              "dailyProfitTarget": null,
+              "symbols": [],
+              "reason": "User is asking how things are going today; request current trading/system status."
+            }
+          ]
+        },
+        "appliedActions": [
+          {
+            "type": "ASK_STATUS",
+            "engineEnabled": null,
+            "mode": null,
+            "maxTradeAmount": null,
+            "maxDailyLoss": null,
+            "dailyProfitTarget": null,
+            "symbols": [],
+            "reason": "User is asking how things are going today; request current trading/system status."
+          }
+        ],
+        "patch": {},
+        "oneTimeFocusSymbols": [],
+        "emergencyResults": [],
+        "scanTriggered": false
+      }
+    },
+    {
       "id": "log_1779751706162_q3z6ip",
       "createdAt": "2026-05-25T23:28:26.162Z",
       "agentName": "alpaca.service",
