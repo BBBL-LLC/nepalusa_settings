@@ -1,9 +1,9 @@
 {
-  "active": false,
-  "state": "idle",
-  "message": "ROBO TRADER is idle.",
+  "active": true,
+  "state": "preparing",
+  "message": "ROBO TRADER is preparing for the trading day.",
   "source": "autoTrader.preScanPrep",
   "mode": "paper",
   "instructionOverride": null,
-  "updatedAt": "2026-05-25T15:00:04.537Z"
+  "updatedAt": "2026-05-25T15:15:01.048Z"
 }
