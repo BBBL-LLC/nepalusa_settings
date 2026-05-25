@@ -1,8 +1,8 @@
 {
-  "mode": "paper",
-  "brokerMode": "paper",
-  "paperTradingOnly": true,
-  "liveTradingEnabled": false,
+  "mode": "live",
+  "brokerMode": "live",
+  "paperTradingOnly": false,
+  "liveTradingEnabled": true,
   "autoTradingEnabled": true,
   "autoExecuteApprovedSignals": true,
   "maxTradeAmount": 10000,
@@ -29,7 +29,7 @@
   "scannerMaxCandidates": 10,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-05-25T01:29:57.426Z",
+  "updatedAt": "2026-05-25T01:30:03.949Z",
   "availableModes": {
     "paper": true,
     "live": true
