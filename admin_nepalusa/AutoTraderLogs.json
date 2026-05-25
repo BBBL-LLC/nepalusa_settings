@@ -1,6 +1,13 @@
 {
   "logs": [
     {
+      "id": "log_1779752972400_aied17",
+      "createdAt": "2026-05-25T23:49:32.400Z",
+      "agentName": "alpaca.tradeStream",
+      "status": "success",
+      "message": "Alpaca paper trade stream authorized."
+    },
+    {
       "id": "log_1779752695705_om2diu",
       "createdAt": "2026-05-25T23:44:55.705Z",
       "agentName": "alpaca.service",
