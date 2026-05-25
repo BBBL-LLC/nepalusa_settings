@@ -1,6 +1,47 @@
 {
   "logs": [
     {
+      "id": "log_1779752051767_ao5o4n",
+      "createdAt": "2026-05-25T23:34:11.767Z",
+      "agentName": "userInstruction.agent",
+      "status": "success",
+      "message": "User asked for today's profit/loss (how much money made today).",
+      "payload": {
+        "instruction": "how much money you made today ?",
+        "interpretation": {
+          "summary": "User asked for today's profit/loss (how much money made today).",
+          "actions": [
+            {
+              "type": "ASK_STATUS",
+              "engineEnabled": null,
+              "mode": null,
+              "maxTradeAmount": null,
+              "maxDailyLoss": null,
+              "dailyProfitTarget": null,
+              "symbols": [],
+              "reason": "User is asking for today's performance/P&L."
+            }
+          ]
+        },
+        "appliedActions": [
+          {
+            "type": "ASK_STATUS",
+            "engineEnabled": null,
+            "mode": null,
+            "maxTradeAmount": null,
+            "maxDailyLoss": null,
+            "dailyProfitTarget": null,
+            "symbols": [],
+            "reason": "User is asking for today's performance/P&L."
+          }
+        ],
+        "patch": {},
+        "oneTimeFocusSymbols": [],
+        "emergencyResults": [],
+        "scanTriggered": false
+      }
+    },
+    {
       "id": "log_1779752033544_zl121y",
       "createdAt": "2026-05-25T23:33:53.544Z",
       "agentName": "alpaca.service",
