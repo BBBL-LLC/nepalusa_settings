@@ -1,6 +1,13 @@
 {
   "logs": [
     {
+      "id": "log_1779671475174_14644i",
+      "createdAt": "2026-05-25T01:11:15.174Z",
+      "agentName": "alpaca.tradeStream",
+      "status": "error",
+      "message": "Alpaca paper trade stream authorization failed."
+    },
+    {
       "id": "log_1779671462595_zy50kq",
       "createdAt": "2026-05-25T01:11:02.595Z",
       "agentName": "alpaca.service",
