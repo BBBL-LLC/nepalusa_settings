@@ -1,6 +1,13 @@
 {
   "logs": [
     {
+      "id": "log_1779670339273_8xlz7i",
+      "createdAt": "2026-05-25T00:52:19.273Z",
+      "agentName": "morningPrep.cron",
+      "status": "error",
+      "message": "Request failed with status code 401"
+    },
+    {
       "id": "log_1779670336582_mmxj8i",
       "createdAt": "2026-05-25T00:52:16.582Z",
       "agentName": "autoTrader.cron",
