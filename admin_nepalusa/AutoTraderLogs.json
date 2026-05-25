@@ -1,6 +1,22 @@
 {
   "logs": [
     {
+      "id": "log_1779668658596_b50l6t",
+      "createdAt": "2026-05-25T00:24:18.596Z",
+      "agentName": "deployment.paperSafety",
+      "status": "success",
+      "message": "Paper trading deployment posture enabled: paper mode, live trading disabled, trading engine enabled.",
+      "payload": {
+        "mode": "paper",
+        "liveTradingEnabled": false,
+        "autoTradingEnabled": true,
+        "autoExecuteApprovedSignals": true,
+        "maxTradeAmount": 10000,
+        "maxDailyLoss": 200,
+        "dailyProfitTarget": 500
+      }
+    },
+    {
       "id": "log_1779668562714_cb5zyw",
       "createdAt": "2026-05-25T00:22:42.714Z",
       "agentName": "alpaca.service",
