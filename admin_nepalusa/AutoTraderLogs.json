@@ -1,6 +1,47 @@
 {
   "logs": [
     {
+      "id": "log_1779751949839_ge3odc",
+      "createdAt": "2026-05-25T23:32:29.839Z",
+      "agentName": "userInstruction.agent",
+      "status": "success",
+      "message": "User asked what time the market opens.",
+      "payload": {
+        "instruction": "when market opens ?",
+        "interpretation": {
+          "summary": "User asked what time the market opens.",
+          "actions": [
+            {
+              "type": "ASK_STATUS",
+              "engineEnabled": null,
+              "mode": null,
+              "maxTradeAmount": null,
+              "maxDailyLoss": null,
+              "dailyProfitTarget": null,
+              "symbols": [],
+              "reason": "User question: 'when market opens ?' (informational/status request; no trading action)."
+            }
+          ]
+        },
+        "appliedActions": [
+          {
+            "type": "ASK_STATUS",
+            "engineEnabled": null,
+            "mode": null,
+            "maxTradeAmount": null,
+            "maxDailyLoss": null,
+            "dailyProfitTarget": null,
+            "symbols": [],
+            "reason": "User question: 'when market opens ?' (informational/status request; no trading action)."
+          }
+        ],
+        "patch": {},
+        "oneTimeFocusSymbols": [],
+        "emergencyResults": [],
+        "scanTriggered": false
+      }
+    },
+    {
       "id": "log_1779751948495_4056nt",
       "createdAt": "2026-05-25T23:32:28.495Z",
       "agentName": "alpaca.service",
