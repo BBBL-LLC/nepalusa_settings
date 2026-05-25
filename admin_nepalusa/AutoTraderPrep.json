@@ -1,6 +1,6 @@
 {
   "status": "blocked",
-  "tradingDate": "2026-05-24",
+  "tradingDate": "2026-05-25",
   "mode": "paper",
   "ready": false,
   "reasons": [
@@ -9,7 +9,7 @@
   ],
   "marketDay": {
     "isMarketDay": false,
-    "date": "2026-05-24",
+    "date": "2026-05-25",
     "nextOpen": "2026-05-26T09:30:00-04:00",
     "nextClose": "2026-05-26T16:00:00-04:00"
   },
@@ -27,7 +27,7 @@
   "openOrders": [],
   "activeSymbols": [],
   "candidates": [],
-  "preparedAt": "2026-05-25T01:30:16.808Z",
-  "updatedAt": "2026-05-25T01:30:16.903Z",
+  "preparedAt": "2026-05-25T13:00:01.316Z",
+  "updatedAt": "2026-05-25T13:00:01.421Z",
   "candidateError": null
 }
