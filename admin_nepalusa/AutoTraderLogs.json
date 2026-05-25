@@ -1,6 +1,13 @@
 {
   "logs": [
     {
+      "id": "log_1779750924665_rn4o99",
+      "createdAt": "2026-05-25T23:15:24.665Z",
+      "agentName": "morningPrep.cron",
+      "status": "error",
+      "message": "Live Alpaca connection requires ALLOW_LIVE_TRADING=true in backend environment."
+    },
+    {
       "id": "log_1779750921824_1r0mhv",
       "createdAt": "2026-05-25T23:15:21.824Z",
       "agentName": "autoTrader.cron",
