@@ -1,6 +1,18 @@
 {
   "logs": [
     {
+      "id": "log_1779672614381_dnpi4t",
+      "createdAt": "2026-05-25T01:30:14.381Z",
+      "agentName": "autoTrader.cron",
+      "status": "success",
+      "message": "ROBO TRADER cron started for paper mode.",
+      "payload": {
+        "schedule": "*/15 8-15 * * 1-5",
+        "morningPrepSchedule": "0 8 * * 1-5",
+        "timezone": "America/Chicago"
+      }
+    },
+    {
       "id": "log_1779672613498_0nf9l9",
       "createdAt": "2026-05-25T01:30:13.498Z",
       "agentName": "settings",
