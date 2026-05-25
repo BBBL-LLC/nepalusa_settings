@@ -1,6 +1,47 @@
 {
   "logs": [
     {
+      "id": "log_1779716543627_o3qrxk",
+      "createdAt": "2026-05-25T13:42:23.627Z",
+      "agentName": "userInstruction.agent",
+      "status": "success",
+      "message": "User is asking whether the system is currently trading.",
+      "payload": {
+        "instruction": "Are you trading ?",
+        "interpretation": {
+          "summary": "User is asking whether the system is currently trading.",
+          "actions": [
+            {
+              "type": "ASK_STATUS",
+              "engineEnabled": null,
+              "mode": null,
+              "maxTradeAmount": null,
+              "maxDailyLoss": null,
+              "dailyProfitTarget": null,
+              "symbols": [],
+              "reason": "User asked: 'Are you trading?'"
+            }
+          ]
+        },
+        "appliedActions": [
+          {
+            "type": "ASK_STATUS",
+            "engineEnabled": null,
+            "mode": null,
+            "maxTradeAmount": null,
+            "maxDailyLoss": null,
+            "dailyProfitTarget": null,
+            "symbols": [],
+            "reason": "User asked: 'Are you trading?'"
+          }
+        ],
+        "patch": {},
+        "oneTimeFocusSymbols": [],
+        "emergencyResults": [],
+        "scanTriggered": false
+      }
+    },
+    {
       "id": "log_1779716472891_n6uqyr",
       "createdAt": "2026-05-25T13:41:12.891Z",
       "agentName": "alpaca.service",
