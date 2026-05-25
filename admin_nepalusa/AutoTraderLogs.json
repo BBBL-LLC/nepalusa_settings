@@ -1,6 +1,50 @@
 {
   "logs": [
     {
+      "id": "log_1779672594656_b7wbst",
+      "createdAt": "2026-05-25T01:29:54.656Z",
+      "agentName": "settings",
+      "status": "success",
+      "message": "Auto Trader settings updated.",
+      "payload": {
+        "mode": "paper",
+        "brokerMode": "paper",
+        "paperTradingOnly": true,
+        "liveTradingEnabled": false,
+        "autoTradingEnabled": false,
+        "autoExecuteApprovedSignals": false,
+        "maxTradeAmount": 10000,
+        "maxDailyLoss": 200,
+        "dailyProfitTarget": 500,
+        "maxTradesPerDay": 100,
+        "aiStrategyEnabled": true,
+        "strategyProfile": "momentum_day_trade",
+        "tradeDirection": "long_only",
+        "entryStrategy": "breakout_or_vwap_reclaim",
+        "exitStrategy": "bracket_target_stop",
+        "maxHoldMinutes": 120,
+        "minRewardRiskRatio": 1.5,
+        "plannedTradesToday": 1,
+        "tradingDirective": "OBSERVE",
+        "maxPositionAmountToday": 1000,
+        "dailyRiskBudget": 200,
+        "trailingStopEnabled": false,
+        "lastStrategyDecision": null,
+        "confidenceThreshold": 80,
+        "scannerMinPrice": 5,
+        "scannerMaxPrice": 1000,
+        "scannerMinRelativeVolume": 1,
+        "scannerMaxCandidates": 10,
+        "preferredSymbols": [],
+        "excludedSymbols": [],
+        "updatedAt": "2026-05-25T01:29:53.950Z",
+        "availableModes": {
+          "paper": true,
+          "live": true
+        }
+      }
+    },
+    {
       "id": "log_1779672587868_wi5ibv",
       "createdAt": "2026-05-25T01:29:47.868Z",
       "agentName": "alpaca.service",
