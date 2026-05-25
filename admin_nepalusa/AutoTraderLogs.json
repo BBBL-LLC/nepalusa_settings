@@ -1,6 +1,13 @@
 {
   "logs": [
     {
+      "id": "log_1779728413108_cu95ih",
+      "createdAt": "2026-05-25T17:00:13.108Z",
+      "agentName": "autoTrader.cron",
+      "status": "error",
+      "message": "timeout of 10000ms exceeded"
+    },
+    {
       "id": "log_1779727504451_tq0bsl",
       "createdAt": "2026-05-25T16:45:04.451Z",
       "agentName": "autoTrader.cron",
