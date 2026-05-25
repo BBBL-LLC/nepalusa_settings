@@ -1,6 +1,47 @@
 {
   "logs": [
     {
+      "id": "log_1779752005696_l1bv7s",
+      "createdAt": "2026-05-25T23:33:25.696Z",
+      "agentName": "userInstruction.agent",
+      "status": "success",
+      "message": "User asked how the market is doing; provide current trading/market status update.",
+      "payload": {
+        "instruction": "how makret is doing ?",
+        "interpretation": {
+          "summary": "User asked how the market is doing; provide current trading/market status update.",
+          "actions": [
+            {
+              "type": "ASK_STATUS",
+              "engineEnabled": null,
+              "mode": null,
+              "maxTradeAmount": null,
+              "maxDailyLoss": null,
+              "dailyProfitTarget": null,
+              "symbols": [],
+              "reason": "User asked: 'how market is doing?'"
+            }
+          ]
+        },
+        "appliedActions": [
+          {
+            "type": "ASK_STATUS",
+            "engineEnabled": null,
+            "mode": null,
+            "maxTradeAmount": null,
+            "maxDailyLoss": null,
+            "dailyProfitTarget": null,
+            "symbols": [],
+            "reason": "User asked: 'how market is doing?'"
+          }
+        ],
+        "patch": {},
+        "oneTimeFocusSymbols": [],
+        "emergencyResults": [],
+        "scanTriggered": false
+      }
+    },
+    {
       "id": "log_1779751979145_0rh6jl",
       "createdAt": "2026-05-25T23:32:59.145Z",
       "agentName": "userInstruction.agent",
