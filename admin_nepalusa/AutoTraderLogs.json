@@ -1,6 +1,13 @@
 {
   "logs": [
     {
+      "id": "log_1779671702732_9r3rr4",
+      "createdAt": "2026-05-25T01:15:02.732Z",
+      "agentName": "morningPrep.cron",
+      "status": "error",
+      "message": "Request failed with status code 401"
+    },
+    {
       "id": "log_1779671700554_h605xt",
       "createdAt": "2026-05-25T01:15:00.554Z",
       "agentName": "alpaca.service",
