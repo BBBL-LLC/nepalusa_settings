@@ -1,44 +1,14 @@
 {
   "logs": [
     {
-      "id": "log_1779751949839_ge3odc",
-      "createdAt": "2026-05-25T23:32:29.839Z",
-      "agentName": "userInstruction.agent",
+      "id": "log_1779751950516_l8nkx1",
+      "createdAt": "2026-05-25T23:32:30.516Z",
+      "agentName": "alpaca.service",
       "status": "success",
-      "message": "User asked what time the market opens.",
+      "message": "Alpaca paper account connection test succeeded.",
       "payload": {
-        "instruction": "when market opens ?",
-        "interpretation": {
-          "summary": "User asked what time the market opens.",
-          "actions": [
-            {
-              "type": "ASK_STATUS",
-              "engineEnabled": null,
-              "mode": null,
-              "maxTradeAmount": null,
-              "maxDailyLoss": null,
-              "dailyProfitTarget": null,
-              "symbols": [],
-              "reason": "User question: 'when market opens ?' (informational/status request; no trading action)."
-            }
-          ]
-        },
-        "appliedActions": [
-          {
-            "type": "ASK_STATUS",
-            "engineEnabled": null,
-            "mode": null,
-            "maxTradeAmount": null,
-            "maxDailyLoss": null,
-            "dailyProfitTarget": null,
-            "symbols": [],
-            "reason": "User question: 'when market opens ?' (informational/status request; no trading action)."
-          }
-        ],
-        "patch": {},
-        "oneTimeFocusSymbols": [],
-        "emergencyResults": [],
-        "scanTriggered": false
+        "marketOpen": false,
+        "brokerMode": "paper"
       }
     },
     {
