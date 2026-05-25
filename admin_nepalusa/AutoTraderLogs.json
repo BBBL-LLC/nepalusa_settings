@@ -1,6 +1,23 @@
 {
   "logs": [
     {
+      "id": "log_1779715803596_g34prn",
+      "createdAt": "2026-05-25T13:30:03.596Z",
+      "agentName": "autoTrader.preScanPrep",
+      "status": "error",
+      "message": "Morning prep blocked for 2026-05-25: Today is not a market trading day., No premarket candidates are available.",
+      "payload": {
+        "tradingDate": "2026-05-25",
+        "mode": "paper",
+        "reasons": [
+          "Today is not a market trading day.",
+          "No premarket candidates are available."
+        ],
+        "candidateCount": 0,
+        "activeSymbols": []
+      }
+    },
+    {
       "id": "log_1779714905718_0tpuez",
       "createdAt": "2026-05-25T13:15:05.718Z",
       "agentName": "autoTrader.cron",
