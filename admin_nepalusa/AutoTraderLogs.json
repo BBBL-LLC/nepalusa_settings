@@ -1,6 +1,47 @@
 {
   "logs": [
     {
+      "id": "log_1779752022468_mthaf5",
+      "createdAt": "2026-05-25T23:33:42.468Z",
+      "agentName": "userInstruction.agent",
+      "status": "success",
+      "message": "User asked for today's profit/loss.",
+      "payload": {
+        "instruction": "how much money you made today ?",
+        "interpretation": {
+          "summary": "User asked for today's profit/loss.",
+          "actions": [
+            {
+              "type": "ASK_STATUS",
+              "engineEnabled": null,
+              "mode": null,
+              "maxTradeAmount": null,
+              "maxDailyLoss": null,
+              "dailyProfitTarget": null,
+              "symbols": [],
+              "reason": "Provide today's P&L / money made today."
+            }
+          ]
+        },
+        "appliedActions": [
+          {
+            "type": "ASK_STATUS",
+            "engineEnabled": null,
+            "mode": null,
+            "maxTradeAmount": null,
+            "maxDailyLoss": null,
+            "dailyProfitTarget": null,
+            "symbols": [],
+            "reason": "Provide today's P&L / money made today."
+          }
+        ],
+        "patch": {},
+        "oneTimeFocusSymbols": [],
+        "emergencyResults": [],
+        "scanTriggered": false
+      }
+    },
+    {
       "id": "log_1779752005696_l1bv7s",
       "createdAt": "2026-05-25T23:33:25.696Z",
       "agentName": "userInstruction.agent",
