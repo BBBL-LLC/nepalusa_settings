@@ -1,6 +1,19 @@
 {
   "logs": [
     {
+      "id": "log_1779813007380_cwcqh1",
+      "createdAt": "2026-05-26T16:30:07.380Z",
+      "agentName": "fillQuality.service",
+      "status": "success",
+      "message": "Fill quality report calculated for 0 fills.",
+      "payload": {
+        "fillCount": 0,
+        "totalNotional": 0,
+        "averageSlippagePercent": 0,
+        "worstSlippagePercent": 0
+      }
+    },
+    {
       "id": "log_1779813005352_mqjuuz",
       "createdAt": "2026-05-26T16:30:05.352Z",
       "agentName": "alpaca.service",
