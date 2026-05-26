@@ -1,15 +1,18 @@
 {
   "status": "blocked",
-  "tradingDate": "2026-05-25",
+  "tradingDate": "2026-05-26",
   "mode": "paper",
   "ready": false,
   "reasons": [
-    "Today is not a market trading day.",
     "No premarket candidates are available."
   ],
   "marketDay": {
-    "isMarketDay": false,
-    "date": "2026-05-25",
+    "isMarketDay": true,
+    "date": "2026-05-26",
+    "open": "09:30",
+    "close": "16:00",
+    "sessionOpen": "0400",
+    "sessionClose": "2000",
     "nextOpen": "2026-05-26T09:30:00-04:00",
     "nextClose": "2026-05-26T16:00:00-04:00"
   },
@@ -27,7 +30,7 @@
   "openOrders": [],
   "activeSymbols": [],
   "candidates": [],
-  "preparedAt": "2026-05-26T00:00:09.728Z",
-  "updatedAt": "2026-05-26T00:00:10.018Z",
+  "preparedAt": "2026-05-26T13:00:02.559Z",
+  "updatedAt": "2026-05-26T13:00:02.760Z",
   "candidateError": null
 }
