@@ -2,8 +2,8 @@
   "active": true,
   "state": "scanning",
   "message": "ROBO TRADER is scanning and evaluating trade opportunities.",
-  "source": "codex.watchTargetCapCheck",
+  "source": "codex.watchTargetCapCheck.debug",
   "mode": "paper",
   "instructionOverride": null,
-  "updatedAt": "2026-05-26T15:44:13.664Z"
+  "updatedAt": "2026-05-26T15:44:39.581Z"
 }
