@@ -1,14 +1,17 @@
 {
   "logs": [
     {
-      "id": "log_1779805935713_isdcwp",
-      "createdAt": "2026-05-26T14:32:15.713Z",
-      "agentName": "alpaca.service",
+      "id": "log_1779805936588_45ocj2",
+      "createdAt": "2026-05-26T14:32:16.589Z",
+      "agentName": "morningPrep.cron",
       "status": "success",
-      "message": "Alpaca paper account connection test succeeded.",
+      "message": "Morning prep ready for 2026-05-26.",
       "payload": {
-        "marketOpen": true,
-        "brokerMode": "paper"
+        "tradingDate": "2026-05-26",
+        "mode": "paper",
+        "reasons": [],
+        "candidateCount": 3,
+        "activeSymbols": []
       }
     },
     {
