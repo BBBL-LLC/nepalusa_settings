@@ -1,3 +1,71 @@
 {
-  "orders": []
+  "orders": [
+    {
+      "id": "stream_order_1779813248090_3rpo37",
+      "mode": "paper",
+      "symbol": "F",
+      "status": "held",
+      "createdAt": "2026-05-26T16:34:08.090Z",
+      "source": "alpaca.tradeStream",
+      "alpacaOrderId": "5215a999-f015-4c54-9560-3ca08a36a856",
+      "alpacaEvent": {
+        "mode": "paper",
+        "event": "held",
+        "timestamp": "2026-05-26T16:34:08.072089463Z",
+        "orderId": "5215a999-f015-4c54-9560-3ca08a36a856",
+        "clientOrderId": "7a0f4213-6186-466d-a9ed-9f81c28164b3",
+        "symbol": "F",
+        "side": "sell",
+        "status": "held",
+        "orderClass": "bracket",
+        "qty": 1,
+        "notional": 0,
+        "filledQty": 0,
+        "fillPrice": 0,
+        "positionQty": null,
+        "raw": {
+          "at": "2026-05-26T16:34:08.072089Z",
+          "event": "held",
+          "timestamp": "2026-05-26T16:34:08.072089463Z",
+          "order": {
+            "id": "5215a999-f015-4c54-9560-3ca08a36a856",
+            "client_order_id": "7a0f4213-6186-466d-a9ed-9f81c28164b3",
+            "created_at": "2026-05-26T16:34:08.065486424Z",
+            "updated_at": "2026-05-26T16:34:08.066615104Z",
+            "submitted_at": "2026-05-26T16:34:08.065486424Z",
+            "filled_at": null,
+            "expired_at": null,
+            "cancel_requested_at": null,
+            "canceled_at": null,
+            "failed_at": null,
+            "replaced_at": null,
+            "replaced_by": null,
+            "replaces": null,
+            "asset_id": "1e80b378-a5e3-4727-96bf-9c64fdd4e7e2",
+            "symbol": "F",
+            "asset_class": "us_equity",
+            "notional": null,
+            "qty": "1",
+            "filled_qty": "0",
+            "filled_avg_price": null,
+            "order_class": "bracket",
+            "order_type": "limit",
+            "type": "limit",
+            "side": "sell",
+            "position_intent": "sell_to_close",
+            "time_in_force": "day",
+            "limit_price": "15.62",
+            "stop_price": null,
+            "status": "held",
+            "extended_hours": false,
+            "legs": null,
+            "trail_percent": null,
+            "trail_price": null,
+            "hwm": null,
+            "expires_at": "2026-05-26T20:00:00Z"
+          }
+        }
+      }
+    }
+  ]
 }
