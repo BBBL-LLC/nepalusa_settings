@@ -1,6 +1,20 @@
 {
   "logs": [
     {
+      "id": "log_1779805390551_20wczj",
+      "createdAt": "2026-05-26T14:23:10.551Z",
+      "agentName": "paperReadiness.afterFallback",
+      "status": "success",
+      "message": "Morning prep ready for 2026-05-26.",
+      "payload": {
+        "tradingDate": "2026-05-26",
+        "mode": "paper",
+        "reasons": [],
+        "candidateCount": 3,
+        "activeSymbols": []
+      }
+    },
+    {
       "id": "log_1779805300207_einj2z",
       "createdAt": "2026-05-26T14:21:40.207Z",
       "agentName": "paperReadiness.manual",
