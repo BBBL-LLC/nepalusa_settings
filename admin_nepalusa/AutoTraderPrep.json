@@ -29,46 +29,46 @@
   "activeSymbols": [],
   "candidates": [
     {
-      "symbol": "AAPL",
-      "fallback": true,
-      "price": 311.6050109863281,
-      "gapPercent": 0.8724247490432817,
-      "relativeVolume": 1,
-      "trend": "up",
-      "volatility": 0.06443543755556086,
-      "marketDataSource": "yahoo",
-      "quoteTime": "2026-05-26T14:26:28.000Z",
-      "id": "candidate_1779805589209_3p5ig0",
-      "scannedAt": "2026-05-26T14:26:29.209Z"
-    },
-    {
       "symbol": "NVDA",
       "fallback": true,
-      "price": 217.05740356445312,
-      "gapPercent": 0.8256246726285191,
+      "price": 217.9199981689453,
+      "gapPercent": 0.4147055012285708,
       "relativeVolume": 1,
       "trend": "up",
-      "volatility": 0.13334123030151226,
+      "volatility": 0.12548277780816872,
       "marketDataSource": "yahoo",
-      "quoteTime": "2026-05-26T14:26:28.000Z",
-      "id": "candidate_1779805589209_ohg7lu",
-      "scannedAt": "2026-05-26T14:26:29.209Z"
+      "quoteTime": "2026-05-26T14:31:37.000Z",
+      "id": "candidate_1779805897546_aox0hh",
+      "scannedAt": "2026-05-26T14:31:37.546Z"
+    },
+    {
+      "symbol": "AAPL",
+      "fallback": true,
+      "price": 311.510009765625,
+      "gapPercent": 0.2929824997511727,
+      "relativeVolume": 1,
+      "trend": "up",
+      "volatility": 0.05841704185440694,
+      "marketDataSource": "yahoo",
+      "quoteTime": "2026-05-26T14:31:35.000Z",
+      "id": "candidate_1779805897546_pnj18d",
+      "scannedAt": "2026-05-26T14:31:37.546Z"
     },
     {
       "symbol": "MSFT",
       "fallback": true,
-      "price": 419.5150146484375,
-      "gapPercent": 0.18750171726560155,
-      "relativeVolume": 1.2124914407811376,
+      "price": 418.0299987792969,
+      "gapPercent": 0.25662110181955644,
+      "relativeVolume": 1,
       "trend": "up",
-      "volatility": 0.09629193271731247,
+      "volatility": 0.08383915675636916,
       "marketDataSource": "yahoo",
-      "quoteTime": "2026-05-26T14:26:28.000Z",
-      "id": "candidate_1779805589209_f0gpl3",
-      "scannedAt": "2026-05-26T14:26:29.209Z"
+      "quoteTime": "2026-05-26T14:31:35.000Z",
+      "id": "candidate_1779805897546_hbqunb",
+      "scannedAt": "2026-05-26T14:31:37.546Z"
     }
   ],
-  "preparedAt": "2026-05-26T14:26:29.209Z",
-  "updatedAt": "2026-05-26T14:26:29.554Z",
+  "preparedAt": "2026-05-26T14:31:37.546Z",
+  "updatedAt": "2026-05-26T14:31:37.991Z",
   "candidateError": null
 }
