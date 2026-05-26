@@ -35,8 +35,8 @@
     "tradingDirective": "OBSERVE",
     "maxPositionAmountToday": 1000,
     "dailyRiskBudget": 200,
-    "reason": "Evidence shows broadly bullish tape (uptrendShare=1) but weak intraday opportunity quality for momentum execution: averageRelativeVolume is only ~1.07 (barely above threshold), averageGapPercent is small (0.55) and averageLiquidityScore is 0, implying poor/unknown fill quality and higher slippage risk. With only 3 candidates and low liquidity signal, prioritize auditability and stop clarity by shifting to a conservative trend approach (pullbacks to VWAP in established uptrends) and avoid new orders until a higher-quality, more liquid setup appears. Keep risk controls unchanged; maintain long_only. PlannedTradesToday set to 0 due to insufficient market quality despite bullish bias.",
-    "selectedAt": "2026-05-26T14:23:53.765Z",
+    "reason": "Tape bias is bullish (uptrendShare=1) but intraday opportunity quality is not strong enough to justify auto-execution: averageRelativeVolume is only 1.07 (barely above baseline), averageGapPercent is small (0.59) reducing momentum/ORB edge, and averageLiquidityScore=0 implies poor/unknown fill quality and higher slippage risk. With only 3 candidates and weak liquidity evidence, prioritize auditability and clear stops by sticking with conservative trend pullbacks to VWAP, but avoid new orders until higher-quality, more liquid setups appear. Keep long_only and do not alter human risk caps.",
+    "selectedAt": "2026-05-26T14:26:45.395Z",
     "selectedBy": "ai_strategy_agent"
   },
   "confidenceThreshold": 85,
@@ -59,7 +59,7 @@
   "scannerMaxCandidates": 10,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-05-26T14:23:54.023Z",
+  "updatedAt": "2026-05-26T14:26:45.781Z",
   "availableModes": {
     "paper": true,
     "live": true
