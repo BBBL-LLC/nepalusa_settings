@@ -1,9 +1,9 @@
 {
-  "active": false,
-  "state": "idle",
-  "message": "ROBO TRADER is idle.",
-  "source": "morningPrep.cron",
+  "active": true,
+  "state": "scanning",
+  "message": "ROBO TRADER is scanning and evaluating trade opportunities.",
+  "source": "paperOpsTest.temporaryTradePosture",
   "mode": "paper",
   "instructionOverride": null,
-  "updatedAt": "2026-05-26T14:32:19.005Z"
+  "updatedAt": "2026-05-26T14:35:48.350Z"
 }
