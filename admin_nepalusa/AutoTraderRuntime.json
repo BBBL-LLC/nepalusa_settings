@@ -1,9 +1,9 @@
 {
-  "active": false,
-  "state": "idle",
-  "message": "ROBO TRADER is idle.",
+  "active": true,
+  "state": "scanning",
+  "message": "ROBO TRADER is scanning and evaluating trade opportunities.",
   "source": "autoTrader.cron",
   "mode": "paper",
   "instructionOverride": null,
-  "updatedAt": "2026-05-26T19:00:51.247Z"
+  "updatedAt": "2026-05-26T19:15:03.037Z"
 }
