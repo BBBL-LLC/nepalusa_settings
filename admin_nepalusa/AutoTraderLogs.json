@@ -1,6 +1,13 @@
 {
   "logs": [
     {
+      "id": "log_1779811251730_pak3y3",
+      "createdAt": "2026-05-26T16:00:51.730Z",
+      "agentName": "autoTrader.cron",
+      "status": "error",
+      "message": "Unexpected end of JSON input"
+    },
+    {
       "id": "log_1779811214644_ecd1z2",
       "createdAt": "2026-05-26T16:00:14.644Z",
       "agentName": "autoTrader.cron",
