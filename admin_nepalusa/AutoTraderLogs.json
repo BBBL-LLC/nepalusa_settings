@@ -1,17 +1,25 @@
 {
   "logs": [
     {
-      "id": "log_1779805468999_sm3ceh",
-      "createdAt": "2026-05-26T14:24:28.999Z",
-      "agentName": "brokerReconciliation.service",
+      "id": "log_1779805469097_hgtlr3",
+      "createdAt": "2026-05-26T14:24:29.097Z",
+      "agentName": "paperReadiness.positionManagerDryRun",
       "status": "success",
-      "message": "Broker reconciliation checked 0 stored orders, 0 broker orders, and 0 positions.",
+      "message": "Live position manager found 0 recommended action(s).",
       "payload": {
-        "storedOrders": 0,
-        "brokerOrders": 0,
-        "openPositions": 0,
-        "unmatchedStoredOrders": 0,
-        "untrackedBrokerOrders": 0
+        "plan": {
+          "generatedAt": "2026-05-26T14:24:28.754Z",
+          "actions": [],
+          "summary": {
+            "positions": 0,
+            "actions": 0,
+            "partialProfits": 0,
+            "exits": 0,
+            "trailingStops": 0
+          }
+        },
+        "executedActions": [],
+        "execute": false
       }
     },
     {
