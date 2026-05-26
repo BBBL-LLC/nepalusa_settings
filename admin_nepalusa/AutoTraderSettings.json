@@ -35,8 +35,8 @@
     "tradingDirective": "OBSERVE",
     "maxPositionAmountToday": 0,
     "dailyRiskBudget": 0,
-    "reason": "Scanned evidence does not support automated intraday execution. MarketCondition is neutral, averageRelativeVolume is only ~1.0 (no participation edge), averageGapPercent is ~-0.02 (no gap/momentum tailwind), and uptrendShare is only 0.40 (weak breadth for trend-following). Most critically, averageLiquidityScore=0 indicates missing/unknown liquidity quality, which undermines fill reliability, stop-loss clarity, and auditability. Maintain a conservative long-only VWAP pullback framework for ranking/monitoring only, but allocate zero risk and place no new trades until liquidity scoring is valid and stronger volume/breadth appears.",
-    "selectedAt": "2026-05-26T19:15:11.493Z",
+    "reason": "Evidence remains insufficient for automated intraday execution. MarketCondition is neutral, averageRelativeVolume is ~1.01 (no meaningful participation edge), averageGapPercent is slightly negative (-0.19) (no gap/momentum tailwind), and uptrendShare is only 0.40 (weak breadth for trend-following). Most importantly, averageLiquidityScore=0 indicates missing/unknown liquidity quality, which undermines fill reliability, stop-loss clarity, and auditability. Maintain a conservative long-only VWAP pullback framework for scanning/ranking only, but allocate zero risk and place no new trades until liquidity scoring is valid and stronger volume/breadth appears.",
+    "selectedAt": "2026-05-26T19:30:08.059Z",
     "selectedBy": "ai_strategy_agent"
   },
   "confidenceThreshold": 92,
@@ -59,7 +59,7 @@
   "scannerMaxCandidates": 20,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-05-26T19:15:11.617Z",
+  "updatedAt": "2026-05-26T19:30:08.219Z",
   "availableModes": {
     "paper": true,
     "live": true
