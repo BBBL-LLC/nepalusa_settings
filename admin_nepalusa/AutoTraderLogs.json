@@ -1,6 +1,20 @@
 {
   "logs": [
     {
+      "id": "log_1779807465959_kr7nv7",
+      "createdAt": "2026-05-26T14:57:45.959Z",
+      "agentName": "morningPrep.cron",
+      "status": "success",
+      "message": "Morning prep ready for 2026-05-26.",
+      "payload": {
+        "tradingDate": "2026-05-26",
+        "mode": "paper",
+        "reasons": [],
+        "candidateCount": 20,
+        "activeSymbols": []
+      }
+    },
+    {
       "id": "log_1779807460433_xfhrwm",
       "createdAt": "2026-05-26T14:57:40.433Z",
       "agentName": "alpaca.tradeStream",
