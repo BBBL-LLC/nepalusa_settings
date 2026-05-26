@@ -35,8 +35,8 @@
     "tradingDirective": "OBSERVE",
     "maxPositionAmountToday": 0,
     "dailyRiskBudget": 0,
-    "reason": "Despite a bullish label, the scanned opportunity set is not execution-grade for auto-trading: averageLiquidityScore=0 implies insufficient/unknown liquidity for reliable fills and stop-loss auditability; averageRelativeVolume=1.04 is only slightly above baseline (weak participation); averageGapPercent=0.14 is too small to consistently produce clean intraday continuation. With only ~50% of candidates in uptrends and no liquidity confirmation, probability and stop execution clarity are not strong enough to justify risking capital today. Keep the conservative long-only VWAP pullback framework queued, but observe until candidates show verified liquidity and meaningfully higher relative volume with clear VWAP/structure-based stop placement.",
-    "selectedAt": "2026-05-26T15:28:52.529Z",
+    "reason": "Scanned evidence is not execution-grade for automated intraday entries. While marketCondition is labeled bullish, averageRelativeVolume=1.01 is essentially baseline (weak participation), averageGapPercent=0.03 is too small to reliably drive clean intraday continuation, and uptrendShare=0.45 is not a strong breadth backdrop. Most importantly, averageLiquidityScore=0 indicates insufficient/unknown liquidity quality, which undermines fill reliability and stop-loss auditability—key requirements for auto-execution. Maintain the conservative long-only VWAP pullback framework, but do not allocate capital until liquidity is verified and relative volume/breadth improve.",
+    "selectedAt": "2026-05-26T15:30:10.468Z",
     "selectedBy": "ai_strategy_agent"
   },
   "confidenceThreshold": 90,
@@ -59,7 +59,7 @@
   "scannerMaxCandidates": 20,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-05-26T15:28:52.790Z",
+  "updatedAt": "2026-05-26T15:30:10.636Z",
   "availableModes": {
     "paper": true,
     "live": true
