@@ -1,9 +1,9 @@
 {
-  "active": true,
-  "state": "scanning",
-  "message": "ROBO TRADER is scanning and evaluating trade opportunities.",
+  "active": false,
+  "state": "idle",
+  "message": "ROBO TRADER is idle.",
   "source": "codex.jsonReadHardeningCheck",
   "mode": "paper",
   "instructionOverride": null,
-  "updatedAt": "2026-05-26T16:03:02.814Z"
+  "updatedAt": "2026-05-26T16:04:01.432Z"
 }
