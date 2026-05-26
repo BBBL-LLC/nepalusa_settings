@@ -35,8 +35,8 @@
     "tradingDirective": "OBSERVE",
     "maxPositionAmountToday": 0,
     "dailyRiskBudget": 0,
-    "reason": "Backdrop is mildly bullish (marketCondition=bullish; uptrendShare=0.55) and catalysts are present (averageCatalystScore=15.2), but execution-grade tradeability is not confirmed: averageRelativeVolume is only baseline (1.0), averageGapPercent is essentially flat/negative (-0.08) so no gap edge, and averageLiquidityScore=0 indicates insufficient/unknown liquidity quality—reducing fill reliability and stop-loss auditability for automation. Maintain a conservative long-only VWAP pullback framework, but do not allocate capital or place new orders until liquidity/participation metrics improve and candidates meet the minimum trade quality threshold.",
-    "selectedAt": "2026-05-26T16:08:26.676Z",
+    "reason": "Evidence is not execution-grade for automation despite a mildly bullish backdrop (marketCondition=bullish; uptrendShare=0.50) and decent catalysts (averageCatalystScore=15.2). Participation is only baseline (averageRelativeVolume=1.0), there is no gap edge (averageGapPercent=-0.02), and averageLiquidityScore=0 implies insufficient/unknown liquidity quality—reducing fill reliability, stop-loss clarity, and auditability. Maintain a conservative long-only VWAP pullback framework, but do not allocate capital or place new orders until liquidity/volume improve and candidates exceed the minimum trade-quality threshold.",
+    "selectedAt": "2026-05-26T16:15:11.701Z",
     "selectedBy": "ai_strategy_agent"
   },
   "confidenceThreshold": 90,
@@ -59,7 +59,7 @@
   "scannerMaxCandidates": 20,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-05-26T16:08:26.943Z",
+  "updatedAt": "2026-05-26T16:15:11.914Z",
   "availableModes": {
     "paper": true,
     "live": true
