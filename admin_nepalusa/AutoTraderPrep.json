@@ -49,8 +49,8 @@
       "quoteTime": "2026-05-26T20:56:33.454444862Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779836430856_f73qhs",
-      "scannedAt": "2026-05-26T23:00:30.856Z"
+      "id": "candidate_1779837537623_k5k3sq",
+      "scannedAt": "2026-05-26T23:18:57.623Z"
     },
     {
       "symbol": "ARM",
@@ -73,8 +73,8 @@
       "quoteTime": "2026-05-26T19:59:55.182060358Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779836430856_vdtgmz",
-      "scannedAt": "2026-05-26T23:00:30.856Z"
+      "id": "candidate_1779837537623_h0adkz",
+      "scannedAt": "2026-05-26T23:18:57.623Z"
     },
     {
       "symbol": "AMD",
@@ -97,8 +97,8 @@
       "quoteTime": "2026-05-26T20:15:09.556414065Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779836430856_vnxhqr",
-      "scannedAt": "2026-05-26T23:00:30.856Z"
+      "id": "candidate_1779837537623_sslcwh",
+      "scannedAt": "2026-05-26T23:18:57.623Z"
     },
     {
       "symbol": "TSLA",
@@ -121,8 +121,8 @@
       "quoteTime": "2026-05-26T20:41:28.355439188Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779836430856_kv76h2",
-      "scannedAt": "2026-05-26T23:00:30.856Z"
+      "id": "candidate_1779837537623_wo5wo5",
+      "scannedAt": "2026-05-26T23:18:57.623Z"
     },
     {
       "symbol": "MSFT",
@@ -145,8 +145,8 @@
       "quoteTime": "2026-05-26T20:21:57.911420869Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779836430855_3086p8",
-      "scannedAt": "2026-05-26T23:00:30.856Z"
+      "id": "candidate_1779837537623_a8nevd",
+      "scannedAt": "2026-05-26T23:18:57.623Z"
     },
     {
       "symbol": "SMCI",
@@ -169,8 +169,8 @@
       "quoteTime": "2026-05-26T20:52:01.642685198Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779836430856_bhdok8",
-      "scannedAt": "2026-05-26T23:00:30.856Z"
+      "id": "candidate_1779837537623_tnknil",
+      "scannedAt": "2026-05-26T23:18:57.623Z"
     },
     {
       "symbol": "MSTR",
@@ -193,8 +193,8 @@
       "quoteTime": "2026-05-26T20:50:20.46474259Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779836430856_b15eij",
-      "scannedAt": "2026-05-26T23:00:30.856Z"
+      "id": "candidate_1779837537623_95l6v3",
+      "scannedAt": "2026-05-26T23:18:57.623Z"
     },
     {
       "symbol": "AAPL",
@@ -217,8 +217,8 @@
       "quoteTime": "2026-05-26T19:59:58.297545209Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779836430855_1dm1qv",
-      "scannedAt": "2026-05-26T23:00:30.855Z"
+      "id": "candidate_1779837537623_v2pfgj",
+      "scannedAt": "2026-05-26T23:18:57.623Z"
     },
     {
       "symbol": "AVGO",
@@ -241,8 +241,8 @@
       "quoteTime": "2026-05-26T20:51:58.781886274Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779836430856_rwna13",
-      "scannedAt": "2026-05-26T23:00:30.856Z"
+      "id": "candidate_1779837537623_mcvw2s",
+      "scannedAt": "2026-05-26T23:18:57.623Z"
     },
     {
       "symbol": "UBER",
@@ -265,8 +265,8 @@
       "quoteTime": "2026-05-26T19:59:58.182568022Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779836430856_fnshq0",
-      "scannedAt": "2026-05-26T23:00:30.856Z"
+      "id": "candidate_1779837537623_ag2cs4",
+      "scannedAt": "2026-05-26T23:18:57.623Z"
     },
     {
       "symbol": "GOOGL",
@@ -289,8 +289,8 @@
       "quoteTime": "2026-05-26T20:22:45.837794807Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779836430856_ydq718",
-      "scannedAt": "2026-05-26T23:00:30.856Z"
+      "id": "candidate_1779837537623_j77fw3",
+      "scannedAt": "2026-05-26T23:18:57.623Z"
     },
     {
       "symbol": "COIN",
@@ -313,8 +313,8 @@
       "quoteTime": "2026-05-26T19:59:59.604061001Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779836430856_k5ih0v",
-      "scannedAt": "2026-05-26T23:00:30.856Z"
+      "id": "candidate_1779837537623_idobym",
+      "scannedAt": "2026-05-26T23:18:57.623Z"
     },
     {
       "symbol": "SHOP",
@@ -337,8 +337,8 @@
       "quoteTime": "2026-05-26T19:59:55.038277293Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779836430856_lzatub",
-      "scannedAt": "2026-05-26T23:00:30.856Z"
+      "id": "candidate_1779837537623_1a7jq5",
+      "scannedAt": "2026-05-26T23:18:57.623Z"
     },
     {
       "symbol": "CRM",
@@ -361,8 +361,8 @@
       "quoteTime": "2026-05-26T20:34:35.690477194Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779836430856_2phzud",
-      "scannedAt": "2026-05-26T23:00:30.856Z"
+      "id": "candidate_1779837537623_nb2uki",
+      "scannedAt": "2026-05-26T23:18:57.623Z"
     },
     {
       "symbol": "CRWD",
@@ -385,8 +385,8 @@
       "quoteTime": "2026-05-26T19:59:58.549303381Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779836430856_htyivp",
-      "scannedAt": "2026-05-26T23:00:30.856Z"
+      "id": "candidate_1779837537623_alsg2v",
+      "scannedAt": "2026-05-26T23:18:57.624Z"
     },
     {
       "symbol": "PLTR",
@@ -409,8 +409,8 @@
       "quoteTime": "2026-05-26T20:03:32.865214624Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779836430856_72d0kl",
-      "scannedAt": "2026-05-26T23:00:30.856Z"
+      "id": "candidate_1779837537623_q5ue9y",
+      "scannedAt": "2026-05-26T23:18:57.623Z"
     },
     {
       "symbol": "AMZN",
@@ -433,8 +433,8 @@
       "quoteTime": "2026-05-26T19:59:58.600690272Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779836430856_qssp9x",
-      "scannedAt": "2026-05-26T23:00:30.856Z"
+      "id": "candidate_1779837537623_u2vjga",
+      "scannedAt": "2026-05-26T23:18:57.623Z"
     },
     {
       "symbol": "NVDA",
@@ -457,8 +457,8 @@
       "quoteTime": "2026-05-26T20:45:12.012376019Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779836430855_m9xjbe",
-      "scannedAt": "2026-05-26T23:00:30.855Z"
+      "id": "candidate_1779837537623_ki30yg",
+      "scannedAt": "2026-05-26T23:18:57.623Z"
     },
     {
       "symbol": "NFLX",
@@ -481,8 +481,8 @@
       "quoteTime": "2026-05-26T20:10:21.844635211Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779836430856_5hacsp",
-      "scannedAt": "2026-05-26T23:00:30.856Z"
+      "id": "candidate_1779837537623_vxnwvz",
+      "scannedAt": "2026-05-26T23:18:57.623Z"
     },
     {
       "symbol": "META",
@@ -505,11 +505,11 @@
       "quoteTime": "2026-05-26T20:16:15.187576356Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779836430856_cq0lj6",
-      "scannedAt": "2026-05-26T23:00:30.856Z"
+      "id": "candidate_1779837537623_y1252j",
+      "scannedAt": "2026-05-26T23:18:57.623Z"
     }
   ],
-  "preparedAt": "2026-05-26T23:00:30.856Z",
-  "updatedAt": "2026-05-26T23:00:31.161Z",
+  "preparedAt": "2026-05-26T23:18:57.624Z",
+  "updatedAt": "2026-05-26T23:18:58.040Z",
   "candidateError": null
 }
