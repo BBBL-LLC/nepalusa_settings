@@ -35,8 +35,8 @@
     "tradingDirective": "PAUSE",
     "maxPositionAmountToday": 0,
     "dailyRiskBudget": 0,
-    "reason": "Scanned evidence does not justify automated intraday execution: marketCondition=neutral with low uptrendShare (0.4) limits directional edge; averageRelativeVolume is only baseline (1.01) and averageGapPercent is slightly negative (-0.17), reducing momentum/OR reliability; and averageLiquidityScore=0 indicates insufficient/unknown liquidity quality, undermining fill reliability, stop placement clarity, and auditability. Maintain a conservative long-only VWAP pullback framework, but pause new orders and allocate no risk capital until liquidity scoring and trend/volume participation improve.",
-    "selectedAt": "2026-05-26T17:45:08.536Z",
+    "reason": "Evidence remains insufficient for automated intraday execution. MarketCondition=neutral with very low uptrendShare (0.10) reduces directional edge for long-only trend/VWAP pullbacks; averageRelativeVolume is only marginally above baseline (1.02), limiting follow-through; averageGapPercent is slightly negative (-0.22), weakening momentum/OR setups; and averageLiquidityScore=0 indicates unknown/insufficient liquidity quality, undermining fill reliability, stop-loss clarity, and auditability. Maintain the conservative long-only VWAP pullback framework but pause new orders and allocate no risk capital until liquidity scoring and trend/volume participation improve.",
+    "selectedAt": "2026-05-26T18:00:09.408Z",
     "selectedBy": "ai_strategy_agent"
   },
   "confidenceThreshold": 92,
@@ -59,7 +59,7 @@
   "scannerMaxCandidates": 20,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-05-26T17:45:08.687Z",
+  "updatedAt": "2026-05-26T18:00:09.540Z",
   "availableModes": {
     "paper": true,
     "live": true
