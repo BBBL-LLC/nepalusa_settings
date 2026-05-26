@@ -1,6 +1,211 @@
 {
   "logs": [
     {
+      "id": "log_1779809373361_0ps1lh",
+      "createdAt": "2026-05-26T15:29:33.361Z",
+      "agentName": "codex.industryWorkflow.paperScan",
+      "status": "success",
+      "message": "codex.industryWorkflow.paperScan completed with 20 evaluated signals.",
+      "payload": {
+        "audit": {
+          "id": "audit_1779809324319_irzh4g",
+          "source": "codex.industryWorkflow.paperScan",
+          "mode": "paper",
+          "startedAt": "2026-05-26T15:28:44.319Z",
+          "stages": [
+            {
+              "name": "universeScanner",
+              "status": "success",
+              "startedAt": "2026-05-26T15:28:44.576Z",
+              "completedAt": "2026-05-26T15:28:45.867Z",
+              "summary": {
+                "count": 20,
+                "symbols": [
+                  "ARM",
+                  "PLTR",
+                  "SMCI",
+                  "TSLA",
+                  "CRWD",
+                  "UBER",
+                  "SHOP",
+                  "CRM",
+                  "NFLX",
+                  "AAPL"
+                ]
+              }
+            },
+            {
+              "name": "catalystAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T15:28:45.867Z",
+              "completedAt": "2026-05-26T15:28:46.738Z",
+              "summary": {
+                "count": 20,
+                "symbols": [
+                  "ARM",
+                  "PLTR",
+                  "SMCI",
+                  "TSLA",
+                  "CRWD",
+                  "UBER",
+                  "SHOP",
+                  "CRM",
+                  "NFLX",
+                  "AAPL"
+                ]
+              }
+            },
+            {
+              "name": "liquidityAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T15:28:46.738Z",
+              "completedAt": "2026-05-26T15:28:46.739Z",
+              "summary": {
+                "count": 20,
+                "symbols": [
+                  "ARM",
+                  "PLTR",
+                  "SMCI",
+                  "TSLA",
+                  "CRWD",
+                  "UBER",
+                  "SHOP",
+                  "CRM",
+                  "NFLX",
+                  "AAPL"
+                ]
+              }
+            },
+            {
+              "name": "marketRegimeAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T15:28:46.739Z",
+              "completedAt": "2026-05-26T15:28:47.116Z",
+              "summary": {
+                "condition": "bullish",
+                "averageMove": 0.5480970577418016
+              }
+            },
+            {
+              "name": "strategyAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T15:28:47.116Z",
+              "completedAt": "2026-05-26T15:28:52.529Z",
+              "summary": {
+                "strategyProfile": "conservative_trend",
+                "entryStrategy": "pullback_to_vwap",
+                "exitStrategy": "bracket_target_stop",
+                "confidenceThreshold": 90
+              }
+            },
+            {
+              "name": "technicalAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T15:28:54.160Z",
+              "completedAt": "2026-05-26T15:28:54.162Z",
+              "summary": {
+                "count": 20,
+                "symbols": [
+                  "ARM",
+                  "PLTR",
+                  "SMCI",
+                  "TSLA",
+                  "CRWD",
+                  "UBER",
+                  "SHOP",
+                  "CRM",
+                  "NFLX",
+                  "AAPL"
+                ]
+              }
+            },
+            {
+              "name": "aiRankingAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T15:28:54.163Z",
+              "completedAt": "2026-05-26T15:29:28.670Z",
+              "summary": {
+                "signals": 20,
+                "symbols": [
+                  "TSLA",
+                  "AAPL",
+                  "CRM",
+                  "ARM",
+                  "CRWD",
+                  "SMCI",
+                  "PLTR",
+                  "UBER",
+                  "SHOP",
+                  "NFLX"
+                ],
+                "marketCondition": "bullish"
+              }
+            },
+            {
+              "name": "dailyTradingContext",
+              "status": "success",
+              "startedAt": "2026-05-26T15:29:28.867Z",
+              "completedAt": "2026-05-26T15:29:29.086Z",
+              "summary": {}
+            }
+          ],
+          "completedAt": "2026-05-26T15:29:29.391Z",
+          "summary": {
+            "marketCandidates": 20,
+            "finalCandidates": 20,
+            "signals": 20,
+            "approved": 0,
+            "rejected": 20,
+            "marketCondition": "bullish",
+            "strategyProfile": "conservative_trend",
+            "dailyProfit": 0,
+            "dailyLoss": 0,
+            "todayTradeCount": 0
+          }
+        },
+        "symbols": [
+          "TSLA",
+          "AAPL",
+          "CRM",
+          "ARM",
+          "CRWD",
+          "SMCI",
+          "PLTR",
+          "UBER",
+          "SHOP",
+          "NFLX",
+          "MU",
+          "GOOGL",
+          "NVDA",
+          "MSFT",
+          "AMD",
+          "AMZN",
+          "META",
+          "MSTR",
+          "COIN",
+          "AVGO"
+        ],
+        "autoExecuteApprovedSignals": true,
+        "mode": "paper",
+        "strategyDecision": {
+          "strategyProfile": "conservative_trend",
+          "tradeDirection": "long_only",
+          "entryStrategy": "pullback_to_vwap",
+          "exitStrategy": "bracket_target_stop",
+          "maxHoldMinutes": 120,
+          "minRewardRiskRatio": 1.5,
+          "confidenceThreshold": 90,
+          "plannedTradesToday": 1,
+          "tradingDirective": "OBSERVE",
+          "maxPositionAmountToday": 0,
+          "dailyRiskBudget": 0,
+          "reason": "Despite a bullish label, the scanned opportunity set is not execution-grade for auto-trading: averageLiquidityScore=0 implies insufficient/unknown liquidity for reliable fills and stop-loss auditability; averageRelativeVolume=1.04 is only slightly above baseline (weak participation); averageGapPercent=0.14 is too small to consistently produce clean intraday continuation. With only ~50% of candidates in uptrends and no liquidity confirmation, probability and stop execution clarity are not strong enough to justify risking capital today. Keep the conservative long-only VWAP pullback framework queued, but observe until candidates show verified liquidity and meaningfully higher relative volume with clear VWAP/structure-based stop placement.",
+          "selectedAt": "2026-05-26T15:28:52.529Z",
+          "selectedBy": "ai_strategy_agent"
+        }
+      }
+    },
+    {
       "id": "log_1779809256874_fycygz",
       "createdAt": "2026-05-26T15:27:36.874Z",
       "agentName": "alpaca.service",
