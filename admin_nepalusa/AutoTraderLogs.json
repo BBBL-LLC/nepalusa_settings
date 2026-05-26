@@ -1,6 +1,135 @@
 {
   "logs": [
     {
+      "id": "log_1779805817908_1rwmjb",
+      "createdAt": "2026-05-26T14:30:17.908Z",
+      "agentName": "autoTrader.cron",
+      "status": "success",
+      "message": "autoTrader.cron completed with 0 evaluated signals.",
+      "payload": {
+        "audit": {
+          "id": "audit_1779805804972_5t72va",
+          "source": "autoTrader.cron",
+          "mode": "paper",
+          "startedAt": "2026-05-26T14:30:04.972Z",
+          "stages": [
+            {
+              "name": "universeScanner",
+              "status": "success",
+              "startedAt": "2026-05-26T14:30:05.256Z",
+              "completedAt": "2026-05-26T14:30:05.257Z",
+              "summary": {
+                "count": 0,
+                "symbols": []
+              }
+            },
+            {
+              "name": "catalystAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T14:30:05.257Z",
+              "completedAt": "2026-05-26T14:30:05.258Z",
+              "summary": {
+                "count": 0,
+                "symbols": []
+              }
+            },
+            {
+              "name": "liquidityAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T14:30:05.258Z",
+              "completedAt": "2026-05-26T14:30:05.258Z",
+              "summary": {
+                "count": 0,
+                "symbols": []
+              }
+            },
+            {
+              "name": "marketRegimeAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T14:30:05.258Z",
+              "completedAt": "2026-05-26T14:30:05.614Z",
+              "summary": {
+                "condition": "bullish",
+                "averageMove": 0.9037476037226662
+              }
+            },
+            {
+              "name": "strategyAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T14:30:05.614Z",
+              "completedAt": "2026-05-26T14:30:11.169Z",
+              "summary": {
+                "strategyProfile": "conservative_trend",
+                "entryStrategy": "pullback_to_vwap",
+                "exitStrategy": "bracket_target_stop",
+                "confidenceThreshold": 90
+              }
+            },
+            {
+              "name": "technicalAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T14:30:13.165Z",
+              "completedAt": "2026-05-26T14:30:13.166Z",
+              "summary": {
+                "count": 0,
+                "symbols": []
+              }
+            },
+            {
+              "name": "aiRankingAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T14:30:13.166Z",
+              "completedAt": "2026-05-26T14:30:13.166Z",
+              "summary": {
+                "signals": 0,
+                "symbols": [],
+                "marketCondition": "neutral"
+              }
+            },
+            {
+              "name": "dailyTradingContext",
+              "status": "success",
+              "startedAt": "2026-05-26T14:30:13.353Z",
+              "completedAt": "2026-05-26T14:30:15.220Z",
+              "summary": {}
+            }
+          ],
+          "completedAt": "2026-05-26T14:30:15.569Z",
+          "summary": {
+            "marketCandidates": 0,
+            "finalCandidates": 0,
+            "signals": 0,
+            "approved": 0,
+            "rejected": 0,
+            "marketCondition": "neutral",
+            "strategyProfile": "conservative_trend",
+            "dailyProfit": 0,
+            "dailyLoss": 0,
+            "todayTradeCount": 0
+          }
+        },
+        "symbols": [],
+        "autoExecuteApprovedSignals": true,
+        "mode": "paper",
+        "strategyDecision": {
+          "strategyProfile": "conservative_trend",
+          "tradeDirection": "long_only",
+          "entryStrategy": "pullback_to_vwap",
+          "exitStrategy": "bracket_target_stop",
+          "maxHoldMinutes": 120,
+          "minRewardRiskRatio": 1.5,
+          "confidenceThreshold": 90,
+          "plannedTradesToday": 1,
+          "tradingDirective": "PAUSE",
+          "maxPositionAmountToday": 0,
+          "dailyRiskBudget": 0,
+          "reason": "Market evidence is not tradable: candidateCount=0 with averageRelativeVolume=0, averageGapPercent=0, averageLiquidityScore=0, and averageCatalystScore=0 indicates no qualified, liquid setups and no measurable edge. Even if the broader condition is labeled bullish, there is insufficient intraday opportunity quality and auditability to justify any new orders. Pause auto-execution until the scanner produces candidates with verified liquidity/volume and clear stop placement; keep long_only and the conservative VWAP pullback framework ready for when conditions improve.",
+          "selectedAt": "2026-05-26T14:30:11.169Z",
+          "selectedBy": "ai_strategy_agent"
+        }
+      }
+    },
+    {
       "id": "log_1779805805337_hd6f56",
       "createdAt": "2026-05-26T14:30:05.337Z",
       "agentName": "autoTrader.cron",
