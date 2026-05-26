@@ -1,6 +1,29 @@
 {
   "logs": [
     {
+      "id": "log_1779813361339_tjts3g",
+      "createdAt": "2026-05-26T16:36:01.339Z",
+      "agentName": "manual.paperExecutionTest",
+      "status": "success",
+      "message": "Paper execution test completed and cleaned up. Backfilled 2 broker order records.",
+      "payload": {
+        "appended": [
+          {
+            "id": "5bce563b-7859-473e-a760-29337ab0ec10",
+            "symbol": "F",
+            "side": "sell",
+            "status": "filled"
+          },
+          {
+            "id": "5480eb32-5aa4-4764-b029-b71539532cb3",
+            "symbol": "F",
+            "side": "buy",
+            "status": "filled"
+          }
+        ]
+      }
+    },
+    {
       "id": "log_1779813334714_34o7ez",
       "createdAt": "2026-05-26T16:35:34.714Z",
       "agentName": "fillQuality.service",
