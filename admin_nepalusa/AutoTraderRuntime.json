@@ -2,8 +2,8 @@
   "active": true,
   "state": "preparing",
   "message": "ROBO TRADER is preparing for the trading day.",
-  "source": "morningPrep.cron",
+  "source": "autoTrader.preScanPrep",
   "mode": "paper",
   "instructionOverride": null,
-  "updatedAt": "2026-05-26T13:00:01.235Z"
+  "updatedAt": "2026-05-26T13:00:01.486Z"
 }
