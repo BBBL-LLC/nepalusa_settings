@@ -1,7 +1,7 @@
 {
-  "mode": "live",
-  "brokerMode": "live",
-  "paperTradingOnly": false,
+  "mode": "paper",
+  "brokerMode": "paper",
+  "paperTradingOnly": true,
   "liveTradingEnabled": false,
   "autoTradingEnabled": false,
   "autoExecuteApprovedSignals": false,
@@ -59,7 +59,7 @@
   "scannerMaxCandidates": 20,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-05-26T23:48:15.014Z",
+  "updatedAt": "2026-05-26T23:48:24.257Z",
   "availableModes": {
     "paper": true,
     "live": true
