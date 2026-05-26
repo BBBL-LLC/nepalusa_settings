@@ -1,6 +1,20 @@
 {
   "logs": [
     {
+      "id": "log_1779813332079_ad7mwo",
+      "createdAt": "2026-05-26T16:35:32.079Z",
+      "agentName": "brokerReconciliation.service",
+      "status": "error",
+      "message": "Broker reconciliation checked 9 stored orders, 2 broker orders, and 0 positions.",
+      "payload": {
+        "storedOrders": 9,
+        "brokerOrders": 2,
+        "openPositions": 0,
+        "unmatchedStoredOrders": 0,
+        "untrackedBrokerOrders": 2
+      }
+    },
+    {
       "id": "log_1779813292214_78orgs",
       "createdAt": "2026-05-26T16:34:52.214Z",
       "agentName": "alpaca.tradeStream",
