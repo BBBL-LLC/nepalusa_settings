@@ -1,9 +1,9 @@
 {
   "active": false,
-  "state": "idle",
-  "message": "ROBO TRADER is idle.",
-  "source": "morningPrep.cron",
+  "state": "blocked",
+  "message": "Trading scan blocked: Trading directive is PAUSE.",
+  "source": "autoTrader.cron",
   "mode": "paper",
   "instructionOverride": null,
-  "updatedAt": "2026-05-26T14:57:47.454Z"
+  "updatedAt": "2026-05-26T15:00:01.105Z"
 }
