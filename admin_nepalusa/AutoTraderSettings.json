@@ -17,7 +17,7 @@
   "maxHoldMinutes": 120,
   "minRewardRiskRatio": 1.5,
   "plannedTradesToday": 1,
-  "tradingDirective": "PAUSE",
+  "tradingDirective": "OBSERVE",
   "emergencyStopEnabled": false,
   "emergencyStopReason": null,
   "emergencyStoppedAt": null,
@@ -32,11 +32,11 @@
     "minRewardRiskRatio": 1.5,
     "confidenceThreshold": 90,
     "plannedTradesToday": 1,
-    "tradingDirective": "PAUSE",
+    "tradingDirective": "OBSERVE",
     "maxPositionAmountToday": 0,
     "dailyRiskBudget": 0,
-    "reason": "Execution conditions are not present: candidateCount=0 with averageRelativeVolume=0, averageGapPercent=0, averageLiquidityScore=0, averageCatalystScore=0, and uptrendShare=0 indicates no actionable, auditable setups and unknown/insufficient liquidity for reliable fills and stop-loss enforcement. Despite marketCondition marked bullish, the absence of qualified candidates and participation metrics warrants pausing new orders and allocating no capital until the scanner produces liquid, high-quality long setups meeting the system’s trade-quality threshold.",
-    "selectedAt": "2026-05-26T16:30:10.377Z",
+    "reason": "Backdrop is mildly bullish (marketCondition=bullish; uptrendShare=0.55) with decent catalysts (averageCatalystScore=15.4), but execution quality is not automation-grade: participation is only baseline (averageRelativeVolume=1.0), there is no meaningful gap edge (averageGapPercent=0.12%), and averageLiquidityScore=0 indicates insufficient/unknown liquidity quality—raising fill/slippage risk and reducing stop-loss clarity and auditability. Maintain a conservative long-only VWAP pullback framework, but do not allocate capital or place new orders until liquidity/volume and candidate trade-quality improve.",
+    "selectedAt": "2026-05-26T16:30:11.518Z",
     "selectedBy": "ai_strategy_agent"
   },
   "confidenceThreshold": 90,
@@ -59,7 +59,7 @@
   "scannerMaxCandidates": 20,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-05-26T16:30:10.666Z",
+  "updatedAt": "2026-05-26T16:30:11.639Z",
   "availableModes": {
     "paper": true,
     "live": true
