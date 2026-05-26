@@ -1,17 +1,17 @@
 {
   "logs": [
     {
-      "id": "log_1779813289148_luuoul",
-      "createdAt": "2026-05-26T16:34:49.148Z",
+      "id": "log_1779813290395_m6h5ga",
+      "createdAt": "2026-05-26T16:34:50.395Z",
       "agentName": "alpaca.tradeStream",
       "status": "success",
-      "message": "Alpaca paper order pending_new for F.",
+      "message": "Alpaca paper order new for F.",
       "payload": {
-        "event": "pending_new",
+        "event": "new",
         "orderId": "5bce563b-7859-473e-a760-29337ab0ec10",
         "symbol": "F",
         "side": "sell",
-        "status": "pending_new",
+        "status": "new",
         "filledQty": 0,
         "fillPrice": 0,
         "positionQty": null,
