@@ -1,6 +1,824 @@
 {
   "signals": [
     {
+      "id": "signal_1779805616684_5v3cks",
+      "scanDate": "2026-05-26",
+      "marketCondition": "bullish",
+      "createdAt": "2026-05-26T14:26:56.684Z",
+      "mode": "paper",
+      "symbol": "MSFT",
+      "action": "HOLD",
+      "entryMin": 417.95,
+      "entryMax": 420.05,
+      "targetPrice": 423.83,
+      "stopLoss": 417.07,
+      "confidence": 82,
+      "riskLevel": "medium",
+      "positionAmount": 0,
+      "reason": "Trend and VWAP relation are supportive and technical score is strong, but liquidity evidence is poor (liquidityScore=0, dollarVolume=0) with high slippage risk. Reward/risk from suggested levels is only ~1.8, but confidence remains below the 85 threshold and directive is OBSERVE; wait for better volume/liquidity confirmation before placing orders.",
+      "originalSignal": {
+        "symbol": "MSFT",
+        "action": "HOLD",
+        "entryMin": 417.95,
+        "entryMax": 420.05,
+        "targetPrice": 423.83,
+        "stopLoss": 417.07,
+        "confidence": 82,
+        "riskLevel": "medium",
+        "positionAmount": 0,
+        "reason": "Trend and VWAP relation are supportive and technical score is strong, but liquidity evidence is poor (liquidityScore=0, dollarVolume=0) with high slippage risk. Reward/risk from suggested levels is only ~1.8, but confidence remains below the 85 threshold and directive is OBSERVE; wait for better volume/liquidity confirmation before placing orders."
+      },
+      "status": "rejected",
+      "rejectionReasons": [
+        "AI trading directive is OBSERVE; new orders are blocked.",
+        "Signal action HOLD is not executable.",
+        "Confidence is below threshold.",
+        "Valid position amount is required."
+      ],
+      "riskDecision": {
+        "approved": false,
+        "reasons": [
+          "AI trading directive is OBSERVE; new orders are blocked.",
+          "Signal action HOLD is not executable.",
+          "Confidence is below threshold.",
+          "Valid position amount is required."
+        ],
+        "adjustedPositionAmount": 0,
+        "adjustedSignal": {
+          "symbol": "MSFT",
+          "action": "HOLD",
+          "entryMin": 417.95,
+          "entryMax": 420.05,
+          "targetPrice": 423.83,
+          "stopLoss": 417.07,
+          "confidence": 82,
+          "riskLevel": "medium",
+          "positionAmount": 0,
+          "reason": "Trend and VWAP relation are supportive and technical score is strong, but liquidity evidence is poor (liquidityScore=0, dollarVolume=0) with high slippage risk. Reward/risk from suggested levels is only ~1.8, but confidence remains below the 85 threshold and directive is OBSERVE; wait for better volume/liquidity confirmation before placing orders."
+        },
+        "masterPermission": {
+          "adjustedSignal": {
+            "symbol": "MSFT",
+            "action": "HOLD",
+            "entryMin": 417.95,
+            "entryMax": 420.05,
+            "targetPrice": 423.83,
+            "stopLoss": 417.07,
+            "confidence": 82,
+            "riskLevel": "medium",
+            "positionAmount": 0,
+            "reason": "Trend and VWAP relation are supportive and technical score is strong, but liquidity evidence is poor (liquidityScore=0, dollarVolume=0) with high slippage risk. Reward/risk from suggested levels is only ~1.8, but confidence remains below the 85 threshold and directive is OBSERVE; wait for better volume/liquidity confirmation before placing orders."
+          },
+          "requestedPositionAmount": 0,
+          "smartPositionAmount": 0,
+          "adjustedPositionAmount": 0,
+          "conviction": {
+            "score": 69,
+            "sizeProfile": "defensive",
+            "rewardRiskRatio": 4.3,
+            "reasons": [
+              "excellent reward/risk",
+              "strong technical confirmation",
+              "tight spread",
+              "market and stock trend aligned"
+            ]
+          },
+          "adjustments": []
+        },
+        "riskSnapshot": {
+          "currentPrice": 419.6288146972656,
+          "entryMin": 417.95,
+          "entryMax": 420.05,
+          "targetPrice": 423.83,
+          "stopLoss": 417.07,
+          "confidence": 82,
+          "dailyLoss": 0,
+          "dailyProfit": 0,
+          "todayTradeCount": 0,
+          "plannedTradesToday": 1,
+          "tradingDirective": "OBSERVE",
+          "maxPositionAmountToday": 1000,
+          "dailyRiskBudget": 200,
+          "entrySlippageTolerancePercent": 0.15,
+          "strategyProfile": "conservative_trend",
+          "tradeDirection": "long_only",
+          "minRewardRiskRatio": 1.5,
+          "requestedPositionAmount": 0,
+          "smartPositionAmount": 0,
+          "wasPositionAmountAdjusted": false,
+          "masterConviction": {
+            "score": 69,
+            "sizeProfile": "defensive",
+            "rewardRiskRatio": 4.3,
+            "reasons": [
+              "excellent reward/risk",
+              "strong technical confirmation",
+              "tight spread",
+              "market and stock trend aligned"
+            ]
+          },
+          "masterAdjustments": [],
+          "tradeQuality": {
+            "score": 75,
+            "rewardRiskRatio": 4.3,
+            "reasons": [
+              "reward/risk is acceptable",
+              "AI confidence is strong",
+              "price is inside planned entry window",
+              "technical evidence is strong",
+              "spread is tradable",
+              "setup aligns with bullish market"
+            ]
+          },
+          "discipline": {
+            "blocked": false,
+            "consecutiveLosses": 0,
+            "maxConsecutiveLossesBeforePause": 2,
+            "lossCooldownMinutes": 30
+          }
+        }
+      },
+      "rawCandidate": {
+        "symbol": "MSFT",
+        "fallback": true,
+        "price": 419.6288146972656,
+        "gapPercent": 0.2146791535653422,
+        "relativeVolume": 1.2124914407811376,
+        "trend": "up",
+        "volatility": 0.0967520122560704,
+        "marketDataSource": "yahoo",
+        "quoteTime": "2026-05-26T14:26:38.000Z",
+        "id": "candidate_1779805599694_jgtdtv",
+        "scannedAt": "2026-05-26T14:26:39.694Z",
+        "catalystScore": 24,
+        "newsSentiment": "neutral",
+        "catalystReason": "Catalyst evidence: 9 recent news catalysts.",
+        "catalystEvidence": {
+          "gapPercent": 0.2146791535653422,
+          "relativeVolume": 1.2124914407811376,
+          "dayVolume": 0,
+          "externalNewsConnected": true,
+          "newsCount": 9,
+          "newsSentimentScore": 2,
+          "latestNews": [
+            {
+              "id": 52774619,
+              "headline": "Nvidia's Jensen Huang Says AI Has Crossed A Critical Threshold: 'Tokens Are Now Profitable'",
+              "source": "benzinga",
+              "url": "https://www.benzinga.com/markets/tech/26/05/52774619/nvidia-ceo-ai-critical-threshold-tokens-now-profitable",
+              "updatedAt": "2026-05-26T12:48:49Z"
+            },
+            {
+              "id": 52770817,
+              "headline": "Massive Data Leak Hits Major US Newsrooms As Thousands Of Journalists' Information Appears On Dark Web",
+              "source": "benzinga",
+              "url": "https://www.benzinga.com/news/events/26/05/52770817/massive-data-leak-hits-major-us-newsrooms-as-thousands-of-journalists-information-appears-on-dark-web",
+              "updatedAt": "2026-05-26T10:12:29Z"
+            },
+            {
+              "id": 52769345,
+              "headline": "ServiceNow Vs Salesforce: BofA Reveals Why AI Is 'Growth Engine' For One And 'Major Risk' For The Other",
+              "source": "benzinga",
+              "url": "https://www.benzinga.com/markets/equities/26/05/52769345/servicenow-vs-salesforce-bofa-reveals-why-ai-is-growth-engine-for-one-and-major-risk-for-the-other",
+              "updatedAt": "2026-05-26T07:19:56Z"
+            }
+          ]
+        },
+        "dollarVolume": 0,
+        "liquidityScore": 0,
+        "liquidityWarnings": [
+          "Low dollar volume."
+        ],
+        "slippageRisk": "high",
+        "rsi": 50,
+        "vwapRelation": "above",
+        "volumeRatio": 1.2124914407811376,
+        "support": 417.07,
+        "resistance": 423.83,
+        "breakoutLevel": 419.84,
+        "suggestedEntryMin": 417.95,
+        "suggestedEntryMax": 420.05,
+        "suggestedTarget": 423.83,
+        "suggestedStop": 417.07,
+        "strategyEvidence": {
+          "strategyProfile": "conservative_trend",
+          "entryStrategy": "pullback_to_vwap",
+          "exitStrategy": "bracket_target_stop",
+          "maxHoldMinutes": 120,
+          "minRewardRiskRatio": 1.5
+        },
+        "technicalScore": 78,
+        "technicalEvidence": {
+          "price": 419.6288146972656,
+          "dayHigh": 419.6288146972656,
+          "dayLow": 419.6288146972656,
+          "previousClose": 419.6288146972656,
+          "volatility": 0.4,
+          "relativeVolume": 1.2124914407811376
+        },
+        "marketRegime": "bullish",
+        "preAiScore": 32.3
+      },
+      "marketRegime": {
+        "condition": "bullish",
+        "averageMove": 0.9028947978608007,
+        "indexes": {
+          "SPY": {
+            "symbol": "SPY",
+            "price": 751.6799926757812,
+            "reference": 747.5737534743089,
+            "movePercent": 0.549275463777164,
+            "status": "ok"
+          },
+          "QQQ": {
+            "symbol": "QQQ",
+            "price": 730.030029296875,
+            "reference": 720.970927703075,
+            "movePercent": 1.2565141319444375,
+            "status": "ok"
+          }
+        },
+        "riskOn": true,
+        "generatedAt": "2026-05-26T14:26:40.258Z"
+      },
+      "strategyDecision": {
+        "strategyProfile": "conservative_trend",
+        "tradeDirection": "long_only",
+        "entryStrategy": "pullback_to_vwap",
+        "exitStrategy": "bracket_target_stop",
+        "maxHoldMinutes": 120,
+        "minRewardRiskRatio": 1.5,
+        "confidenceThreshold": 85,
+        "plannedTradesToday": 1,
+        "tradingDirective": "OBSERVE",
+        "maxPositionAmountToday": 1000,
+        "dailyRiskBudget": 200,
+        "reason": "Tape bias is bullish (uptrendShare=1) but intraday opportunity quality is not strong enough to justify auto-execution: averageRelativeVolume is only 1.07 (barely above baseline), averageGapPercent is small (0.59) reducing momentum/ORB edge, and averageLiquidityScore=0 implies poor/unknown fill quality and higher slippage risk. With only 3 candidates and weak liquidity evidence, prioritize auditability and clear stops by sticking with conservative trend pullbacks to VWAP, but avoid new orders until higher-quality, more liquid setups appear. Keep long_only and do not alter human risk caps.",
+        "selectedAt": "2026-05-26T14:26:45.395Z",
+        "selectedBy": "ai_strategy_agent"
+      },
+      "dailyContext": {
+        "dateKey": "2026-05-26",
+        "dailyProfit": 0,
+        "dailyLoss": 0,
+        "todayTradeCount": 0,
+        "realizedPerformance": {
+          "realizedPnL": 0,
+          "closedTradeCount": 0,
+          "winningTrades": 0,
+          "losingTrades": 0,
+          "consecutiveLosses": 0,
+          "lastClosedTrade": null
+        }
+      },
+      "pipelineAuditId": "audit_1779805599046_sf818u"
+    },
+    {
+      "id": "signal_1779805616684_4tfu81",
+      "scanDate": "2026-05-26",
+      "marketCondition": "bullish",
+      "createdAt": "2026-05-26T14:26:56.684Z",
+      "mode": "paper",
+      "symbol": "AAPL",
+      "action": "SKIP",
+      "entryMin": 310.29,
+      "entryMax": 311.85,
+      "targetPrice": 314.66,
+      "stopLoss": 309.64,
+      "confidence": 78,
+      "riskLevel": "medium",
+      "positionAmount": 0,
+      "reason": "Setup is acceptable (uptrend, above VWAP) but relative volume is only 1.0 and liquidity is unknown/flagged (dollarVolume=0, liquidityScore=0) implying high slippage risk. Confidence is below 85 and the edge is not strong enough for conservative auto-execution.",
+      "originalSignal": {
+        "symbol": "AAPL",
+        "action": "SKIP",
+        "entryMin": 310.29,
+        "entryMax": 311.85,
+        "targetPrice": 314.66,
+        "stopLoss": 309.64,
+        "confidence": 78,
+        "riskLevel": "medium",
+        "positionAmount": 0,
+        "reason": "Setup is acceptable (uptrend, above VWAP) but relative volume is only 1.0 and liquidity is unknown/flagged (dollarVolume=0, liquidityScore=0) implying high slippage risk. Confidence is below 85 and the edge is not strong enough for conservative auto-execution."
+      },
+      "status": "rejected",
+      "rejectionReasons": [
+        "AI trading directive is OBSERVE; new orders are blocked.",
+        "Signal action SKIP is not executable.",
+        "Confidence is below threshold.",
+        "Valid position amount is required."
+      ],
+      "riskDecision": {
+        "approved": false,
+        "reasons": [
+          "AI trading directive is OBSERVE; new orders are blocked.",
+          "Signal action SKIP is not executable.",
+          "Confidence is below threshold.",
+          "Valid position amount is required."
+        ],
+        "adjustedPositionAmount": 0,
+        "adjustedSignal": {
+          "symbol": "AAPL",
+          "action": "SKIP",
+          "entryMin": 310.29,
+          "entryMax": 311.85,
+          "targetPrice": 314.66,
+          "stopLoss": 309.64,
+          "confidence": 78,
+          "riskLevel": "medium",
+          "positionAmount": 0,
+          "reason": "Setup is acceptable (uptrend, above VWAP) but relative volume is only 1.0 and liquidity is unknown/flagged (dollarVolume=0, liquidityScore=0) implying high slippage risk. Confidence is below 85 and the edge is not strong enough for conservative auto-execution."
+        },
+        "masterPermission": {
+          "adjustedSignal": {
+            "symbol": "AAPL",
+            "action": "SKIP",
+            "entryMin": 310.29,
+            "entryMax": 311.85,
+            "targetPrice": 314.66,
+            "stopLoss": 309.64,
+            "confidence": 78,
+            "riskLevel": "medium",
+            "positionAmount": 0,
+            "reason": "Setup is acceptable (uptrend, above VWAP) but relative volume is only 1.0 and liquidity is unknown/flagged (dollarVolume=0, liquidityScore=0) implying high slippage risk. Confidence is below 85 and the edge is not strong enough for conservative auto-execution."
+          },
+          "requestedPositionAmount": 0,
+          "smartPositionAmount": 0,
+          "adjustedPositionAmount": 0,
+          "conviction": {
+            "score": 66,
+            "sizeProfile": "defensive",
+            "rewardRiskRatio": 4.32,
+            "reasons": [
+              "excellent reward/risk",
+              "strong technical confirmation",
+              "tight spread",
+              "market and stock trend aligned"
+            ]
+          },
+          "adjustments": []
+        },
+        "riskSnapshot": {
+          "currentPrice": 311.5400085449219,
+          "entryMin": 310.29,
+          "entryMax": 311.85,
+          "targetPrice": 314.66,
+          "stopLoss": 309.64,
+          "confidence": 78,
+          "dailyLoss": 0,
+          "dailyProfit": 0,
+          "todayTradeCount": 0,
+          "plannedTradesToday": 1,
+          "tradingDirective": "OBSERVE",
+          "maxPositionAmountToday": 1000,
+          "dailyRiskBudget": 200,
+          "entrySlippageTolerancePercent": 0.15,
+          "strategyProfile": "conservative_trend",
+          "tradeDirection": "long_only",
+          "minRewardRiskRatio": 1.5,
+          "requestedPositionAmount": 0,
+          "smartPositionAmount": 0,
+          "wasPositionAmountAdjusted": false,
+          "masterConviction": {
+            "score": 66,
+            "sizeProfile": "defensive",
+            "rewardRiskRatio": 4.32,
+            "reasons": [
+              "excellent reward/risk",
+              "strong technical confirmation",
+              "tight spread",
+              "market and stock trend aligned"
+            ]
+          },
+          "masterAdjustments": [],
+          "tradeQuality": {
+            "score": 73,
+            "rewardRiskRatio": 4.32,
+            "reasons": [
+              "reward/risk is acceptable",
+              "price is inside planned entry window",
+              "technical evidence is strong",
+              "spread is tradable",
+              "setup aligns with bullish market"
+            ]
+          },
+          "discipline": {
+            "blocked": false,
+            "consecutiveLosses": 0,
+            "maxConsecutiveLossesBeforePause": 2,
+            "lossCooldownMinutes": 30
+          }
+        }
+      },
+      "rawCandidate": {
+        "symbol": "AAPL",
+        "fallback": true,
+        "price": 311.5400085449219,
+        "gapPercent": 0.8513822315994793,
+        "relativeVolume": 1,
+        "trend": "up",
+        "volatility": 0.06408152289503286,
+        "marketDataSource": "yahoo",
+        "quoteTime": "2026-05-26T14:26:38.000Z",
+        "id": "candidate_1779805599694_4clw97",
+        "scannedAt": "2026-05-26T14:26:39.694Z",
+        "catalystScore": 24,
+        "newsSentiment": "neutral",
+        "catalystReason": "Catalyst evidence: 8 recent news catalysts.",
+        "catalystEvidence": {
+          "gapPercent": 0.8513822315994793,
+          "relativeVolume": 1,
+          "dayVolume": 0,
+          "externalNewsConnected": true,
+          "newsCount": 8,
+          "newsSentimentScore": 5,
+          "latestNews": [
+            {
+              "id": 52774653,
+              "headline": "What's Going On With Intel Stock Tuesday?",
+              "source": "benzinga",
+              "url": "https://www.benzinga.com/markets/tech/26/05/52774653/whats-going-on-with-intel-stock-tuesday-5",
+              "updatedAt": "2026-05-26T12:49:50Z"
+            },
+            {
+              "id": 52770847,
+              "headline": "Ferrari's First-Ever EV Is Here, But RACE Stock Declines Pre-Market As Investors Question The Electric Pivot",
+              "source": "benzinga",
+              "url": "https://www.benzinga.com/markets/tech/26/05/52770847/ferraris-first-ever-ev-is-here-but-race-stock-declines-pre-market-as-investors-question-the-electric-pivot",
+              "updatedAt": "2026-05-26T10:14:34Z"
+            },
+            {
+              "id": 52770432,
+              "headline": "Comparative Study: Apple And Industry Competitors In Technology Hardware, Storage &amp; Peripherals Industry",
+              "source": "benzinga",
+              "url": "https://www.benzinga.com/insights/news/26/05/52770432/comparative-study-apple-and-industry-competitors-in-technology-hardware-storage-amp-peripherals-ind",
+              "updatedAt": "2026-05-26T09:59:35Z"
+            }
+          ]
+        },
+        "dollarVolume": 0,
+        "liquidityScore": 0,
+        "liquidityWarnings": [
+          "Low dollar volume."
+        ],
+        "slippageRisk": "high",
+        "rsi": 52,
+        "vwapRelation": "above",
+        "volumeRatio": 1,
+        "support": 309.64,
+        "resistance": 314.66,
+        "breakoutLevel": 311.7,
+        "suggestedEntryMin": 310.29,
+        "suggestedEntryMax": 311.85,
+        "suggestedTarget": 314.66,
+        "suggestedStop": 309.64,
+        "strategyEvidence": {
+          "strategyProfile": "conservative_trend",
+          "entryStrategy": "pullback_to_vwap",
+          "exitStrategy": "bracket_target_stop",
+          "maxHoldMinutes": 120,
+          "minRewardRiskRatio": 1.5
+        },
+        "technicalScore": 77,
+        "technicalEvidence": {
+          "price": 311.5400085449219,
+          "dayHigh": 311.5400085449219,
+          "dayLow": 311.5400085449219,
+          "previousClose": 311.5400085449219,
+          "volatility": 0.4,
+          "relativeVolume": 1
+        },
+        "marketRegime": "bullish",
+        "preAiScore": 32.05
+      },
+      "marketRegime": {
+        "condition": "bullish",
+        "averageMove": 0.9028947978608007,
+        "indexes": {
+          "SPY": {
+            "symbol": "SPY",
+            "price": 751.6799926757812,
+            "reference": 747.5737534743089,
+            "movePercent": 0.549275463777164,
+            "status": "ok"
+          },
+          "QQQ": {
+            "symbol": "QQQ",
+            "price": 730.030029296875,
+            "reference": 720.970927703075,
+            "movePercent": 1.2565141319444375,
+            "status": "ok"
+          }
+        },
+        "riskOn": true,
+        "generatedAt": "2026-05-26T14:26:40.258Z"
+      },
+      "strategyDecision": {
+        "strategyProfile": "conservative_trend",
+        "tradeDirection": "long_only",
+        "entryStrategy": "pullback_to_vwap",
+        "exitStrategy": "bracket_target_stop",
+        "maxHoldMinutes": 120,
+        "minRewardRiskRatio": 1.5,
+        "confidenceThreshold": 85,
+        "plannedTradesToday": 1,
+        "tradingDirective": "OBSERVE",
+        "maxPositionAmountToday": 1000,
+        "dailyRiskBudget": 200,
+        "reason": "Tape bias is bullish (uptrendShare=1) but intraday opportunity quality is not strong enough to justify auto-execution: averageRelativeVolume is only 1.07 (barely above baseline), averageGapPercent is small (0.59) reducing momentum/ORB edge, and averageLiquidityScore=0 implies poor/unknown fill quality and higher slippage risk. With only 3 candidates and weak liquidity evidence, prioritize auditability and clear stops by sticking with conservative trend pullbacks to VWAP, but avoid new orders until higher-quality, more liquid setups appear. Keep long_only and do not alter human risk caps.",
+        "selectedAt": "2026-05-26T14:26:45.395Z",
+        "selectedBy": "ai_strategy_agent"
+      },
+      "dailyContext": {
+        "dateKey": "2026-05-26",
+        "dailyProfit": 0,
+        "dailyLoss": 0,
+        "todayTradeCount": 0,
+        "realizedPerformance": {
+          "realizedPnL": 0,
+          "closedTradeCount": 0,
+          "winningTrades": 0,
+          "losingTrades": 0,
+          "consecutiveLosses": 0,
+          "lastClosedTrade": null
+        }
+      },
+      "pipelineAuditId": "audit_1779805599046_sf818u"
+    },
+    {
+      "id": "signal_1779805616684_i9jjuv",
+      "scanDate": "2026-05-26",
+      "marketCondition": "bullish",
+      "createdAt": "2026-05-26T14:26:56.684Z",
+      "mode": "paper",
+      "symbol": "NVDA",
+      "action": "SKIP",
+      "entryMin": 215.94,
+      "entryMax": 217.03,
+      "targetPrice": 218.98,
+      "stopLoss": 215.49,
+      "confidence": 80,
+      "riskLevel": "high",
+      "positionAmount": 0,
+      "reason": "Uptrend and above VWAP with strong catalyst flow, but volatility is highest of the group and liquidity is flagged/unknown (dollarVolume=0, liquidityScore=0) with high slippage risk. Confidence remains below the 85 threshold; not suitable for conservative trend pullback execution today.",
+      "originalSignal": {
+        "symbol": "NVDA",
+        "action": "SKIP",
+        "entryMin": 215.94,
+        "entryMax": 217.03,
+        "targetPrice": 218.98,
+        "stopLoss": 215.49,
+        "confidence": 80,
+        "riskLevel": "high",
+        "positionAmount": 0,
+        "reason": "Uptrend and above VWAP with strong catalyst flow, but volatility is highest of the group and liquidity is flagged/unknown (dollarVolume=0, liquidityScore=0) with high slippage risk. Confidence remains below the 85 threshold; not suitable for conservative trend pullback execution today."
+      },
+      "status": "rejected",
+      "rejectionReasons": [
+        "AI trading directive is OBSERVE; new orders are blocked.",
+        "Signal action SKIP is not executable.",
+        "Confidence is below threshold.",
+        "Valid position amount is required."
+      ],
+      "riskDecision": {
+        "approved": false,
+        "reasons": [
+          "AI trading directive is OBSERVE; new orders are blocked.",
+          "Signal action SKIP is not executable.",
+          "Confidence is below threshold.",
+          "Valid position amount is required."
+        ],
+        "adjustedPositionAmount": 0,
+        "adjustedSignal": {
+          "symbol": "NVDA",
+          "action": "SKIP",
+          "entryMin": 215.94,
+          "entryMax": 217.03,
+          "targetPrice": 218.98,
+          "stopLoss": 215.49,
+          "confidence": 80,
+          "riskLevel": "high",
+          "positionAmount": 0,
+          "reason": "Uptrend and above VWAP with strong catalyst flow, but volatility is highest of the group and liquidity is flagged/unknown (dollarVolume=0, liquidityScore=0) with high slippage risk. Confidence remains below the 85 threshold; not suitable for conservative trend pullback execution today."
+        },
+        "masterPermission": {
+          "adjustedSignal": {
+            "symbol": "NVDA",
+            "action": "SKIP",
+            "entryMin": 215.94,
+            "entryMax": 217.03,
+            "targetPrice": 218.98,
+            "stopLoss": 215.49,
+            "confidence": 80,
+            "riskLevel": "high",
+            "positionAmount": 0,
+            "reason": "Uptrend and above VWAP with strong catalyst flow, but volatility is highest of the group and liquidity is flagged/unknown (dollarVolume=0, liquidityScore=0) with high slippage risk. Confidence remains below the 85 threshold; not suitable for conservative trend pullback execution today."
+          },
+          "requestedPositionAmount": 0,
+          "smartPositionAmount": 0,
+          "adjustedPositionAmount": 0,
+          "conviction": {
+            "score": 67,
+            "sizeProfile": "defensive",
+            "rewardRiskRatio": 4.33,
+            "reasons": [
+              "excellent reward/risk",
+              "strong technical confirmation",
+              "tight spread",
+              "market and stock trend aligned"
+            ]
+          },
+          "adjustments": []
+        },
+        "riskSnapshot": {
+          "currentPrice": 216.80999755859375,
+          "entryMin": 215.94,
+          "entryMax": 217.03,
+          "targetPrice": 218.98,
+          "stopLoss": 215.49,
+          "confidence": 80,
+          "dailyLoss": 0,
+          "dailyProfit": 0,
+          "todayTradeCount": 0,
+          "plannedTradesToday": 1,
+          "tradingDirective": "OBSERVE",
+          "maxPositionAmountToday": 1000,
+          "dailyRiskBudget": 200,
+          "entrySlippageTolerancePercent": 0.15,
+          "strategyProfile": "conservative_trend",
+          "tradeDirection": "long_only",
+          "minRewardRiskRatio": 1.5,
+          "requestedPositionAmount": 0,
+          "smartPositionAmount": 0,
+          "wasPositionAmountAdjusted": false,
+          "masterConviction": {
+            "score": 67,
+            "sizeProfile": "defensive",
+            "rewardRiskRatio": 4.33,
+            "reasons": [
+              "excellent reward/risk",
+              "strong technical confirmation",
+              "tight spread",
+              "market and stock trend aligned"
+            ]
+          },
+          "masterAdjustments": [],
+          "tradeQuality": {
+            "score": 74,
+            "rewardRiskRatio": 4.33,
+            "reasons": [
+              "reward/risk is acceptable",
+              "AI confidence is strong",
+              "price is inside planned entry window",
+              "technical evidence is strong",
+              "spread is tradable",
+              "setup aligns with bullish market"
+            ]
+          },
+          "discipline": {
+            "blocked": false,
+            "consecutiveLosses": 0,
+            "maxConsecutiveLossesBeforePause": 2,
+            "lossCooldownMinutes": 30
+          }
+        }
+      },
+      "rawCandidate": {
+        "symbol": "NVDA",
+        "fallback": true,
+        "price": 216.80999755859375,
+        "gapPercent": 0.7107017781365821,
+        "relativeVolume": 1,
+        "trend": "up",
+        "volatility": 0.13359442995386914,
+        "marketDataSource": "yahoo",
+        "quoteTime": "2026-05-26T14:26:38.000Z",
+        "id": "candidate_1779805599694_plzokt",
+        "scannedAt": "2026-05-26T14:26:39.694Z",
+        "catalystScore": 24,
+        "newsSentiment": "neutral",
+        "catalystReason": "Catalyst evidence: 28 recent news catalysts.",
+        "catalystEvidence": {
+          "gapPercent": 0.7107017781365821,
+          "relativeVolume": 1,
+          "dayVolume": 0,
+          "externalNewsConnected": true,
+          "newsCount": 28,
+          "newsSentimentScore": 6,
+          "latestNews": [
+            {
+              "id": 52779082,
+              "headline": "Ouster Stock Hits 52-Week High - Here's Why",
+              "source": "benzinga",
+              "url": "https://www.benzinga.com/trading-ideas/movers/26/05/52779082/ouster-stock-hits-52-week-high-heres-why",
+              "updatedAt": "2026-05-26T14:16:32Z"
+            },
+            {
+              "id": 52778791,
+              "headline": "Huawei's New Chip Architecture Rewrites Sanctions Playbook",
+              "source": "benzinga",
+              "url": "https://www.benzinga.com/Opinion/26/05/52778791/huaweis-new-chip-architecture-rewrites-sanctions-playbook",
+              "updatedAt": "2026-05-26T14:10:40Z"
+            },
+            {
+              "id": 52778706,
+              "headline": "The AI Spending Boom Just Got Bigger: Goldman Sees $800 Billion Flowing In This Year",
+              "source": "benzinga",
+              "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/05/52778706/ai-capex-800-billion-goldman-2026-forecast",
+              "updatedAt": "2026-05-26T14:09:04Z"
+            }
+          ]
+        },
+        "dollarVolume": 0,
+        "liquidityScore": 0,
+        "liquidityWarnings": [
+          "Low dollar volume."
+        ],
+        "slippageRisk": "high",
+        "rsi": 51,
+        "vwapRelation": "above",
+        "volumeRatio": 1,
+        "support": 215.49,
+        "resistance": 218.98,
+        "breakoutLevel": 216.92,
+        "suggestedEntryMin": 215.94,
+        "suggestedEntryMax": 217.03,
+        "suggestedTarget": 218.98,
+        "suggestedStop": 215.49,
+        "strategyEvidence": {
+          "strategyProfile": "conservative_trend",
+          "entryStrategy": "pullback_to_vwap",
+          "exitStrategy": "bracket_target_stop",
+          "maxHoldMinutes": 120,
+          "minRewardRiskRatio": 1.5
+        },
+        "technicalScore": 77,
+        "technicalEvidence": {
+          "price": 216.80999755859375,
+          "dayHigh": 216.80999755859375,
+          "dayLow": 216.80999755859375,
+          "previousClose": 216.80999755859375,
+          "volatility": 0.4,
+          "relativeVolume": 1
+        },
+        "marketRegime": "bullish",
+        "preAiScore": 32.05
+      },
+      "marketRegime": {
+        "condition": "bullish",
+        "averageMove": 0.9028947978608007,
+        "indexes": {
+          "SPY": {
+            "symbol": "SPY",
+            "price": 751.6799926757812,
+            "reference": 747.5737534743089,
+            "movePercent": 0.549275463777164,
+            "status": "ok"
+          },
+          "QQQ": {
+            "symbol": "QQQ",
+            "price": 730.030029296875,
+            "reference": 720.970927703075,
+            "movePercent": 1.2565141319444375,
+            "status": "ok"
+          }
+        },
+        "riskOn": true,
+        "generatedAt": "2026-05-26T14:26:40.258Z"
+      },
+      "strategyDecision": {
+        "strategyProfile": "conservative_trend",
+        "tradeDirection": "long_only",
+        "entryStrategy": "pullback_to_vwap",
+        "exitStrategy": "bracket_target_stop",
+        "maxHoldMinutes": 120,
+        "minRewardRiskRatio": 1.5,
+        "confidenceThreshold": 85,
+        "plannedTradesToday": 1,
+        "tradingDirective": "OBSERVE",
+        "maxPositionAmountToday": 1000,
+        "dailyRiskBudget": 200,
+        "reason": "Tape bias is bullish (uptrendShare=1) but intraday opportunity quality is not strong enough to justify auto-execution: averageRelativeVolume is only 1.07 (barely above baseline), averageGapPercent is small (0.59) reducing momentum/ORB edge, and averageLiquidityScore=0 implies poor/unknown fill quality and higher slippage risk. With only 3 candidates and weak liquidity evidence, prioritize auditability and clear stops by sticking with conservative trend pullbacks to VWAP, but avoid new orders until higher-quality, more liquid setups appear. Keep long_only and do not alter human risk caps.",
+        "selectedAt": "2026-05-26T14:26:45.395Z",
+        "selectedBy": "ai_strategy_agent"
+      },
+      "dailyContext": {
+        "dateKey": "2026-05-26",
+        "dailyProfit": 0,
+        "dailyLoss": 0,
+        "todayTradeCount": 0,
+        "realizedPerformance": {
+          "realizedPnL": 0,
+          "closedTradeCount": 0,
+          "winningTrades": 0,
+          "losingTrades": 0,
+          "consecutiveLosses": 0,
+          "lastClosedTrade": null
+        }
+      },
+      "pipelineAuditId": "audit_1779805599046_sf818u"
+    },
+    {
       "id": "signal_1779805445313_462i32",
       "scanDate": "2026-05-26",
       "marketCondition": "bullish",
