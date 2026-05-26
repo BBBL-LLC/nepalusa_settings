@@ -1,6 +1,211 @@
 {
   "logs": [
     {
+      "id": "log_1779822945799_t9gat2",
+      "createdAt": "2026-05-26T19:15:45.799Z",
+      "agentName": "autoTrader.cron",
+      "status": "success",
+      "message": "autoTrader.cron completed with 20 evaluated signals.",
+      "payload": {
+        "audit": {
+          "id": "audit_1779822904177_ebn8db",
+          "source": "autoTrader.cron",
+          "mode": "paper",
+          "startedAt": "2026-05-26T19:15:04.177Z",
+          "stages": [
+            {
+              "name": "universeScanner",
+              "status": "success",
+              "startedAt": "2026-05-26T19:15:04.280Z",
+              "completedAt": "2026-05-26T19:15:04.722Z",
+              "summary": {
+                "count": 20,
+                "symbols": [
+                  "MU",
+                  "AMD",
+                  "ARM",
+                  "SHOP",
+                  "CRWD",
+                  "AVGO",
+                  "CRM",
+                  "MSFT",
+                  "SMCI",
+                  "COIN"
+                ]
+              }
+            },
+            {
+              "name": "catalystAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T19:15:04.722Z",
+              "completedAt": "2026-05-26T19:15:06.169Z",
+              "summary": {
+                "count": 20,
+                "symbols": [
+                  "MU",
+                  "AMD",
+                  "ARM",
+                  "SHOP",
+                  "CRWD",
+                  "AVGO",
+                  "CRM",
+                  "MSFT",
+                  "SMCI",
+                  "COIN"
+                ]
+              }
+            },
+            {
+              "name": "liquidityAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T19:15:06.169Z",
+              "completedAt": "2026-05-26T19:15:06.169Z",
+              "summary": {
+                "count": 20,
+                "symbols": [
+                  "MU",
+                  "AMD",
+                  "ARM",
+                  "SHOP",
+                  "CRWD",
+                  "AVGO",
+                  "CRM",
+                  "MSFT",
+                  "SMCI",
+                  "COIN"
+                ]
+              }
+            },
+            {
+              "name": "marketRegimeAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T19:15:06.169Z",
+              "completedAt": "2026-05-26T19:15:06.335Z",
+              "summary": {
+                "condition": "neutral",
+                "averageMove": 0.1595732775149125
+              }
+            },
+            {
+              "name": "strategyAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T19:15:06.335Z",
+              "completedAt": "2026-05-26T19:15:11.493Z",
+              "summary": {
+                "strategyProfile": "conservative_trend",
+                "entryStrategy": "pullback_to_vwap",
+                "exitStrategy": "bracket_target_stop",
+                "confidenceThreshold": 92
+              }
+            },
+            {
+              "name": "technicalAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T19:15:12.899Z",
+              "completedAt": "2026-05-26T19:15:12.900Z",
+              "summary": {
+                "count": 20,
+                "symbols": [
+                  "MU",
+                  "AMD",
+                  "ARM",
+                  "SHOP",
+                  "CRWD",
+                  "AVGO",
+                  "CRM",
+                  "MSFT",
+                  "SMCI",
+                  "COIN"
+                ]
+              }
+            },
+            {
+              "name": "aiRankingAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T19:15:12.900Z",
+              "completedAt": "2026-05-26T19:15:42.243Z",
+              "summary": {
+                "signals": 20,
+                "symbols": [
+                  "MU",
+                  "MSFT",
+                  "CRM",
+                  "AVGO",
+                  "SHOP",
+                  "AMD",
+                  "CRWD",
+                  "ARM",
+                  "AAPL",
+                  "NVDA"
+                ],
+                "marketCondition": "neutral"
+              }
+            },
+            {
+              "name": "dailyTradingContext",
+              "status": "success",
+              "startedAt": "2026-05-26T19:15:42.879Z",
+              "completedAt": "2026-05-26T19:15:43.252Z",
+              "summary": {}
+            }
+          ],
+          "completedAt": "2026-05-26T19:15:43.369Z",
+          "summary": {
+            "marketCandidates": 20,
+            "finalCandidates": 20,
+            "signals": 20,
+            "approved": 0,
+            "rejected": 20,
+            "marketCondition": "neutral",
+            "strategyProfile": "conservative_trend",
+            "dailyProfit": -0.00999999999476131,
+            "dailyLoss": -0.00999999999476131,
+            "todayTradeCount": 0
+          }
+        },
+        "symbols": [
+          "MU",
+          "MSFT",
+          "CRM",
+          "AVGO",
+          "SHOP",
+          "AMD",
+          "CRWD",
+          "ARM",
+          "AAPL",
+          "NVDA",
+          "TSLA",
+          "META",
+          "AMZN",
+          "GOOGL",
+          "COIN",
+          "MSTR",
+          "PLTR",
+          "SMCI",
+          "UBER",
+          "NFLX"
+        ],
+        "autoExecuteApprovedSignals": true,
+        "mode": "paper",
+        "strategyDecision": {
+          "strategyProfile": "conservative_trend",
+          "tradeDirection": "long_only",
+          "entryStrategy": "pullback_to_vwap",
+          "exitStrategy": "bracket_target_stop",
+          "maxHoldMinutes": 120,
+          "minRewardRiskRatio": 1.6,
+          "confidenceThreshold": 92,
+          "plannedTradesToday": 1,
+          "tradingDirective": "OBSERVE",
+          "maxPositionAmountToday": 0,
+          "dailyRiskBudget": 0,
+          "reason": "Scanned evidence does not support automated intraday execution. MarketCondition is neutral, averageRelativeVolume is only ~1.0 (no participation edge), averageGapPercent is ~-0.02 (no gap/momentum tailwind), and uptrendShare is only 0.40 (weak breadth for trend-following). Most critically, averageLiquidityScore=0 indicates missing/unknown liquidity quality, which undermines fill reliability, stop-loss clarity, and auditability. Maintain a conservative long-only VWAP pullback framework for ranking/monitoring only, but allocate zero risk and place no new trades until liquidity scoring is valid and stronger volume/breadth appears.",
+          "selectedAt": "2026-05-26T19:15:11.493Z",
+          "selectedBy": "ai_strategy_agent"
+        }
+      }
+    },
+    {
       "id": "log_1779822050183_yu4otd",
       "createdAt": "2026-05-26T19:00:50.183Z",
       "agentName": "autoTrader.cron",
