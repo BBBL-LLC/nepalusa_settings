@@ -1,6 +1,22 @@
 {
   "logs": [
     {
+      "id": "log_1779801303832_i049ti",
+      "createdAt": "2026-05-26T13:15:03.832Z",
+      "agentName": "autoTrader.preScanPrep",
+      "status": "error",
+      "message": "Morning prep blocked for 2026-05-26: No premarket candidates are available.",
+      "payload": {
+        "tradingDate": "2026-05-26",
+        "mode": "paper",
+        "reasons": [
+          "No premarket candidates are available."
+        ],
+        "candidateCount": 0,
+        "activeSymbols": []
+      }
+    },
+    {
       "id": "log_1779801167598_s66umq",
       "createdAt": "2026-05-26T13:12:47.598Z",
       "agentName": "alpaca.service",
