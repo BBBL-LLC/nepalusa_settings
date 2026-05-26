@@ -1,9 +1,9 @@
 {
-  "active": false,
-  "state": "idle",
-  "message": "ROBO TRADER is idle.",
-  "source": "codex.githubStoreConflictCheck",
+  "active": true,
+  "state": "preparing",
+  "message": "ROBO TRADER is preparing for the trading day.",
+  "source": "morningPrep.cron",
   "mode": "paper",
   "instructionOverride": null,
-  "updatedAt": "2026-05-26T15:32:55.113Z"
+  "updatedAt": "2026-05-26T15:38:13.762Z"
 }
