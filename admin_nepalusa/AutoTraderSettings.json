@@ -17,7 +17,7 @@
   "maxHoldMinutes": 120,
   "minRewardRiskRatio": 1.5,
   "plannedTradesToday": 1,
-  "tradingDirective": "OBSERVE",
+  "tradingDirective": "PAUSE",
   "emergencyStopEnabled": false,
   "emergencyStopReason": null,
   "emergencyStoppedAt": null,
@@ -32,11 +32,11 @@
     "minRewardRiskRatio": 1.5,
     "confidenceThreshold": 92,
     "plannedTradesToday": 1,
-    "tradingDirective": "OBSERVE",
+    "tradingDirective": "PAUSE",
     "maxPositionAmountToday": 0,
     "dailyRiskBudget": 0,
-    "reason": "Despite a broadly bullish tape (marketCondition=bullish, uptrendShare=0.6) and moderate catalyst backdrop (averageCatalystScore=15.7), the opportunity set lacks the participation and execution quality needed for automated intraday entries: averageRelativeVolume is only baseline (1.01), averageGapPercent is negligible (0.21) providing little opening edge, and averageLiquidityScore=0 indicates insufficient/unknown liquidity quality—reducing fill reliability, stop placement clarity, and auditability. Maintain a conservative long-only VWAP pullback framework, but do not allocate risk capital or place new orders until liquidity/volume and candidate trade-quality improve.",
-    "selectedAt": "2026-05-26T17:15:09.575Z",
+    "reason": "Market evidence does not support reliable automated intraday execution today: marketCondition=neutral with low uptrendShare (0.3) reduces directional edge; averageRelativeVolume is only baseline (1.01) and averageGapPercent is slightly negative (-0.19), offering limited momentum/OR edge; and averageLiquidityScore=0 indicates insufficient/unknown liquidity quality, undermining fill reliability, stop-loss clarity, and auditability. Maintain a conservative long-only VWAP pullback framework, but pause new orders and allocate no risk capital until liquidity/volume and trend participation improve.",
+    "selectedAt": "2026-05-26T17:30:07.733Z",
     "selectedBy": "ai_strategy_agent"
   },
   "confidenceThreshold": 92,
@@ -59,7 +59,7 @@
   "scannerMaxCandidates": 20,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-05-26T17:15:09.732Z",
+  "updatedAt": "2026-05-26T17:30:07.837Z",
   "availableModes": {
     "paper": true,
     "live": true
