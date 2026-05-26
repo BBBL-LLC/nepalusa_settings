@@ -1,6 +1,55 @@
 {
   "logs": [
     {
+      "id": "log_1779805289059_cgc9dg",
+      "createdAt": "2026-05-26T14:21:29.059Z",
+      "agentName": "killSwitchDrill.service",
+      "status": "success",
+      "message": "Kill-switch drill passed.",
+      "payload": {
+        "passed": true,
+        "mode": "paper",
+        "checkedAt": "2026-05-26T14:21:28.715Z",
+        "scanDecision": {
+          "allowed": false,
+          "operation": "scan",
+          "state": "blocked",
+          "reasons": [
+            "Emergency stop is active.",
+            "Trading directive is PAUSE.",
+            "Trading engine is disabled."
+          ],
+          "controls": {
+            "mode": "paper",
+            "emergencyStopEnabled": true,
+            "tradingDirective": "PAUSE",
+            "autoTradingEnabled": false,
+            "autoExecuteApprovedSignals": false,
+            "liveTradingEnabled": false
+          }
+        },
+        "executionDecision": {
+          "allowed": false,
+          "operation": "execute",
+          "state": "blocked",
+          "reasons": [
+            "Emergency stop is active.",
+            "Trading directive is PAUSE.",
+            "Trading engine is disabled.",
+            "Auto execution is disabled."
+          ],
+          "controls": {
+            "mode": "paper",
+            "emergencyStopEnabled": true,
+            "tradingDirective": "PAUSE",
+            "autoTradingEnabled": false,
+            "autoExecuteApprovedSignals": false,
+            "liveTradingEnabled": false
+          }
+        }
+      }
+    },
+    {
       "id": "log_1779805048688_pzumby",
       "createdAt": "2026-05-26T14:17:28.688Z",
       "agentName": "morningPrep.cron",
