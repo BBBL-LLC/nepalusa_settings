@@ -1,11 +1,9 @@
 {
-  "status": "blocked",
+  "status": "ready",
   "tradingDate": "2026-05-26",
   "mode": "paper",
-  "ready": false,
-  "reasons": [
-    "No premarket candidates are available."
-  ],
+  "ready": true,
+  "reasons": [],
   "marketDay": {
     "isMarketDay": true,
     "date": "2026-05-26",
@@ -29,8 +27,48 @@
   "positions": [],
   "openOrders": [],
   "activeSymbols": [],
-  "candidates": [],
-  "preparedAt": "2026-05-26T14:21:37.966Z",
-  "updatedAt": "2026-05-26T14:21:38.312Z",
+  "candidates": [
+    {
+      "symbol": "AAPL",
+      "fallback": true,
+      "price": 311.239990234375,
+      "gapPercent": 0.9896452736323333,
+      "relativeVolume": 1.009215764306373,
+      "trend": "up",
+      "volatility": 0.06576983914409752,
+      "marketDataSource": "yahoo",
+      "quoteTime": "2026-05-26T14:23:06.000Z",
+      "id": "candidate_1779805388353_dijl2r",
+      "scannedAt": "2026-05-26T14:23:08.353Z"
+    },
+    {
+      "symbol": "MSFT",
+      "fallback": true,
+      "price": 419.2799987792969,
+      "gapPercent": 0.1983478427657407,
+      "relativeVolume": 1.2008505939884122,
+      "trend": "up",
+      "volatility": 0.0951428417286991,
+      "marketDataSource": "yahoo",
+      "quoteTime": "2026-05-26T14:23:07.000Z",
+      "id": "candidate_1779805388353_9uz2c1",
+      "scannedAt": "2026-05-26T14:23:08.353Z"
+    },
+    {
+      "symbol": "NVDA",
+      "fallback": true,
+      "price": 216.6501007080078,
+      "gapPercent": 0.4218481466908961,
+      "relativeVolume": 1,
+      "trend": "up",
+      "volatility": 0.13447461226874294,
+      "marketDataSource": "yahoo",
+      "quoteTime": "2026-05-26T14:23:07.000Z",
+      "id": "candidate_1779805388353_fdhn1i",
+      "scannedAt": "2026-05-26T14:23:08.353Z"
+    }
+  ],
+  "preparedAt": "2026-05-26T14:23:08.353Z",
+  "updatedAt": "2026-05-26T14:23:08.748Z",
   "candidateError": null
 }
