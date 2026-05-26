@@ -56,10 +56,10 @@
   "scannerMinPrice": 5,
   "scannerMaxPrice": 1000,
   "scannerMinRelativeVolume": 1,
-  "scannerMaxCandidates": 10,
+  "scannerMaxCandidates": 20,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-05-26T14:36:17.836Z",
+  "updatedAt": "2026-05-26T14:55:04.706Z",
   "availableModes": {
     "paper": true,
     "live": true
