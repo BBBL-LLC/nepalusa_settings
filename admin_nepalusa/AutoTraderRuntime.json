@@ -1,9 +1,9 @@
 {
-  "active": false,
-  "state": "idle",
-  "message": "ROBO TRADER is idle.",
-  "source": "paperReadiness.lifecycleTest",
+  "active": true,
+  "state": "preparing",
+  "message": "ROBO TRADER is preparing for the trading day.",
+  "source": "paperTrading.startPrep",
   "mode": "paper",
   "instructionOverride": null,
-  "updatedAt": "2026-05-26T14:24:09.717Z"
+  "updatedAt": "2026-05-26T14:26:25.419Z"
 }
