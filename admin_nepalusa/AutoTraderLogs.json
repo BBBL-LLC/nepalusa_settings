@@ -1,6 +1,49 @@
 {
   "logs": [
     {
+      "id": "log_1779803108230_v0xir6",
+      "createdAt": "2026-05-26T13:45:08.230Z",
+      "agentName": "autoTrader.cron",
+      "status": "error",
+      "message": "ROBO TRADER cron skipped because morning prep is not ready: No premarket candidates are available.",
+      "payload": {
+        "status": "blocked",
+        "tradingDate": "2026-05-26",
+        "mode": "paper",
+        "ready": false,
+        "reasons": [
+          "No premarket candidates are available."
+        ],
+        "marketDay": {
+          "isMarketDay": true,
+          "date": "2026-05-26",
+          "open": "09:30",
+          "close": "16:00",
+          "sessionOpen": "0400",
+          "sessionClose": "2000",
+          "nextOpen": "2026-05-27T09:30:00-04:00",
+          "nextClose": "2026-05-26T16:00:00-04:00"
+        },
+        "account": {
+          "status": "ACTIVE",
+          "tradingBlocked": false,
+          "accountBlocked": false,
+          "transfersBlocked": false,
+          "buyingPower": 200000,
+          "cash": 100000,
+          "portfolioValue": 100000,
+          "patternDayTrader": false
+        },
+        "positions": [],
+        "openOrders": [],
+        "activeSymbols": [],
+        "candidates": [],
+        "preparedAt": "2026-05-26T13:45:04.583Z",
+        "updatedAt": "2026-05-26T13:45:04.696Z",
+        "candidateError": null
+      }
+    },
+    {
       "id": "log_1779803105835_nqhux9",
       "createdAt": "2026-05-26T13:45:05.835Z",
       "agentName": "autoTrader.preScanPrep",
