@@ -1,6 +1,20 @@
 {
   "logs": [
     {
+      "id": "log_1779809449655_h94z51",
+      "createdAt": "2026-05-26T15:30:49.655Z",
+      "agentName": "brokerReconciliation.service",
+      "status": "success",
+      "message": "Broker reconciliation checked 0 stored orders, 0 broker orders, and 0 positions.",
+      "payload": {
+        "storedOrders": 0,
+        "brokerOrders": 0,
+        "openPositions": 0,
+        "unmatchedStoredOrders": 0,
+        "untrackedBrokerOrders": 0
+      }
+    },
+    {
       "id": "log_1779809443719_tz0nqt",
       "createdAt": "2026-05-26T15:30:43.719Z",
       "agentName": "autoTrader.cron",
