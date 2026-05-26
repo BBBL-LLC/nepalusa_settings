@@ -1,6 +1,47 @@
 {
   "logs": [
     {
+      "id": "log_1779826512064_2v2b5d",
+      "createdAt": "2026-05-26T20:15:12.064Z",
+      "agentName": "userInstruction.agent",
+      "status": "success",
+      "message": "User is asking for current bot/trading status and explanation of activity.",
+      "payload": {
+        "instruction": "what is going on ?",
+        "interpretation": {
+          "summary": "User is asking for current bot/trading status and explanation of activity.",
+          "actions": [
+            {
+              "type": "ASK_STATUS",
+              "engineEnabled": null,
+              "mode": null,
+              "maxTradeAmount": null,
+              "maxDailyLoss": null,
+              "dailyProfitTarget": null,
+              "symbols": [],
+              "reason": "User asked: 'what is going on ?'—request status/explanation of current trading behavior."
+            }
+          ]
+        },
+        "appliedActions": [
+          {
+            "type": "ASK_STATUS",
+            "engineEnabled": null,
+            "mode": null,
+            "maxTradeAmount": null,
+            "maxDailyLoss": null,
+            "dailyProfitTarget": null,
+            "symbols": [],
+            "reason": "User asked: 'what is going on ?'—request status/explanation of current trading behavior."
+          }
+        ],
+        "patch": {},
+        "oneTimeFocusSymbols": [],
+        "emergencyResults": [],
+        "scanTriggered": false
+      }
+    },
+    {
       "id": "log_1779826259760_jbz5k0",
       "createdAt": "2026-05-26T20:10:59.760Z",
       "agentName": "alpaca.service",
