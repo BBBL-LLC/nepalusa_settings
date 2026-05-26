@@ -1,6 +1,20 @@
 {
   "logs": [
     {
+      "id": "log_1779813009549_3zfuhl",
+      "createdAt": "2026-05-26T16:30:09.549Z",
+      "agentName": "brokerReconciliation.service",
+      "status": "success",
+      "message": "Broker reconciliation checked 0 stored orders, 0 broker orders, and 0 positions.",
+      "payload": {
+        "storedOrders": 0,
+        "brokerOrders": 0,
+        "openPositions": 0,
+        "unmatchedStoredOrders": 0,
+        "untrackedBrokerOrders": 0
+      }
+    },
+    {
       "id": "log_1779813007380_cwcqh1",
       "createdAt": "2026-05-26T16:30:07.380Z",
       "agentName": "fillQuality.service",
