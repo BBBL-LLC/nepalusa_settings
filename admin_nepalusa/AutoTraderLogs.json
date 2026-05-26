@@ -1,6 +1,159 @@
 {
   "logs": [
     {
+      "id": "log_1779805619167_54r55z",
+      "createdAt": "2026-05-26T14:26:59.167Z",
+      "agentName": "paperTrading.livePaperRun",
+      "status": "success",
+      "message": "paperTrading.livePaperRun completed with 3 evaluated signals.",
+      "payload": {
+        "audit": {
+          "id": "audit_1779805599046_sf818u",
+          "source": "paperTrading.livePaperRun",
+          "mode": "paper",
+          "startedAt": "2026-05-26T14:26:39.046Z",
+          "stages": [
+            {
+              "name": "universeScanner",
+              "status": "success",
+              "startedAt": "2026-05-26T14:26:39.356Z",
+              "completedAt": "2026-05-26T14:26:39.694Z",
+              "summary": {
+                "count": 3,
+                "symbols": [
+                  "AAPL",
+                  "NVDA",
+                  "MSFT"
+                ]
+              }
+            },
+            {
+              "name": "catalystAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T14:26:39.695Z",
+              "completedAt": "2026-05-26T14:26:39.910Z",
+              "summary": {
+                "count": 3,
+                "symbols": [
+                  "AAPL",
+                  "NVDA",
+                  "MSFT"
+                ]
+              }
+            },
+            {
+              "name": "liquidityAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T14:26:39.910Z",
+              "completedAt": "2026-05-26T14:26:39.910Z",
+              "summary": {
+                "count": 3,
+                "symbols": [
+                  "AAPL",
+                  "NVDA",
+                  "MSFT"
+                ]
+              }
+            },
+            {
+              "name": "marketRegimeAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T14:26:39.910Z",
+              "completedAt": "2026-05-26T14:26:40.258Z",
+              "summary": {
+                "condition": "bullish",
+                "averageMove": 0.9028947978608007
+              }
+            },
+            {
+              "name": "strategyAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T14:26:40.258Z",
+              "completedAt": "2026-05-26T14:26:45.395Z",
+              "summary": {
+                "strategyProfile": "conservative_trend",
+                "entryStrategy": "pullback_to_vwap",
+                "exitStrategy": "bracket_target_stop",
+                "confidenceThreshold": 85
+              }
+            },
+            {
+              "name": "technicalAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T14:26:47.010Z",
+              "completedAt": "2026-05-26T14:26:47.010Z",
+              "summary": {
+                "count": 3,
+                "symbols": [
+                  "AAPL",
+                  "NVDA",
+                  "MSFT"
+                ]
+              }
+            },
+            {
+              "name": "aiRankingAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T14:26:47.010Z",
+              "completedAt": "2026-05-26T14:26:55.697Z",
+              "summary": {
+                "signals": 3,
+                "symbols": [
+                  "MSFT",
+                  "AAPL",
+                  "NVDA"
+                ],
+                "marketCondition": "bullish"
+              }
+            },
+            {
+              "name": "dailyTradingContext",
+              "status": "success",
+              "startedAt": "2026-05-26T14:26:56.122Z",
+              "completedAt": "2026-05-26T14:26:56.297Z",
+              "summary": {}
+            }
+          ],
+          "completedAt": "2026-05-26T14:26:56.684Z",
+          "summary": {
+            "marketCandidates": 3,
+            "finalCandidates": 3,
+            "signals": 3,
+            "approved": 0,
+            "rejected": 3,
+            "marketCondition": "bullish",
+            "strategyProfile": "conservative_trend",
+            "dailyProfit": 0,
+            "dailyLoss": 0,
+            "todayTradeCount": 0
+          }
+        },
+        "symbols": [
+          "MSFT",
+          "AAPL",
+          "NVDA"
+        ],
+        "autoExecuteApprovedSignals": true,
+        "mode": "paper",
+        "strategyDecision": {
+          "strategyProfile": "conservative_trend",
+          "tradeDirection": "long_only",
+          "entryStrategy": "pullback_to_vwap",
+          "exitStrategy": "bracket_target_stop",
+          "maxHoldMinutes": 120,
+          "minRewardRiskRatio": 1.5,
+          "confidenceThreshold": 85,
+          "plannedTradesToday": 1,
+          "tradingDirective": "OBSERVE",
+          "maxPositionAmountToday": 1000,
+          "dailyRiskBudget": 200,
+          "reason": "Tape bias is bullish (uptrendShare=1) but intraday opportunity quality is not strong enough to justify auto-execution: averageRelativeVolume is only 1.07 (barely above baseline), averageGapPercent is small (0.59) reducing momentum/ORB edge, and averageLiquidityScore=0 implies poor/unknown fill quality and higher slippage risk. With only 3 candidates and weak liquidity evidence, prioritize auditability and clear stops by sticking with conservative trend pullbacks to VWAP, but avoid new orders until higher-quality, more liquid setups appear. Keep long_only and do not alter human risk caps.",
+          "selectedAt": "2026-05-26T14:26:45.395Z",
+          "selectedBy": "ai_strategy_agent"
+        }
+      }
+    },
+    {
       "id": "log_1779805591511_hav9m4",
       "createdAt": "2026-05-26T14:26:31.511Z",
       "agentName": "paperTrading.startPrep",
