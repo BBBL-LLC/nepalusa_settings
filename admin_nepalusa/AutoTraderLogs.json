@@ -1,6 +1,19 @@
 {
   "logs": [
     {
+      "id": "log_1779805293530_q0krrl",
+      "createdAt": "2026-05-26T14:21:33.530Z",
+      "agentName": "fillQuality.service",
+      "status": "success",
+      "message": "Fill quality report calculated for 0 fills.",
+      "payload": {
+        "fillCount": 0,
+        "totalNotional": 0,
+        "averageSlippagePercent": 0,
+        "worstSlippagePercent": 0
+      }
+    },
+    {
       "id": "log_1779805291165_cf8h83",
       "createdAt": "2026-05-26T14:21:31.165Z",
       "agentName": "brokerReconciliation.service",
