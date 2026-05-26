@@ -5,7 +5,7 @@
   "liveTradingEnabled": false,
   "autoTradingEnabled": true,
   "autoExecuteApprovedSignals": true,
-  "maxTradeAmount": 1000,
+  "maxTradeAmount": 10000,
   "maxDailyLoss": 200,
   "dailyProfitTarget": 500,
   "maxTradesPerDay": 100,
@@ -17,7 +17,7 @@
   "maxHoldMinutes": 120,
   "minRewardRiskRatio": 1.5,
   "plannedTradesToday": 1,
-  "tradingDirective": "OBSERVE",
+  "tradingDirective": "PAUSE",
   "emergencyStopEnabled": false,
   "emergencyStopReason": null,
   "emergencyStoppedAt": null,
@@ -39,8 +39,8 @@
     "selectedAt": "2026-05-26T14:35:57.996Z",
     "selectedBy": "ai_strategy_agent"
   },
-  "confidenceThreshold": 85,
-  "minTradeQualityScore": 65,
+  "confidenceThreshold": 90,
+  "minTradeQualityScore": 70,
   "maxConsecutiveLossesBeforePause": 2,
   "lossCooldownMinutes": 30,
   "priceAdjustmentTolerancePercent": 0.25,
@@ -59,7 +59,7 @@
   "scannerMaxCandidates": 10,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-05-26T14:35:58.235Z",
+  "updatedAt": "2026-05-26T14:36:17.836Z",
   "availableModes": {
     "paper": true,
     "live": true
