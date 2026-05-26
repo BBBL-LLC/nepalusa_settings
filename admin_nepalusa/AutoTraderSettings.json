@@ -35,8 +35,8 @@
     "tradingDirective": "OBSERVE",
     "maxPositionAmountToday": 0,
     "dailyRiskBudget": 0,
-    "reason": "Evidence is not execution-grade for automated intraday entries. Although marketCondition is bullish, participation is only baseline (averageRelativeVolume=1.0) and trend breadth is weak (uptrendShare=0.35). There is no gap-driven edge (averageGapPercent=-0.31). Most critically, averageLiquidityScore=0 indicates insufficient/unknown liquidity quality, which undermines fill reliability, stop-loss clarity, and auditability. Maintain a conservative long-only VWAP pullback framework, but do not allocate capital or place new orders until liquidity and relative volume improve.",
-    "selectedAt": "2026-05-26T16:00:09.649Z",
+    "reason": "Market backdrop is mildly bullish, but the scanned tradeability metrics are not execution-grade for automated intraday entries: averageRelativeVolume is only baseline (1.0), trend breadth is limited (uptrendShare=0.40), there is no gap-driven edge (averageGapPercent=-0.1), and averageLiquidityScore=0 indicates insufficient/unknown liquidity quality—undermining fill reliability, stop placement clarity, and auditability. Maintain a conservative long-only VWAP pullback framework, but do not allocate capital or place new orders until liquidity and participation improve.",
+    "selectedAt": "2026-05-26T16:03:20.179Z",
     "selectedBy": "ai_strategy_agent"
   },
   "confidenceThreshold": 90,
@@ -59,7 +59,7 @@
   "scannerMaxCandidates": 20,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-05-26T16:00:09.893Z",
+  "updatedAt": "2026-05-26T16:03:20.427Z",
   "availableModes": {
     "paper": true,
     "live": true
