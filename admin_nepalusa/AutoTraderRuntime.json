@@ -1,9 +1,9 @@
 {
-  "active": true,
-  "state": "scanning",
-  "message": "ROBO TRADER is scanning and evaluating trade opportunities.",
+  "active": false,
+  "state": "idle",
+  "message": "ROBO TRADER is idle.",
   "source": "paperReadiness.lifecycleTest",
   "mode": "paper",
   "instructionOverride": null,
-  "updatedAt": "2026-05-26T14:23:37.746Z"
+  "updatedAt": "2026-05-26T14:24:09.717Z"
 }
