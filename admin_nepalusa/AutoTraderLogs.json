@@ -1,6 +1,13 @@
 {
   "logs": [
     {
+      "id": "log_1779805805337_hd6f56",
+      "createdAt": "2026-05-26T14:30:05.337Z",
+      "agentName": "autoTrader.cron",
+      "status": "error",
+      "message": "Request failed with status code 409"
+    },
+    {
       "id": "log_1779805623387_ahlsqo",
       "createdAt": "2026-05-26T14:27:03.387Z",
       "agentName": "paperTrading.positionManager",
