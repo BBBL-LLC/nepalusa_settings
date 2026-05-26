@@ -1,6 +1,13 @@
 {
   "logs": [
     {
+      "id": "log_1779833081748_jq3fp7",
+      "createdAt": "2026-05-26T22:04:41.748Z",
+      "agentName": "alpaca.marketDataStream",
+      "status": "success",
+      "message": "Market data stream authorized for 20 symbols on iex feed."
+    },
+    {
       "id": "log_1779831915059_x1ct98",
       "createdAt": "2026-05-26T21:45:15.059Z",
       "agentName": "fillQuality.service",
