@@ -1,6 +1,211 @@
 {
   "logs": [
     {
+      "id": "log_1779815744029_utxa52",
+      "createdAt": "2026-05-26T17:15:44.029Z",
+      "agentName": "autoTrader.cron",
+      "status": "success",
+      "message": "autoTrader.cron completed with 20 evaluated signals.",
+      "payload": {
+        "audit": {
+          "id": "audit_1779815702527_11jsn3",
+          "source": "autoTrader.cron",
+          "mode": "paper",
+          "startedAt": "2026-05-26T17:15:02.527Z",
+          "stages": [
+            {
+              "name": "universeScanner",
+              "status": "success",
+              "startedAt": "2026-05-26T17:15:02.680Z",
+              "completedAt": "2026-05-26T17:15:03.131Z",
+              "summary": {
+                "count": 20,
+                "symbols": [
+                  "SMCI",
+                  "MU",
+                  "TSLA",
+                  "AMD",
+                  "NVDA",
+                  "PLTR",
+                  "META",
+                  "SHOP",
+                  "NFLX",
+                  "CRM"
+                ]
+              }
+            },
+            {
+              "name": "catalystAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T17:15:03.131Z",
+              "completedAt": "2026-05-26T17:15:03.797Z",
+              "summary": {
+                "count": 20,
+                "symbols": [
+                  "SMCI",
+                  "MU",
+                  "TSLA",
+                  "AMD",
+                  "NVDA",
+                  "PLTR",
+                  "META",
+                  "SHOP",
+                  "NFLX",
+                  "CRM"
+                ]
+              }
+            },
+            {
+              "name": "liquidityAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T17:15:03.797Z",
+              "completedAt": "2026-05-26T17:15:03.797Z",
+              "summary": {
+                "count": 20,
+                "symbols": [
+                  "SMCI",
+                  "MU",
+                  "TSLA",
+                  "AMD",
+                  "NVDA",
+                  "PLTR",
+                  "META",
+                  "SHOP",
+                  "NFLX",
+                  "CRM"
+                ]
+              }
+            },
+            {
+              "name": "marketRegimeAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T17:15:03.797Z",
+              "completedAt": "2026-05-26T17:15:03.949Z",
+              "summary": {
+                "condition": "bullish",
+                "averageMove": 0.2754246984172611
+              }
+            },
+            {
+              "name": "strategyAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T17:15:03.949Z",
+              "completedAt": "2026-05-26T17:15:09.575Z",
+              "summary": {
+                "strategyProfile": "conservative_trend",
+                "entryStrategy": "pullback_to_vwap",
+                "exitStrategy": "bracket_target_stop",
+                "confidenceThreshold": 92
+              }
+            },
+            {
+              "name": "technicalAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T17:15:10.842Z",
+              "completedAt": "2026-05-26T17:15:10.842Z",
+              "summary": {
+                "count": 20,
+                "symbols": [
+                  "SMCI",
+                  "MU",
+                  "TSLA",
+                  "AMD",
+                  "NVDA",
+                  "PLTR",
+                  "META",
+                  "SHOP",
+                  "NFLX",
+                  "CRM"
+                ]
+              }
+            },
+            {
+              "name": "aiRankingAgent",
+              "status": "success",
+              "startedAt": "2026-05-26T17:15:10.842Z",
+              "completedAt": "2026-05-26T17:15:41.470Z",
+              "summary": {
+                "signals": 20,
+                "symbols": [
+                  "SMCI",
+                  "MU",
+                  "NVDA",
+                  "TSLA",
+                  "AMD",
+                  "CRM",
+                  "COIN",
+                  "PLTR",
+                  "AVGO",
+                  "META"
+                ],
+                "marketCondition": "bullish"
+              }
+            },
+            {
+              "name": "dailyTradingContext",
+              "status": "success",
+              "startedAt": "2026-05-26T17:15:42.032Z",
+              "completedAt": "2026-05-26T17:15:42.244Z",
+              "summary": {}
+            }
+          ],
+          "completedAt": "2026-05-26T17:15:42.384Z",
+          "summary": {
+            "marketCandidates": 20,
+            "finalCandidates": 20,
+            "signals": 20,
+            "approved": 0,
+            "rejected": 20,
+            "marketCondition": "bullish",
+            "strategyProfile": "conservative_trend",
+            "dailyProfit": -0.00999999999476131,
+            "dailyLoss": -0.00999999999476131,
+            "todayTradeCount": 0
+          }
+        },
+        "symbols": [
+          "SMCI",
+          "MU",
+          "NVDA",
+          "TSLA",
+          "AMD",
+          "CRM",
+          "COIN",
+          "PLTR",
+          "AVGO",
+          "META",
+          "SHOP",
+          "NFLX",
+          "AMZN",
+          "MSFT",
+          "AAPL",
+          "CRWD",
+          "MSTR",
+          "GOOGL",
+          "ARM",
+          "UBER"
+        ],
+        "autoExecuteApprovedSignals": true,
+        "mode": "paper",
+        "strategyDecision": {
+          "strategyProfile": "conservative_trend",
+          "tradeDirection": "long_only",
+          "entryStrategy": "pullback_to_vwap",
+          "exitStrategy": "bracket_target_stop",
+          "maxHoldMinutes": 120,
+          "minRewardRiskRatio": 1.5,
+          "confidenceThreshold": 92,
+          "plannedTradesToday": 1,
+          "tradingDirective": "OBSERVE",
+          "maxPositionAmountToday": 0,
+          "dailyRiskBudget": 0,
+          "reason": "Despite a broadly bullish tape (marketCondition=bullish, uptrendShare=0.6) and moderate catalyst backdrop (averageCatalystScore=15.7), the opportunity set lacks the participation and execution quality needed for automated intraday entries: averageRelativeVolume is only baseline (1.01), averageGapPercent is negligible (0.21) providing little opening edge, and averageLiquidityScore=0 indicates insufficient/unknown liquidity quality—reducing fill reliability, stop placement clarity, and auditability. Maintain a conservative long-only VWAP pullback framework, but do not allocate risk capital or place new orders until liquidity/volume and candidate trade-quality improve.",
+          "selectedAt": "2026-05-26T17:15:09.575Z",
+          "selectedBy": "ai_strategy_agent"
+        }
+      }
+    },
+    {
       "id": "log_1779814852574_grvfif",
       "createdAt": "2026-05-26T17:00:52.574Z",
       "agentName": "autoTrader.cron",
