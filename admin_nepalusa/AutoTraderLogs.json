@@ -1,6 +1,19 @@
 {
   "logs": [
     {
+      "id": "log_1779805622889_8h1975",
+      "createdAt": "2026-05-26T14:27:02.889Z",
+      "agentName": "fillQuality.service",
+      "status": "success",
+      "message": "Fill quality report calculated for 0 fills.",
+      "payload": {
+        "fillCount": 0,
+        "totalNotional": 0,
+        "averageSlippagePercent": 0,
+        "worstSlippagePercent": 0
+      }
+    },
+    {
       "id": "log_1779805619167_54r55z",
       "createdAt": "2026-05-26T14:26:59.167Z",
       "agentName": "paperTrading.livePaperRun",
