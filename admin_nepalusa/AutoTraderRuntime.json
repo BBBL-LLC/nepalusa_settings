@@ -1,9 +1,9 @@
 {
-  "active": false,
-  "state": "idle",
-  "message": "ROBO TRADER is idle.",
+  "active": true,
+  "state": "preparing",
+  "message": "ROBO TRADER is preparing for the trading day.",
   "source": "morningPrep.cron",
-  "mode": "paper",
+  "mode": "live",
   "instructionOverride": null,
-  "updatedAt": "2026-05-26T23:18:59.503Z"
+  "updatedAt": "2026-05-26T23:43:55.143Z"
 }
