@@ -1,6 +1,20 @@
 {
   "logs": [
     {
+      "id": "log_1779805899345_1gq246",
+      "createdAt": "2026-05-26T14:31:39.345Z",
+      "agentName": "morningPrep.cron",
+      "status": "success",
+      "message": "Morning prep ready for 2026-05-26.",
+      "payload": {
+        "tradingDate": "2026-05-26",
+        "mode": "paper",
+        "reasons": [],
+        "candidateCount": 3,
+        "activeSymbols": []
+      }
+    },
+    {
       "id": "log_1779805892957_2yzecv",
       "createdAt": "2026-05-26T14:31:32.957Z",
       "agentName": "autoTrader.cron",
