@@ -1,16 +1,17 @@
 {
   "logs": [
     {
-      "id": "log_1779806180120_ai24km",
-      "createdAt": "2026-05-26T14:36:20.120Z",
-      "agentName": "fillQuality.service",
+      "id": "log_1779806180787_wgwuc1",
+      "createdAt": "2026-05-26T14:36:20.787Z",
+      "agentName": "brokerReconciliation.service",
       "status": "success",
-      "message": "Fill quality report calculated for 0 fills.",
+      "message": "Broker reconciliation checked 0 stored orders, 0 broker orders, and 0 positions.",
       "payload": {
-        "fillCount": 0,
-        "totalNotional": 0,
-        "averageSlippagePercent": 0,
-        "worstSlippagePercent": 0
+        "storedOrders": 0,
+        "brokerOrders": 0,
+        "openPositions": 0,
+        "unmatchedStoredOrders": 0,
+        "untrackedBrokerOrders": 0
       }
     },
     {
