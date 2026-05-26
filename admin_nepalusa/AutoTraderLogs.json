@@ -1,6 +1,20 @@
 {
   "logs": [
     {
+      "id": "log_1779805291165_cf8h83",
+      "createdAt": "2026-05-26T14:21:31.165Z",
+      "agentName": "brokerReconciliation.service",
+      "status": "success",
+      "message": "Broker reconciliation checked 0 stored orders, 0 broker orders, and 0 positions.",
+      "payload": {
+        "storedOrders": 0,
+        "brokerOrders": 0,
+        "openPositions": 0,
+        "unmatchedStoredOrders": 0,
+        "untrackedBrokerOrders": 0
+      }
+    },
+    {
       "id": "log_1779805289059_cgc9dg",
       "createdAt": "2026-05-26T14:21:29.059Z",
       "agentName": "killSwitchDrill.service",
