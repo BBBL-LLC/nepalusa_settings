@@ -1,16 +1,11 @@
 {
   "logs": [
     {
-      "id": "log_1779805040305_kojxha",
-      "createdAt": "2026-05-26T14:17:20.305Z",
-      "agentName": "autoTrader.cron",
+      "id": "log_1779805040828_yqw7s8",
+      "createdAt": "2026-05-26T14:17:20.828Z",
+      "agentName": "alpaca.tradeStream",
       "status": "success",
-      "message": "ROBO TRADER cron started for paper mode.",
-      "payload": {
-        "schedule": "*/15 8-15 * * 1-5",
-        "morningPrepSchedule": "0 8 * * 1-5",
-        "timezone": "America/Chicago"
-      }
+      "message": "Alpaca paper trade stream authorized."
     }
   ]
 }
