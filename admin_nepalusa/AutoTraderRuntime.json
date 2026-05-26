@@ -2,8 +2,8 @@
   "active": false,
   "state": "idle",
   "message": "ROBO TRADER is idle.",
-  "source": "codex.watchTargetCapCheck.debug",
+  "source": "autoTrader.cron",
   "mode": "paper",
   "instructionOverride": null,
-  "updatedAt": "2026-05-26T15:45:23.480Z"
+  "updatedAt": "2026-05-26T15:45:48.259Z"
 }
