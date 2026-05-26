@@ -1,52 +1,25 @@
 {
   "logs": [
     {
-      "id": "log_1779806116338_0cwe51",
-      "createdAt": "2026-05-26T14:35:16.338Z",
-      "agentName": "killSwitchDrill.service",
+      "id": "log_1779806116912_n33iy3",
+      "createdAt": "2026-05-26T14:35:16.912Z",
+      "agentName": "paperOpsTest.positionManager",
       "status": "success",
-      "message": "Kill-switch drill passed.",
+      "message": "Live position manager executed 0 action(s).",
       "payload": {
-        "passed": true,
-        "mode": "paper",
-        "checkedAt": "2026-05-26T14:35:16.021Z",
-        "scanDecision": {
-          "allowed": false,
-          "operation": "scan",
-          "state": "blocked",
-          "reasons": [
-            "Emergency stop is active.",
-            "Trading directive is PAUSE.",
-            "Trading engine is disabled."
-          ],
-          "controls": {
-            "mode": "paper",
-            "emergencyStopEnabled": true,
-            "tradingDirective": "PAUSE",
-            "autoTradingEnabled": false,
-            "autoExecuteApprovedSignals": false,
-            "liveTradingEnabled": false
+        "plan": {
+          "generatedAt": "2026-05-26T14:35:16.498Z",
+          "actions": [],
+          "summary": {
+            "positions": 0,
+            "actions": 0,
+            "partialProfits": 0,
+            "exits": 0,
+            "trailingStops": 0
           }
         },
-        "executionDecision": {
-          "allowed": false,
-          "operation": "execute",
-          "state": "blocked",
-          "reasons": [
-            "Emergency stop is active.",
-            "Trading directive is PAUSE.",
-            "Trading engine is disabled.",
-            "Auto execution is disabled."
-          ],
-          "controls": {
-            "mode": "paper",
-            "emergencyStopEnabled": true,
-            "tradingDirective": "PAUSE",
-            "autoTradingEnabled": false,
-            "autoExecuteApprovedSignals": false,
-            "liveTradingEnabled": false
-          }
-        }
+        "executedActions": [],
+        "execute": true
       }
     },
     {
