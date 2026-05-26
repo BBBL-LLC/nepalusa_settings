@@ -1,6 +1,20 @@
 {
   "logs": [
     {
+      "id": "log_1779831912611_kpgntj",
+      "createdAt": "2026-05-26T21:45:12.611Z",
+      "agentName": "brokerReconciliation.service",
+      "status": "success",
+      "message": "Broker reconciliation checked 11 stored orders, 2 broker orders, and 0 positions.",
+      "payload": {
+        "storedOrders": 11,
+        "brokerOrders": 2,
+        "openPositions": 0,
+        "unmatchedStoredOrders": 0,
+        "untrackedBrokerOrders": 0
+      }
+    },
+    {
       "id": "log_1779831779565_zd5xxh",
       "createdAt": "2026-05-26T21:42:59.565Z",
       "agentName": "morningPrep.cron",
