@@ -1,9 +1,9 @@
 {
-  "active": false,
-  "state": "idle",
-  "message": "ROBO TRADER is idle.",
-  "source": "morningPrep.cron",
+  "active": true,
+  "state": "scanning",
+  "message": "ROBO TRADER is scanning and evaluating trade opportunities.",
+  "source": "codex.watchTargetCapCheck",
   "mode": "paper",
   "instructionOverride": null,
-  "updatedAt": "2026-05-26T15:38:20.229Z"
+  "updatedAt": "2026-05-26T15:44:13.664Z"
 }
