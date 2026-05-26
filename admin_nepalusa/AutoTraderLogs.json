@@ -1,6 +1,22 @@
 {
   "logs": [
     {
+      "id": "log_1779805300207_einj2z",
+      "createdAt": "2026-05-26T14:21:40.207Z",
+      "agentName": "paperReadiness.manual",
+      "status": "error",
+      "message": "Morning prep blocked for 2026-05-26: No premarket candidates are available.",
+      "payload": {
+        "tradingDate": "2026-05-26",
+        "mode": "paper",
+        "reasons": [
+          "No premarket candidates are available."
+        ],
+        "candidateCount": 0,
+        "activeSymbols": []
+      }
+    },
+    {
       "id": "log_1779805293530_q0krrl",
       "createdAt": "2026-05-26T14:21:33.530Z",
       "agentName": "fillQuality.service",
