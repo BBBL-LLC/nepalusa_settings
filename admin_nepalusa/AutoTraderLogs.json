@@ -1,6 +1,29 @@
 {
   "logs": [
     {
+      "id": "log_1779807608855_xowhre",
+      "createdAt": "2026-05-26T15:00:08.855Z",
+      "agentName": "tradingGovernance.service",
+      "status": "error",
+      "message": "Trading scan blocked: Trading directive is PAUSE.",
+      "payload": {
+        "allowed": false,
+        "operation": "scan",
+        "state": "blocked",
+        "reasons": [
+          "Trading directive is PAUSE."
+        ],
+        "controls": {
+          "mode": "paper",
+          "emergencyStopEnabled": false,
+          "tradingDirective": "PAUSE",
+          "autoTradingEnabled": true,
+          "autoExecuteApprovedSignals": true,
+          "liveTradingEnabled": false
+        }
+      }
+    },
+    {
       "id": "log_1779807602560_gpnn7q",
       "createdAt": "2026-05-26T15:00:02.560Z",
       "agentName": "tradingGovernance.service",
