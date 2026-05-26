@@ -1,6 +1,25 @@
 {
   "logs": [
     {
+      "id": "log_1779813259937_mxb2fl",
+      "createdAt": "2026-05-26T16:34:19.937Z",
+      "agentName": "alpaca.tradeStream",
+      "status": "success",
+      "message": "Alpaca paper order held for F.",
+      "payload": {
+        "event": "held",
+        "orderId": "9be75d66-8219-4023-abee-af992258302d",
+        "symbol": "F",
+        "side": "sell",
+        "status": "held",
+        "filledQty": 0,
+        "fillPrice": 0,
+        "positionQty": null,
+        "positions": null,
+        "openOrders": null
+      }
+    },
+    {
       "id": "log_1779813258564_96zno5",
       "createdAt": "2026-05-26T16:34:18.564Z",
       "agentName": "alpaca.tradeStream",
