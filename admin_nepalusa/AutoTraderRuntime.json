@@ -1,9 +1,9 @@
 {
   "active": false,
   "state": "office_closed",
-  "message": "Trading office is closed until the next market session opens at 2026-05-28T09:30:00-04:00.",
+  "message": "Trading office is closed because the market clock is unavailable.",
   "source": "fastOrderSupervisor.tick",
   "mode": "paper",
   "instructionOverride": null,
-  "updatedAt": "2026-05-27T23:02:39.402Z"
+  "updatedAt": "2026-05-27T23:02:48.449Z"
 }
