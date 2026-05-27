@@ -1,9 +1,9 @@
 {
   "active": false,
-  "state": "idle",
-  "message": "ROBO TRADER is idle.",
-  "source": "morningPrep.cron",
+  "state": "armed_for_paper_trading",
+  "message": "Office opened for aggressive paper trading. Risk limits remain active.",
+  "source": "codex.paperTradingSetup",
   "mode": "paper",
   "instructionOverride": null,
-  "updatedAt": "2026-05-26T23:48:37.295Z"
+  "updatedAt": "2026-05-27T00:02:35.577Z"
 }
