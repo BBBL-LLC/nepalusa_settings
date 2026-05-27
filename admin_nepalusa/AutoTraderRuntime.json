@@ -2,8 +2,8 @@
   "active": false,
   "state": "idle",
   "message": "ROBO TRADER is idle.",
-  "source": "liveMarketDesk.trigger",
+  "source": "autoTrader.cron",
   "mode": "paper",
   "instructionOverride": null,
-  "updatedAt": "2026-05-27T15:25:41.948Z"
+  "updatedAt": "2026-05-27T15:25:46.895Z"
 }
