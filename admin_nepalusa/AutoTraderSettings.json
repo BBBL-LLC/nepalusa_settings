@@ -36,8 +36,8 @@
     "tradingDirective": "OBSERVE",
     "maxPositionAmountToday": 0,
     "dailyRiskBudget": 0,
-    "reason": "While the broad regime is labeled bullish, the scanned intraday opportunity set is low-quality for automated execution: average RVOL is only ~1.0 (limited momentum/participation), average gap is negligible (~0.15%) (few clean gap setups), liquidity score is low (~31.6) (higher slippage/stop risk), catalyst strength is weak (~19.1) (reduced follow-through), and only 45% of candidates are in uptrends (chop risk). In this environment, pullback-to-VWAP long entries have elevated false-signal probability and poorer auditability due to liquidity constraints. Maintain conservative_trend with bracketed exits, but do not allocate risk or place new orders until RVOL, liquidity, and uptrend share improve.",
-    "selectedAt": "2026-05-27T13:35:14.418Z",
+    "reason": "Scanned opportunity set remains low quality for automated intraday execution: marketCondition is neutral, average relative volume is ~1.0 (limited participation/momentum), average gap is slightly negative and small (-0.27%) (few clean gap-driven continuations), average liquidity score is low (~37) (higher slippage and less reliable stop execution), catalyst score is weak (~19) (reduced follow-through), and only ~50% of candidates are in uptrends (chop/mean-reversion risk). Maintain a conservative_trend, long-only, pullback-to-VWAP framework with bracketed exits for auditability, but allocate no risk and place no new orders until liquidity/RVOL and trend breadth improve.",
+    "selectedAt": "2026-05-27T13:45:08.641Z",
     "selectedBy": "ai_strategy_agent"
   },
   "confidenceThreshold": 88,
@@ -60,7 +60,7 @@
   "scannerMaxCandidates": 20,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-05-27T13:35:14.686Z",
+  "updatedAt": "2026-05-27T13:45:08.752Z",
   "availableModes": {
     "paper": true,
     "live": true
