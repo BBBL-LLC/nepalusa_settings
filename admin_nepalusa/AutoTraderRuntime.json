@@ -1,9 +1,9 @@
 {
-  "active": false,
-  "state": "office_closed",
-  "message": "Trading office is closed until the next market session opens at 2026-05-28T09:30:00-04:00.",
-  "source": "fastOrderSupervisor.startup",
+  "active": true,
+  "state": "preparing",
+  "message": "ROBO TRADER is preparing for the trading day.",
+  "source": "morningPrep.cron",
   "mode": "paper",
   "instructionOverride": null,
-  "updatedAt": "2026-05-27T20:50:32.803Z"
+  "updatedAt": "2026-05-27T20:50:33.143Z"
 }
