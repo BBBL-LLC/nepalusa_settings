@@ -36,8 +36,8 @@
     "tradingDirective": "OBSERVE",
     "maxPositionAmountToday": 0,
     "dailyRiskBudget": 0,
-    "reason": "Market evidence is only moderately supportive: neutral regime, modest avg RVOL (1.18) and small avg gaps (2.45%) with middling liquidity (avgLiquidityScore 37.72) and low catalyst strength (27.6). With only 50% of candidates in uptrends, edge for automated intraday execution is not strong enough to justify allocating risk under a conservative, audit-focused mandate. Continue scanning/ranking using long-only VWAP pullback criteria, but do not place new orders until liquidity/volume and trend participation improve.",
-    "selectedAt": "2026-05-27T13:00:18.028Z",
+    "reason": "Market evidence remains only moderately supportive for automated intraday execution: neutral regime, modest average RVOL (1.18) and small average gaps (2.43%), with middling liquidity (avgLiquidityScore 37.72) and low catalyst strength (avgCatalystScore 28.6). Uptrend participation is only 50%, which is insufficient edge for a conservative, audit-focused long-only system. Continue scanning/ranking for clean pullbacks to VWAP in established intraday uptrends, but do not allocate risk or place new orders until volume/liquidity and trend participation improve.",
+    "selectedAt": "2026-05-27T13:10:10.791Z",
     "selectedBy": "ai_strategy_agent"
   },
   "confidenceThreshold": 80,
@@ -60,7 +60,7 @@
   "scannerMaxCandidates": 20,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-05-27T13:00:18.235Z",
+  "updatedAt": "2026-05-27T13:10:11.132Z",
   "availableModes": {
     "paper": true,
     "live": true
