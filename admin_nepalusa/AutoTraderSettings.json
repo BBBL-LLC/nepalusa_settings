@@ -36,8 +36,8 @@
     "tradingDirective": "OBSERVE",
     "maxPositionAmountToday": 500,
     "dailyRiskBudget": 10,
-    "reason": "Market evidence remains low-conviction for automated execution: marketCondition is neutral, averageRelativeVolume 1.05 is only marginal (limited participation edge), averageGapPercent -0.59 suggests fewer clean continuation setups, averageLiquidityScore 48.47 is moderate-to-weak (higher slippage/stop reliability risk), and averageCatalystScore 25.25 is weak (reduced follow-through probability). UptrendShare 0.45 is below 0.50, further reducing trend alignment for long-only. Data freshness is good (17/20 liveFresh; 0.85), so continue scanning and ranking, but avoid new orders until liquidity/relative volume and trend alignment improve. Keep conservative long-only pullback-to-VWAP with bracket exits for clear stops and auditability, with small paper risk caps unchanged.",
-    "selectedAt": "2026-05-27T18:48:25.567Z",
+    "reason": "Evidence remains low-to-moderate conviction for automated execution. MarketCondition is neutral; averageRelativeVolume 1.05 is only marginal (limited momentum/participation edge); averageGapPercent -0.38 suggests fewer clean continuation/gap setups; averageLiquidityScore 53.01 is only moderate (slippage/stop reliability risk persists); averageCatalystScore 25.85 is weak (reduced follow-through probability). UptrendShare is 0.50 (not a strong long-only tailwind). Data freshness is excellent (20/20 liveFresh), so continue scanning/ranking, but avoid new orders until relative volume and liquidity improve and/or uptrendShare rises above 0.55 with stronger catalysts. Keep conservative long-only pullback-to-VWAP with bracket exits for clear stops and auditability, with small paper risk caps unchanged.",
+    "selectedAt": "2026-05-27T18:50:08.500Z",
     "selectedBy": "ai_strategy_agent"
   },
   "confidenceThreshold": 86,
@@ -60,7 +60,7 @@
   "scannerMaxCandidates": 20,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-05-27T18:48:25.649Z",
+  "updatedAt": "2026-05-27T18:50:08.671Z",
   "availableModes": {
     "paper": true,
     "live": true
