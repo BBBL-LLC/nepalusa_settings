@@ -36,8 +36,8 @@
     "tradingDirective": "OBSERVE",
     "maxPositionAmountToday": 0,
     "dailyRiskBudget": 0,
-    "reason": "Scanned evidence remains low-conviction for automated intraday execution: marketCondition is neutral, averageRelativeVolume ~1.0 provides no participation edge, averageGapPercent is slightly negative (-0.42%) reducing clean momentum continuation odds, averageLiquidityScore ~48.8 implies higher slippage/stop uncertainty, and averageCatalystScore ~20.7 is weak (lower follow-through probability). While uptrendShare ~0.60 is mildly supportive, it is not enough to justify allocating risk. Maintain conservative long-only pullback-to-VWAP with bracket exits, but do not place new orders until liquidity/RVOL/catalyst strength improve.",
-    "selectedAt": "2026-05-27T15:00:13.216Z",
+    "reason": "Evidence remains low-conviction for automated intraday execution. MarketCondition is neutral, averageRelativeVolume ~1.0 offers no participation edge, averageGapPercent is negative (-1.04%) which reduces clean momentum continuation odds, averageLiquidityScore ~50 suggests moderate slippage/stop uncertainty, and averageCatalystScore ~21.65 is weak (lower follow-through probability). Although uptrendShare ~0.60 is mildly supportive, it is insufficient to justify allocating risk under current quality thresholds. Maintain conservative long-only pullback-to-VWAP framework with bracket exits, but do not place new orders until liquidity/RVOL/catalyst strength improve.",
+    "selectedAt": "2026-05-27T15:15:11.924Z",
     "selectedBy": "ai_strategy_agent"
   },
   "confidenceThreshold": 90,
@@ -60,7 +60,7 @@
   "scannerMaxCandidates": 20,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-05-27T15:00:13.562Z",
+  "updatedAt": "2026-05-27T15:15:12.058Z",
   "availableModes": {
     "paper": true,
     "live": true
