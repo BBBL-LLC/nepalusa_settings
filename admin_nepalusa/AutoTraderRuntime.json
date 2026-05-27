@@ -2,8 +2,8 @@
   "active": true,
   "state": "scanning",
   "message": "ROBO TRADER is scanning and evaluating trade opportunities.",
-  "source": "liveMarketDesk.trigger",
+  "source": "autoTrader.cron",
   "mode": "paper",
   "instructionOverride": null,
-  "updatedAt": "2026-05-27T15:18:20.021Z"
+  "updatedAt": "2026-05-27T15:20:02.529Z"
 }
