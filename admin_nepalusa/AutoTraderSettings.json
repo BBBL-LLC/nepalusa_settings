@@ -36,8 +36,8 @@
     "tradingDirective": "TRADE",
     "maxPositionAmountToday": 750,
     "dailyRiskBudget": 12,
-    "reason": "Market evidence is not strong enough for automated intraday execution: marketCondition is neutral, averageRelativeVolume ~1.0 offers no participation edge, averageGapPercent is slightly negative (-0.4%) reducing clean momentum continuation odds, averageLiquidityScore ~49.5 is only moderate (higher slippage/stop uncertainty), and averageCatalystScore ~21.8 is weak (lower follow-through probability). While liveFreshShare/liveFreshCount are strong (20/20), the overall tape quality remains low-conviction; maintain a conservative long-only pullback-to-VWAP plan with bracket exits for clear, auditable stops/targets, but avoid new orders until RVOL/liquidity/catalyst improve. Paper active exploration is enabled: live market data is fresh and the setup quality is acceptable, so the desk may take small paper trades while risk gates remain active.",
-    "selectedAt": "2026-05-27T16:30:07.000Z",
+    "reason": "Evidence remains low-conviction for automated intraday execution: marketCondition is neutral, averageRelativeVolume ~1.0 provides no participation edge, averageGapPercent is slightly negative (-0.19%) reducing clean momentum continuation odds, averageLiquidityScore ~52 is only moderate (slippage/stop uncertainty), and averageCatalystScore ~22 is weak (lower follow-through). Although uptrendShare is decent (0.6) and data freshness is excellent (20/20), the overall tape quality does not justify new entries. Maintain a conservative long-only pullback-to-VWAP plan with bracket exits for clear, auditable stops/targets, but observe/scan only until RVOL, liquidity, and catalyst strength improve. Paper active exploration is enabled: live market data is fresh and the setup quality is acceptable, so the desk may take small paper trades while risk gates remain active.",
+    "selectedAt": "2026-05-27T16:45:09.235Z",
     "selectedBy": "ai_strategy_agent_paper_active_exploration"
   },
   "confidenceThreshold": 84,
@@ -60,7 +60,7 @@
   "scannerMaxCandidates": 20,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-05-27T16:30:07.138Z",
+  "updatedAt": "2026-05-27T16:45:09.583Z",
   "availableModes": {
     "paper": true,
     "live": true
