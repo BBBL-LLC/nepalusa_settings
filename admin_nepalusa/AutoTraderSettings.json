@@ -16,8 +16,8 @@
   "exitStrategy": "bracket_target_stop",
   "maxHoldMinutes": 120,
   "maxSignalAgeMinutes": 5,
-  "minRewardRiskRatio": 1.6,
-  "plannedTradesToday": 1,
+  "minRewardRiskRatio": 1.2,
+  "plannedTradesToday": 5,
   "tradingDirective": "TRADE",
   "emergencyStopEnabled": false,
   "emergencyStopReason": null,
@@ -40,8 +40,8 @@
     "selectedAt": "2026-05-26T20:45:08.107Z",
     "selectedBy": "ai_strategy_agent"
   },
-  "confidenceThreshold": 92,
-  "minTradeQualityScore": 70,
+  "confidenceThreshold": 70,
+  "minTradeQualityScore": 60,
   "maxConsecutiveLossesBeforePause": 2,
   "lossCooldownMinutes": 30,
   "priceAdjustmentTolerancePercent": 0.25,
@@ -60,7 +60,7 @@
   "scannerMaxCandidates": 20,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-05-27T00:02:34.031Z",
+  "updatedAt": "2026-05-27T00:04:16.798Z",
   "availableModes": {
     "paper": true,
     "live": true
