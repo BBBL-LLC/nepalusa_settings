@@ -1,9 +1,9 @@
 {
-  "active": true,
-  "state": "scanning",
-  "message": "ROBO TRADER is scanning and evaluating trade opportunities.",
-  "source": "liveMarketDesk.trigger",
+  "active": false,
+  "state": "idle",
+  "message": "ROBO TRADER is idle.",
+  "source": "morningPrep.cron",
   "mode": "paper",
   "instructionOverride": null,
-  "updatedAt": "2026-05-27T18:48:02.624Z"
+  "updatedAt": "2026-05-27T18:48:05.209Z"
 }
