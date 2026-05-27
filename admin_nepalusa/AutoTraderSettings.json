@@ -36,8 +36,8 @@
     "tradingDirective": "OBSERVE",
     "maxPositionAmountToday": 0,
     "dailyRiskBudget": 0,
-    "reason": "Evidence remains insufficient for automated intraday execution. Market regime is neutral with only modest average RVOL (1.18) and gaps (2.38%), and only 50% of candidates in uptrends—conditions that tend to increase chop/false breakouts and reduce edge for a conservative, audit-focused long-only system. Liquidity/catalyst scores are middling (avgLiquidityScore 27.39, avgCatalystScore 27.8), raising slippage and follow-through risk. Maintain conservative_trend with pullback-to-VWAP entries and bracketed exits, but allocate no risk and place no new orders until higher-quality conditions appear (stronger RVOL, clearer uptrend share, and better liquidity).",
-    "selectedAt": "2026-05-27T13:20:09.939Z",
+    "reason": "Market evidence remains only moderate and not strong enough to justify automated intraday execution for a conservative, audit-focused long-only system. Regime is neutral with modest average RVOL (1.18) and gaps (2.13%), middling liquidity/catalyst scores (~27–29), and only 40% of candidates in uptrends—conditions that increase chop/false breakouts and reduce follow-through on pullback-to-VWAP entries. Maintain conservative_trend with pullback-to-VWAP and bracketed exits, but allocate no risk and place no new orders until higher-quality conditions appear (higher RVOL, stronger uptrend share, and better liquidity/catalyst strength).",
+    "selectedAt": "2026-05-27T13:25:10.492Z",
     "selectedBy": "ai_strategy_agent"
   },
   "confidenceThreshold": 85,
@@ -60,7 +60,7 @@
   "scannerMaxCandidates": 20,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-05-27T13:20:10.243Z",
+  "updatedAt": "2026-05-27T13:25:10.791Z",
   "availableModes": {
     "paper": true,
     "live": true
