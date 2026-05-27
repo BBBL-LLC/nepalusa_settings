@@ -2,8 +2,8 @@
   "active": false,
   "state": "idle",
   "message": "ROBO TRADER is idle.",
-  "source": "morningPrep.cron",
+  "source": "autoTrader.cron",
   "mode": "paper",
   "instructionOverride": null,
-  "updatedAt": "2026-05-27T13:55:33.726Z"
+  "updatedAt": "2026-05-27T13:55:46.635Z"
 }
