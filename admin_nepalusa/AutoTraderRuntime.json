@@ -1,9 +1,9 @@
 {
-  "active": true,
-  "state": "executing",
-  "message": "Trading desk is submitting an order for PLTR.",
+  "active": false,
+  "state": "idle",
+  "message": "ROBO TRADER is idle.",
   "source": "liveMarketDesk.trigger",
   "mode": "paper",
   "instructionOverride": null,
-  "updatedAt": "2026-05-28T15:47:38.126Z"
+  "updatedAt": "2026-05-28T15:47:42.742Z"
 }
