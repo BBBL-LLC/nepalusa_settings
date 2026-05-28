@@ -16,7 +16,7 @@
   "exitStrategy": "quick_scalp",
   "maxHoldMinutes": 45,
   "maxSignalAgeMinutes": 5,
-  "minRewardRiskRatio": 0.55,
+  "minRewardRiskRatio": 1.2,
   "plannedTradesToday": 60,
   "tradingDirective": "TRADE",
   "emergencyStopEnabled": false,
@@ -30,15 +30,15 @@
     "entryStrategy": "breakout_or_vwap_reclaim",
     "exitStrategy": "quick_scalp",
     "maxHoldMinutes": 45,
-    "minRewardRiskRatio": 0.55,
+    "minRewardRiskRatio": 1.2,
     "confidenceThreshold": 82,
     "plannedTradesToday": 60,
     "tradingDirective": "TRADE",
     "maxPositionAmountToday": 3500,
     "dailyRiskBudget": 50,
-    "reason": "Bullish market regime with elevated relative volume/gaps supports momentum continuation setups. Paper active exploration is enabled: live market data is fresh and the setup quality is acceptable, so the desk may take small paper trades while risk gates remain active. Paper active exploration is enabled: live market data is fresh and the setup quality is acceptable, so the desk may take small paper trades while risk gates remain active.",
-    "selectedAt": "2026-05-28T15:34:00.208Z",
-    "selectedBy": "ai_strategy_agent_paper_active_exploration"
+    "reason": "Bullish market regime with elevated relative volume/gaps supports momentum continuation setups. The setup quality is acceptable, allowing for active trading.",
+    "selectedAt": "2026-05-28T15:34:18.386Z",
+    "selectedBy": "ai_strategy_agent"
   },
   "confidenceThreshold": 82,
   "minTradeQualityScore": 60,
@@ -60,7 +60,7 @@
   "scannerMaxCandidates": 20,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-05-28T15:34:00.477Z",
+  "updatedAt": "2026-05-28T15:34:18.662Z",
   "availableModes": {
     "paper": true,
     "live": true
