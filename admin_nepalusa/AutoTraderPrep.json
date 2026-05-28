@@ -1,12 +1,12 @@
 {
   "status": "ready",
-  "tradingDate": "2026-05-27",
+  "tradingDate": "2026-05-28",
   "mode": "paper",
   "ready": true,
   "reasons": [],
   "marketDay": {
     "isMarketDay": true,
-    "date": "2026-05-27",
+    "date": "2026-05-28",
     "open": "09:30",
     "close": "16:00",
     "sessionOpen": "0400",
@@ -19,9 +19,9 @@
     "tradingBlocked": false,
     "accountBlocked": false,
     "transfersBlocked": false,
-    "buyingPower": 200000.38,
-    "cash": 100000.19,
-    "portfolioValue": 100000.19,
+    "buyingPower": 200000.36,
+    "cash": 100000.18,
+    "portfolioValue": 100000.18,
     "patternDayTrader": false
   },
   "positions": [],
@@ -49,8 +49,8 @@
       "quoteTime": "2026-05-27T20:27:44.485543894Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779933643476_dyr4st",
-      "scannedAt": "2026-05-28T02:00:43.476Z"
+      "id": "candidate_1779970311654_5obmje",
+      "scannedAt": "2026-05-28T12:11:51.654Z"
     },
     {
       "symbol": "CRWD",
@@ -73,8 +73,8 @@
       "quoteTime": "2026-05-27T19:59:58.527163954Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779933643476_y115wz",
-      "scannedAt": "2026-05-28T02:00:43.476Z"
+      "id": "candidate_1779970311654_g98kiz",
+      "scannedAt": "2026-05-28T12:11:51.654Z"
     },
     {
       "symbol": "SHOP",
@@ -97,8 +97,8 @@
       "quoteTime": "2026-05-27T19:59:56.641164518Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779933643476_zxa80t",
-      "scannedAt": "2026-05-28T02:00:43.476Z"
+      "id": "candidate_1779970311654_16fsuu",
+      "scannedAt": "2026-05-28T12:11:51.654Z"
     },
     {
       "symbol": "META",
@@ -121,8 +121,8 @@
       "quoteTime": "2026-05-27T20:43:07.523899932Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779933643476_55ruwy",
-      "scannedAt": "2026-05-28T02:00:43.476Z"
+      "id": "candidate_1779970311654_n4a2fz",
+      "scannedAt": "2026-05-28T12:11:51.654Z"
     },
     {
       "symbol": "PLTR",
@@ -145,8 +145,8 @@
       "quoteTime": "2026-05-27T20:46:23.148696364Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779933643476_gvdzay",
-      "scannedAt": "2026-05-28T02:00:43.476Z"
+      "id": "candidate_1779970311654_it85gh",
+      "scannedAt": "2026-05-28T12:11:51.654Z"
     },
     {
       "symbol": "AAPL",
@@ -169,8 +169,8 @@
       "quoteTime": "2026-05-27T20:56:59.17743832Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779933643476_0rt52n",
-      "scannedAt": "2026-05-28T02:00:43.476Z"
+      "id": "candidate_1779970311653_js4p8k",
+      "scannedAt": "2026-05-28T12:11:51.653Z"
     },
     {
       "symbol": "UBER",
@@ -193,8 +193,8 @@
       "quoteTime": "2026-05-27T19:59:56.509923792Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779933643476_at840r",
-      "scannedAt": "2026-05-28T02:00:43.476Z"
+      "id": "candidate_1779970311654_6733xt",
+      "scannedAt": "2026-05-28T12:11:51.654Z"
     },
     {
       "symbol": "TSLA",
@@ -217,8 +217,8 @@
       "quoteTime": "2026-05-27T20:55:47.577219472Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779933643476_ge9th3",
-      "scannedAt": "2026-05-28T02:00:43.476Z"
+      "id": "candidate_1779970311654_pos86g",
+      "scannedAt": "2026-05-28T12:11:51.654Z"
     },
     {
       "symbol": "MSFT",
@@ -241,32 +241,8 @@
       "quoteTime": "2026-05-27T20:46:39.831176115Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779933643476_tkkfyc",
-      "scannedAt": "2026-05-28T02:00:43.476Z"
-    },
-    {
-      "symbol": "MU",
-      "fallback": true,
-      "price": 930.4,
-      "previousClose": 896.85,
-      "dayOpen": 955.495,
-      "dayHigh": 955.495,
-      "dayLow": 888.29,
-      "dayVolume": 1324358,
-      "previousVolume": 1005645,
-      "gapPercent": 3.7408708256676095,
-      "intradayMovePercent": -2.6263873698972815,
-      "relativeVolume": 1.316923964221967,
-      "spreadPercent": 94.4744196044712,
-      "trend": "down",
-      "volatility": 7.223237317282893,
-      "universeScore": 20.4253772747362,
-      "marketDataSource": "alpaca_snapshot",
-      "quoteTime": "2026-05-27T20:55:30.597086622Z",
-      "livePriceSource": "alpaca_snapshot",
-      "livePriceUpdatedAt": null,
-      "id": "candidate_1779933643476_fqc4me",
-      "scannedAt": "2026-05-28T02:00:43.476Z"
+      "id": "candidate_1779970311653_30lsav",
+      "scannedAt": "2026-05-28T12:11:51.653Z"
     },
     {
       "symbol": "ARM",
@@ -289,32 +265,32 @@
       "quoteTime": "2026-05-27T20:19:50.854762906Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779933643476_b8pf2m",
-      "scannedAt": "2026-05-28T02:00:43.476Z"
+      "id": "candidate_1779970311654_r0lbpm",
+      "scannedAt": "2026-05-28T12:11:51.654Z"
     },
     {
-      "symbol": "AMZN",
+      "symbol": "MU",
       "fallback": true,
-      "price": 272.6,
-      "previousClose": 265.27,
-      "dayOpen": 266.15,
-      "dayHigh": 272.37,
-      "dayLow": 265.74,
-      "dayVolume": 1824874,
-      "previousVolume": 1673467,
-      "gapPercent": 2.7632223772006035,
-      "intradayMovePercent": 2.4234454255119466,
-      "relativeVolume": 1.0904750437265869,
-      "spreadPercent": 9.842259721203222,
-      "trend": "up",
-      "volatility": 2.4321349963316194,
-      "universeScore": 14.674074498692015,
+      "price": 915.53,
+      "previousClose": 896.85,
+      "dayOpen": 955.495,
+      "dayHigh": 955.495,
+      "dayLow": 888.29,
+      "dayVolume": 1324358,
+      "previousVolume": 1005645,
+      "gapPercent": 2.082845514857551,
+      "intradayMovePercent": -4.182648784138068,
+      "relativeVolume": 1.316923964221967,
+      "spreadPercent": 96.0088691796009,
+      "trend": "down",
+      "volatility": 7.340556835931104,
+      "universeScore": 16.58689995116991,
       "marketDataSource": "alpaca_snapshot",
-      "quoteTime": "2026-05-27T20:33:38.968034189Z",
+      "quoteTime": "2026-05-28T12:08:20.955672686Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779933643476_zd71c7",
-      "scannedAt": "2026-05-28T02:00:43.476Z"
+      "id": "candidate_1779970311654_5vcmi9",
+      "scannedAt": "2026-05-28T12:11:51.654Z"
     },
     {
       "symbol": "SMCI",
@@ -337,32 +313,32 @@
       "quoteTime": "2026-05-27T20:45:24.52565072Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779933643476_txk0ty",
-      "scannedAt": "2026-05-28T02:00:43.476Z"
+      "id": "candidate_1779970311654_6rvx26",
+      "scannedAt": "2026-05-28T12:11:51.654Z"
     },
     {
-      "symbol": "CRM",
+      "symbol": "AMZN",
       "fallback": true,
-      "price": 172.53,
-      "previousClose": 179.16,
-      "dayOpen": 178.24,
-      "dayHigh": 183.835,
-      "dayLow": 176.95,
-      "dayVolume": 548691,
-      "previousVolume": 567436,
-      "gapPercent": -3.7006028131279276,
-      "intradayMovePercent": -3.2035457809694834,
-      "relativeVolume": 1,
-      "spreadPercent": 11.012577522749666,
-      "trend": "down",
-      "volatility": 3.9906103286385086,
-      "universeScore": 13.14883481919999,
+      "price": 271.46,
+      "previousClose": 265.27,
+      "dayOpen": 266.15,
+      "dayHigh": 272.37,
+      "dayLow": 265.74,
+      "dayVolume": 1824874,
+      "previousVolume": 1673467,
+      "gapPercent": 2.3334715572812597,
+      "intradayMovePercent": 1.9951155363516822,
+      "relativeVolume": 1.0904750437265869,
+      "spreadPercent": 9.883592426140126,
+      "trend": "up",
+      "volatility": 2.4423487806675004,
+      "universeScore": 12.969601249432223,
       "marketDataSource": "alpaca_snapshot",
-      "quoteTime": "2026-05-27T20:43:50.615877314Z",
+      "quoteTime": "2026-05-28T12:08:23.359980628Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779933643476_9pj87b",
-      "scannedAt": "2026-05-28T02:00:43.476Z"
+      "id": "candidate_1779970311654_dx07oe",
+      "scannedAt": "2026-05-28T12:11:51.654Z"
     },
     {
       "symbol": "MSTR",
@@ -385,8 +361,8 @@
       "quoteTime": "2026-05-27T20:18:52.924830183Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779933643476_3fok77",
-      "scannedAt": "2026-05-28T02:00:43.476Z"
+      "id": "candidate_1779970311654_sgiifx",
+      "scannedAt": "2026-05-28T12:11:51.654Z"
     },
     {
       "symbol": "AMD",
@@ -409,8 +385,8 @@
       "quoteTime": "2026-05-27T20:01:42.105906379Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779933643476_iaivt9",
-      "scannedAt": "2026-05-28T02:00:43.476Z"
+      "id": "candidate_1779970311654_ft5c3s",
+      "scannedAt": "2026-05-28T12:11:51.654Z"
     },
     {
       "symbol": "NVDA",
@@ -433,8 +409,32 @@
       "quoteTime": "2026-05-27T20:45:49.511382213Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779933643476_xkr6h2",
-      "scannedAt": "2026-05-28T02:00:43.476Z"
+      "id": "candidate_1779970311653_cjgujc",
+      "scannedAt": "2026-05-28T12:11:51.653Z"
+    },
+    {
+      "symbol": "CRM",
+      "fallback": true,
+      "price": 177.99,
+      "previousClose": 179.16,
+      "dayOpen": 178.24,
+      "dayHigh": 183.835,
+      "dayLow": 176.95,
+      "dayVolume": 548691,
+      "previousVolume": 567436,
+      "gapPercent": -0.6530475552578632,
+      "intradayMovePercent": -0.14026032315978457,
+      "relativeVolume": 1,
+      "spreadPercent": 10.67475700882072,
+      "trend": "neutral",
+      "volatility": 3.8681948424068877,
+      "universeScore": 5.687803616833893,
+      "marketDataSource": "alpaca_snapshot",
+      "quoteTime": "2026-05-28T12:05:54.003891817Z",
+      "livePriceSource": "alpaca_snapshot",
+      "livePriceUpdatedAt": null,
+      "id": "candidate_1779970311654_8133q8",
+      "scannedAt": "2026-05-28T12:11:51.654Z"
     },
     {
       "symbol": "GOOGL",
@@ -457,8 +457,8 @@
       "quoteTime": "2026-05-27T20:43:24.887804876Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779933643476_gpb6vv",
-      "scannedAt": "2026-05-28T02:00:43.476Z"
+      "id": "candidate_1779970311654_a6iaui",
+      "scannedAt": "2026-05-28T12:11:51.654Z"
     },
     {
       "symbol": "AVGO",
@@ -481,8 +481,8 @@
       "quoteTime": "2026-05-27T20:57:29.473123533Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779933643476_qegcci",
-      "scannedAt": "2026-05-28T02:00:43.476Z"
+      "id": "candidate_1779970311654_uewm1l",
+      "scannedAt": "2026-05-28T12:11:51.654Z"
     },
     {
       "symbol": "NFLX",
@@ -505,11 +505,11 @@
       "quoteTime": "2026-05-27T20:54:27.172611721Z",
       "livePriceSource": "alpaca_snapshot",
       "livePriceUpdatedAt": null,
-      "id": "candidate_1779933643476_lrzqga",
-      "scannedAt": "2026-05-28T02:00:43.476Z"
+      "id": "candidate_1779970311654_y7vzri",
+      "scannedAt": "2026-05-28T12:11:51.654Z"
     }
   ],
-  "preparedAt": "2026-05-28T02:00:43.476Z",
-  "updatedAt": "2026-05-28T02:00:43.611Z",
+  "preparedAt": "2026-05-28T12:11:51.655Z",
+  "updatedAt": "2026-05-28T12:11:51.983Z",
   "candidateError": null
 }
