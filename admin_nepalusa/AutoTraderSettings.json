@@ -36,8 +36,8 @@
     "tradingDirective": "TRADE",
     "maxPositionAmountToday": 3500,
     "dailyRiskBudget": 50,
-    "reason": "Bullish market regime with elevated relative volume/gaps supports momentum continuation setups. Paper active exploration is enabled: live market data is fresh and the setup quality is acceptable, so the desk may take small paper trades while risk gates remain active.",
-    "selectedAt": "2026-05-28T15:32:18.647Z",
+    "reason": "Bullish market regime with elevated relative volume/gaps supports momentum continuation setups. Paper active exploration is enabled: live market data is fresh and the setup quality is acceptable, so the desk may take small paper trades while risk gates remain active. Paper active exploration is enabled: live market data is fresh and the setup quality is acceptable, so the desk may take small paper trades while risk gates remain active.",
+    "selectedAt": "2026-05-28T15:34:00.208Z",
     "selectedBy": "ai_strategy_agent_paper_active_exploration"
   },
   "confidenceThreshold": 82,
@@ -60,7 +60,7 @@
   "scannerMaxCandidates": 20,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-05-28T15:32:18.940Z",
+  "updatedAt": "2026-05-28T15:34:00.477Z",
   "availableModes": {
     "paper": true,
     "live": true
