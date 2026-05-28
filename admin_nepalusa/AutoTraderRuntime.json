@@ -2,8 +2,8 @@
   "active": false,
   "state": "office_closed",
   "message": "Trading office is closed until the next market session opens at 2026-05-28T09:30:00-04:00.",
-  "source": "fastOrderSupervisor.tick",
+  "source": "fastOrderSupervisor.startup",
   "mode": "paper",
   "instructionOverride": null,
-  "updatedAt": "2026-05-28T01:04:19.970Z"
+  "updatedAt": "2026-05-28T01:04:52.121Z"
 }
