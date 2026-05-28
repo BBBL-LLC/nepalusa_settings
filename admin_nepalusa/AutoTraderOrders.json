@@ -1,6 +1,262 @@
 {
   "orders": [
     {
+      "id": "order_1779982012983_rqfz8n",
+      "signalId": "live_signal_1779982012093_oi0a9w",
+      "symbol": "GOOGL",
+      "mode": "paper",
+      "status": "not_submitted",
+      "createdAt": "2026-05-28T15:26:52.983Z",
+      "source": "rapid_live_setup_tick",
+      "riskDecision": {
+        "approved": true,
+        "reasons": [],
+        "adjustedPositionAmount": 325,
+        "adjustedSignal": {
+          "id": "live_signal_1779982012093_oi0a9w",
+          "createdAt": "2026-05-28T15:26:52.093Z",
+          "mode": "paper",
+          "symbol": "GOOGL",
+          "action": "BUY",
+          "status": "approved",
+          "executionStatus": "live_ready",
+          "riskLevel": "standard",
+          "confidence": 90,
+          "entryMin": 389.28,
+          "entryMax": 390.44,
+          "targetPrice": 393.37,
+          "stopLoss": 387.91,
+          "positionAmount": 325,
+          "paperLearningTrade": true,
+          "paperLiveSetup": true,
+          "rawCandidate": {
+            "symbol": "GOOGL",
+            "price": 389.86,
+            "spreadPercent": 0,
+            "technicalScore": 90,
+            "liquidityScore": 70,
+            "catalystScore": 50,
+            "trend": "up",
+            "liveConfidence": 90,
+            "liveConfidenceReasons": [
+              "fresh live data",
+              "strong live movement",
+              "tight spread",
+              "enough recent ticks"
+            ],
+            "movePercent": 0.1953
+          },
+          "liveDeskSnapshot": {
+            "symbol": "GOOGL",
+            "price": 389.845,
+            "movePercent": 0.1953,
+            "liveConfidence": 90,
+            "liveConfidenceLabel": "strong",
+            "liveConfidenceReasons": [
+              "fresh live data",
+              "strong live movement",
+              "tight spread",
+              "enough recent ticks"
+            ],
+            "high": 390,
+            "low": 389.065,
+            "bidPrice": 389.79,
+            "askPrice": 389.9,
+            "lastType": "quote",
+            "feed": "iex",
+            "mode": "paper",
+            "updatedAt": "2026-05-28T15:26:51.714Z",
+            "ageMs": 379,
+            "fresh": true
+          }
+        },
+        "masterPermission": {
+          "adjustedSignal": {
+            "id": "live_signal_1779982012093_oi0a9w",
+            "createdAt": "2026-05-28T15:26:52.093Z",
+            "mode": "paper",
+            "symbol": "GOOGL",
+            "action": "BUY",
+            "status": "approved",
+            "executionStatus": "live_ready",
+            "riskLevel": "standard",
+            "confidence": 90,
+            "entryMin": 389.28,
+            "entryMax": 390.44,
+            "targetPrice": 393.37,
+            "stopLoss": 387.91,
+            "positionAmount": 325,
+            "paperLearningTrade": true,
+            "paperLiveSetup": true,
+            "rawCandidate": {
+              "symbol": "GOOGL",
+              "price": 389.86,
+              "spreadPercent": 0,
+              "technicalScore": 90,
+              "liquidityScore": 70,
+              "catalystScore": 50,
+              "trend": "up",
+              "liveConfidence": 90,
+              "liveConfidenceReasons": [
+                "fresh live data",
+                "strong live movement",
+                "tight spread",
+                "enough recent ticks"
+              ],
+              "movePercent": 0.1953
+            },
+            "liveDeskSnapshot": {
+              "symbol": "GOOGL",
+              "price": 389.845,
+              "movePercent": 0.1953,
+              "liveConfidence": 90,
+              "liveConfidenceLabel": "strong",
+              "liveConfidenceReasons": [
+                "fresh live data",
+                "strong live movement",
+                "tight spread",
+                "enough recent ticks"
+              ],
+              "high": 390,
+              "low": 389.065,
+              "bidPrice": 389.79,
+              "askPrice": 389.9,
+              "lastType": "quote",
+              "feed": "iex",
+              "mode": "paper",
+              "updatedAt": "2026-05-28T15:26:51.714Z",
+              "ageMs": 379,
+              "fresh": true
+            }
+          },
+          "requestedPositionAmount": 500,
+          "smartPositionAmount": 325,
+          "adjustedPositionAmount": 325,
+          "conviction": {
+            "score": 77,
+            "sizeProfile": "balanced",
+            "rewardRiskRatio": 2.14,
+            "reasons": [
+              "high AI confidence",
+              "excellent reward/risk",
+              "strong technical confirmation",
+              "tight spread"
+            ]
+          },
+          "adjustments": [
+            {
+              "field": "positionAmount",
+              "from": 500,
+              "to": 325,
+              "reason": "Master conviction sizing selected balanced size for this setup."
+            }
+          ]
+        },
+        "riskSnapshot": {
+          "currentPrice": 389.86,
+          "liveMarketData": {
+            "type": "live_execution_director",
+            "symbol": "GOOGL",
+            "price": 389.86,
+            "bidPrice": 389.79,
+            "askPrice": 389.93,
+            "feed": "iex",
+            "mode": "paper",
+            "updatedAt": "2026-05-28T15:26:51.087Z",
+            "liveConfidence": 90,
+            "movePercent": 0.1992
+          },
+          "livePriceSource": "alpaca_stream",
+          "livePriceUpdatedAt": "2026-05-28T15:26:51.087Z",
+          "entryMin": 389.28,
+          "entryMax": 390.44,
+          "targetPrice": 393.37,
+          "stopLoss": 387.91,
+          "confidence": 90,
+          "dailyLoss": 0,
+          "dailyProfit": 4.490000000005239,
+          "todayTradeCount": 4,
+          "plannedTradesToday": 0,
+          "tradingDirective": "TRADE",
+          "maxPositionAmountToday": 500,
+          "dailyRiskBudget": 10,
+          "entrySlippageTolerancePercent": 0.15,
+          "strategyProfile": "conservative_trend",
+          "tradeDirection": "long_only",
+          "minRewardRiskRatio": 0.45,
+          "confidenceThreshold": 55,
+          "minTradeQualityScore": 20,
+          "paperLearning": {
+            "enabled": true,
+            "liveFresh": true,
+            "liveAgeMs": 1724,
+            "minRewardRiskRatio": 0.45,
+            "minConfidence": 55,
+            "minTradeQualityScore": 20
+          },
+          "requestedPositionAmount": 500,
+          "smartPositionAmount": 325,
+          "wasPositionAmountAdjusted": true,
+          "masterConviction": {
+            "score": 77,
+            "sizeProfile": "balanced",
+            "rewardRiskRatio": 2.14,
+            "reasons": [
+              "high AI confidence",
+              "excellent reward/risk",
+              "strong technical confirmation",
+              "tight spread"
+            ]
+          },
+          "masterAdjustments": [
+            {
+              "field": "positionAmount",
+              "from": 500,
+              "to": 325,
+              "reason": "Master conviction sizing selected balanced size for this setup."
+            }
+          ],
+          "tradeQuality": {
+            "score": 85,
+            "rewardRiskRatio": 2.14,
+            "reasons": [
+              "reward/risk is acceptable",
+              "AI confidence is strong",
+              "price is inside planned entry window",
+              "liquidity is strong",
+              "technical evidence is strong",
+              "catalyst evidence is meaningful",
+              "spread is tradable"
+            ]
+          },
+          "discipline": {
+            "blocked": false,
+            "consecutiveLosses": 0,
+            "maxConsecutiveLossesBeforePause": 2,
+            "lossCooldownMinutes": 30
+          },
+          "freshness": {
+            "blocked": false,
+            "ageMinutes": 0,
+            "maxSignalAgeMinutes": 5
+          }
+        }
+      },
+      "liveMarketData": {
+        "type": "live_execution_director",
+        "symbol": "GOOGL",
+        "price": 389.86,
+        "bidPrice": 389.79,
+        "askPrice": 389.93,
+        "feed": "iex",
+        "mode": "paper",
+        "updatedAt": "2026-05-28T15:26:51.087Z",
+        "liveConfidence": 90,
+        "movePercent": 0.1992
+      },
+      "alpacaOrder": null
+    },
+    {
       "id": "order_1779981987713_03i6v9",
       "signalId": "live_signal_1779981987098_k6cawh",
       "symbol": "AMD",
