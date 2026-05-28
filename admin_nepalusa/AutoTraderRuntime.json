@@ -1,9 +1,9 @@
 {
-  "active": true,
-  "state": "executing",
-  "message": "Trading desk is submitting an order for AAPL.",
+  "active": false,
+  "state": "idle",
+  "message": "ROBO TRADER is idle.",
   "source": "liveMarketDesk.trigger",
   "mode": "paper",
   "instructionOverride": null,
-  "updatedAt": "2026-05-28T15:34:52.899Z"
+  "updatedAt": "2026-05-28T15:34:57.506Z"
 }
