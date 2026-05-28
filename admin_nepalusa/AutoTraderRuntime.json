@@ -1,9 +1,9 @@
 {
-  "active": false,
-  "state": "office_closed",
-  "message": "Trading office is closed until the next market session opens at 2026-05-28T09:30:00-04:00.",
-  "source": "fastOrderSupervisor.tick",
+  "active": true,
+  "state": "scanning",
+  "message": "ROBO TRADER is scanning and evaluating trade opportunities.",
+  "source": "liveMarketDesk.trigger",
   "mode": "paper",
   "instructionOverride": null,
-  "updatedAt": "2026-05-28T13:29:43.218Z"
+  "updatedAt": "2026-05-28T13:33:38.043Z"
 }
