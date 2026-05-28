@@ -1,6 +1,144 @@
 {
   "orders": [
     {
+      "id": "order_1779983259391_lrtqi5",
+      "signalId": "signal_1779983257839_ppum8k",
+      "symbol": "PLTR",
+      "mode": "paper",
+      "status": "not_submitted",
+      "createdAt": "2026-05-28T15:47:39.391Z",
+      "riskDecision": {
+        "approved": true,
+        "reasons": [],
+        "adjustedPositionAmount": 1200,
+        "adjustedSignal": {
+          "symbol": "PLTR",
+          "action": "BUY",
+          "entryMin": 139.96,
+          "entryMax": 140.53,
+          "targetPrice": 141.3,
+          "stopLoss": 138.28,
+          "confidence": 82,
+          "riskLevel": "medium",
+          "positionAmount": 1200,
+          "reason": "Bullish trend with significant price gap and strong technical score. Paper active learning promoted this watchlist setup into a small test trade because live data is fresh.",
+          "paperLearningTrade": true
+        },
+        "masterPermission": {
+          "adjustedSignal": {
+            "symbol": "PLTR",
+            "action": "BUY",
+            "entryMin": 139.96,
+            "entryMax": 140.53,
+            "targetPrice": 141.3,
+            "stopLoss": 138.28,
+            "confidence": 82,
+            "riskLevel": "medium",
+            "positionAmount": 1200,
+            "reason": "Bullish trend with significant price gap and strong technical score. Paper active learning promoted this watchlist setup into a small test trade because live data is fresh.",
+            "paperLearningTrade": true
+          },
+          "requestedPositionAmount": 1200,
+          "smartPositionAmount": 1200,
+          "adjustedPositionAmount": 1200,
+          "conviction": {
+            "score": 63,
+            "sizeProfile": "defensive",
+            "rewardRiskRatio": 0.46,
+            "reasons": [
+              "strong technical confirmation",
+              "tight spread",
+              "market and stock trend aligned"
+            ]
+          },
+          "adjustments": []
+        },
+        "riskSnapshot": {
+          "currentPrice": 140.08499999999998,
+          "liveMarketData": {
+            "type": "quote",
+            "symbol": "PLTR",
+            "price": 140.08499999999998,
+            "bidPrice": 140.07,
+            "bidSize": 100,
+            "askPrice": 140.1,
+            "askSize": 100,
+            "timestamp": "2026-05-28T15:47:37.13521323Z",
+            "feed": "iex",
+            "mode": "paper",
+            "previousPrice": 140.09,
+            "previousUpdatedAt": "2026-05-28T15:47:37.152Z",
+            "updatedAt": "2026-05-28T15:47:37.152Z"
+          },
+          "livePriceSource": "alpaca_stream",
+          "livePriceUpdatedAt": "2026-05-28T15:47:37.152Z",
+          "entryMin": 139.96,
+          "entryMax": 140.53,
+          "targetPrice": 141.3,
+          "stopLoss": 138.28,
+          "confidence": 82,
+          "dailyLoss": -3.7699999999895226,
+          "dailyProfit": -3.7699999999895226,
+          "todayTradeCount": 12,
+          "plannedTradesToday": 60,
+          "tradingDirective": "TRADE",
+          "maxPositionAmountToday": 3500,
+          "dailyRiskBudget": 50,
+          "entrySlippageTolerancePercent": 0.15,
+          "strategyProfile": "gap_and_go",
+          "tradeDirection": "long_only",
+          "minRewardRiskRatio": 0.45,
+          "confidenceThreshold": 55,
+          "minTradeQualityScore": 20,
+          "paperLearning": {
+            "enabled": true,
+            "liveFresh": true,
+            "liveAgeMs": 687,
+            "minRewardRiskRatio": 0.45,
+            "minConfidence": 55,
+            "minTradeQualityScore": 20
+          },
+          "requestedPositionAmount": 1200,
+          "smartPositionAmount": 1200,
+          "wasPositionAmountAdjusted": false,
+          "masterConviction": {
+            "score": 63,
+            "sizeProfile": "defensive",
+            "rewardRiskRatio": 0.46,
+            "reasons": [
+              "strong technical confirmation",
+              "tight spread",
+              "market and stock trend aligned"
+            ]
+          },
+          "masterAdjustments": [],
+          "tradeQuality": {
+            "score": 66,
+            "rewardRiskRatio": 0.46,
+            "reasons": [
+              "reward/risk is acceptable",
+              "AI confidence is strong",
+              "price is inside planned entry window",
+              "technical evidence is strong",
+              "spread is tradable",
+              "setup aligns with bullish market"
+            ]
+          },
+          "discipline": {
+            "blocked": false,
+            "consecutiveLosses": 0,
+            "maxConsecutiveLossesBeforePause": 2,
+            "lossCooldownMinutes": 30
+          },
+          "freshness": {
+            "blocked": false,
+            "maxSignalAgeMinutes": 5
+          }
+        }
+      },
+      "alpacaOrder": null
+    },
+    {
       "id": "stream_order_1779983120772_bwqnd9",
       "mode": "paper",
       "symbol": "MSFT",
