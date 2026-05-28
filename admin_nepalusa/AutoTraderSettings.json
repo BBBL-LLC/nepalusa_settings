@@ -37,7 +37,7 @@
     "maxPositionAmountToday": 3500,
     "dailyRiskBudget": 50,
     "reason": "Bullish market conditions with strong relative volume and gap support momentum continuation setups. The setup quality is acceptable for active trading. Paper active exploration is enabled: live market data is fresh and the setup quality is acceptable, so the desk may take small paper trades while risk gates remain active.",
-    "selectedAt": "2026-05-28T15:48:32.281Z",
+    "selectedAt": "2026-05-28T15:50:08.207Z",
     "selectedBy": "ai_strategy_agent_paper_active_exploration"
   },
   "confidenceThreshold": 82,
@@ -60,7 +60,7 @@
   "scannerMaxCandidates": 20,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-05-28T15:48:32.530Z",
+  "updatedAt": "2026-05-28T15:50:08.469Z",
   "availableModes": {
     "paper": true,
     "live": true
