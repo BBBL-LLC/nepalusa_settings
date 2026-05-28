@@ -1,9 +1,9 @@
 {
   "active": true,
-  "state": "scanning",
-  "message": "ROBO TRADER is scanning and evaluating trade opportunities.",
-  "source": "local.verification.scanAfterFix",
+  "state": "executing",
+  "message": "Trading desk is submitting an order for AMD.",
+  "source": "liveMarketDesk.trigger",
   "mode": "paper",
   "instructionOverride": null,
-  "updatedAt": "2026-05-28T15:34:13.067Z"
+  "updatedAt": "2026-05-28T15:34:48.458Z"
 }
