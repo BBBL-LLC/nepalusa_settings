@@ -1,6 +1,261 @@
 {
   "orders": [
     {
+      "id": "order_1779975352671_4jyqlq",
+      "signalId": "live_signal_1779975352489_7jftxa",
+      "symbol": "TSLA",
+      "mode": "paper",
+      "status": "not_submitted",
+      "createdAt": "2026-05-28T13:35:52.671Z",
+      "source": "rapid_live_setup_tick",
+      "riskDecision": {
+        "approved": true,
+        "reasons": [],
+        "adjustedPositionAmount": 325,
+        "adjustedSignal": {
+          "id": "live_signal_1779975352489_7jftxa",
+          "createdAt": "2026-05-28T13:35:52.489Z",
+          "mode": "paper",
+          "symbol": "TSLA",
+          "action": "BUY",
+          "status": "approved",
+          "executionStatus": "live_ready",
+          "riskLevel": "active",
+          "confidence": 98,
+          "entryMin": 435.6,
+          "entryMax": 436.9,
+          "targetPrice": 440.18,
+          "stopLoss": 434.07,
+          "positionAmount": 325,
+          "paperLearningTrade": true,
+          "paperLiveSetup": true,
+          "rawCandidate": {
+            "symbol": "TSLA",
+            "price": 436.25,
+            "spreadPercent": 0,
+            "technicalScore": 98,
+            "liquidityScore": 70,
+            "catalystScore": 50,
+            "trend": "up",
+            "liveConfidence": 98,
+            "liveConfidenceReasons": [
+              "fresh live data",
+              "strong live movement",
+              "tight spread",
+              "enough recent ticks"
+            ],
+            "movePercent": 0.4596
+          },
+          "liveDeskSnapshot": {
+            "symbol": "TSLA",
+            "price": 438.255,
+            "movePercent": 0.4596,
+            "liveConfidence": 98,
+            "liveConfidenceLabel": "strong",
+            "liveConfidenceReasons": [
+              "fresh live data",
+              "strong live movement",
+              "tight spread",
+              "enough recent ticks"
+            ],
+            "high": 449.07,
+            "low": 427.07,
+            "bidPrice": 438.13,
+            "askPrice": 438.38,
+            "lastType": "quote",
+            "feed": "iex",
+            "mode": "paper",
+            "updatedAt": "2026-05-28T13:35:52.392Z",
+            "ageMs": 97,
+            "fresh": true
+          }
+        },
+        "masterPermission": {
+          "adjustedSignal": {
+            "id": "live_signal_1779975352489_7jftxa",
+            "createdAt": "2026-05-28T13:35:52.489Z",
+            "mode": "paper",
+            "symbol": "TSLA",
+            "action": "BUY",
+            "status": "approved",
+            "executionStatus": "live_ready",
+            "riskLevel": "active",
+            "confidence": 98,
+            "entryMin": 435.6,
+            "entryMax": 436.9,
+            "targetPrice": 440.18,
+            "stopLoss": 434.07,
+            "positionAmount": 325,
+            "paperLearningTrade": true,
+            "paperLiveSetup": true,
+            "rawCandidate": {
+              "symbol": "TSLA",
+              "price": 436.25,
+              "spreadPercent": 0,
+              "technicalScore": 98,
+              "liquidityScore": 70,
+              "catalystScore": 50,
+              "trend": "up",
+              "liveConfidence": 98,
+              "liveConfidenceReasons": [
+                "fresh live data",
+                "strong live movement",
+                "tight spread",
+                "enough recent ticks"
+              ],
+              "movePercent": 0.4596
+            },
+            "liveDeskSnapshot": {
+              "symbol": "TSLA",
+              "price": 438.255,
+              "movePercent": 0.4596,
+              "liveConfidence": 98,
+              "liveConfidenceLabel": "strong",
+              "liveConfidenceReasons": [
+                "fresh live data",
+                "strong live movement",
+                "tight spread",
+                "enough recent ticks"
+              ],
+              "high": 449.07,
+              "low": 427.07,
+              "bidPrice": 438.13,
+              "askPrice": 438.38,
+              "lastType": "quote",
+              "feed": "iex",
+              "mode": "paper",
+              "updatedAt": "2026-05-28T13:35:52.392Z",
+              "ageMs": 97,
+              "fresh": true
+            }
+          },
+          "requestedPositionAmount": 500,
+          "smartPositionAmount": 325,
+          "adjustedPositionAmount": 325,
+          "conviction": {
+            "score": 78,
+            "sizeProfile": "balanced",
+            "rewardRiskRatio": 2.14,
+            "reasons": [
+              "high AI confidence",
+              "excellent reward/risk",
+              "strong technical confirmation",
+              "tight spread"
+            ]
+          },
+          "adjustments": [
+            {
+              "field": "positionAmount",
+              "from": 500,
+              "to": 325,
+              "reason": "Master conviction sizing selected balanced size for this setup."
+            }
+          ]
+        },
+        "riskSnapshot": {
+          "currentPrice": 436.25,
+          "liveMarketData": {
+            "type": "quote",
+            "symbol": "TSLA",
+            "price": 436.25,
+            "bidPrice": 433,
+            "bidSize": 40,
+            "askPrice": 439.5,
+            "askSize": 120,
+            "timestamp": "2026-05-28T13:35:52.18745202Z",
+            "feed": "iex",
+            "mode": "paper"
+          },
+          "livePriceSource": "alpaca_stream",
+          "entryMin": 435.6,
+          "entryMax": 436.9,
+          "targetPrice": 440.18,
+          "stopLoss": 434.07,
+          "confidence": 98,
+          "dailyLoss": 0,
+          "dailyProfit": 0.020000000004074536,
+          "todayTradeCount": 2,
+          "plannedTradesToday": 0,
+          "tradingDirective": "TRADE",
+          "maxPositionAmountToday": 500,
+          "dailyRiskBudget": 10,
+          "entrySlippageTolerancePercent": 0.15,
+          "strategyProfile": "conservative_trend",
+          "tradeDirection": "long_only",
+          "minRewardRiskRatio": 0.45,
+          "confidenceThreshold": 55,
+          "minTradeQualityScore": 20,
+          "paperLearning": {
+            "enabled": true,
+            "liveFresh": true,
+            "liveAgeMs": 483,
+            "minRewardRiskRatio": 0.45,
+            "minConfidence": 55,
+            "minTradeQualityScore": 20
+          },
+          "requestedPositionAmount": 500,
+          "smartPositionAmount": 325,
+          "wasPositionAmountAdjusted": true,
+          "masterConviction": {
+            "score": 78,
+            "sizeProfile": "balanced",
+            "rewardRiskRatio": 2.14,
+            "reasons": [
+              "high AI confidence",
+              "excellent reward/risk",
+              "strong technical confirmation",
+              "tight spread"
+            ]
+          },
+          "masterAdjustments": [
+            {
+              "field": "positionAmount",
+              "from": 500,
+              "to": 325,
+              "reason": "Master conviction sizing selected balanced size for this setup."
+            }
+          ],
+          "tradeQuality": {
+            "score": 87,
+            "rewardRiskRatio": 2.14,
+            "reasons": [
+              "reward/risk is acceptable",
+              "AI confidence is strong",
+              "price is inside planned entry window",
+              "liquidity is strong",
+              "technical evidence is strong",
+              "catalyst evidence is meaningful",
+              "spread is tradable"
+            ]
+          },
+          "discipline": {
+            "blocked": false,
+            "consecutiveLosses": 0,
+            "maxConsecutiveLossesBeforePause": 2,
+            "lossCooldownMinutes": 30
+          },
+          "freshness": {
+            "blocked": false,
+            "ageMinutes": 0,
+            "maxSignalAgeMinutes": 5
+          }
+        }
+      },
+      "liveMarketData": {
+        "type": "quote",
+        "symbol": "TSLA",
+        "price": 436.25,
+        "bidPrice": 433,
+        "bidSize": 40,
+        "askPrice": 439.5,
+        "askSize": 120,
+        "timestamp": "2026-05-28T13:35:52.18745202Z",
+        "feed": "iex",
+        "mode": "paper"
+      },
+      "alpacaOrder": null
+    },
+    {
       "id": "stream_order_1779975344436_oimrhm",
       "mode": "paper",
       "symbol": "NVDA",
