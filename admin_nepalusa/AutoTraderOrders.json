@@ -1,6 +1,261 @@
 {
   "orders": [
     {
+      "id": "order_1779982984266_0ttynk",
+      "signalId": "live_signal_1779982983658_jwpoai",
+      "symbol": "MSFT",
+      "mode": "paper",
+      "status": "not_submitted",
+      "createdAt": "2026-05-28T15:43:04.266Z",
+      "source": "rapid_live_setup_tick",
+      "riskDecision": {
+        "approved": true,
+        "reasons": [],
+        "adjustedPositionAmount": 2275,
+        "adjustedSignal": {
+          "id": "live_signal_1779982983658_jwpoai",
+          "createdAt": "2026-05-28T15:43:03.658Z",
+          "mode": "paper",
+          "symbol": "MSFT",
+          "action": "BUY",
+          "status": "approved",
+          "executionStatus": "live_ready",
+          "riskLevel": "active",
+          "confidence": 100,
+          "entryMin": 422.24,
+          "entryMax": 423.51,
+          "targetPrice": 426.68,
+          "stopLoss": 420.76,
+          "positionAmount": 2275,
+          "paperLearningTrade": true,
+          "paperLiveSetup": true,
+          "rawCandidate": {
+            "symbol": "MSFT",
+            "price": 422.875,
+            "spreadPercent": 0,
+            "technicalScore": 100,
+            "liquidityScore": 70,
+            "catalystScore": 50,
+            "trend": "up",
+            "liveConfidence": 100,
+            "liveConfidenceReasons": [
+              "fresh live data",
+              "strong live movement",
+              "tight spread",
+              "enough recent ticks"
+            ],
+            "movePercent": 1.0373
+          },
+          "liveDeskSnapshot": {
+            "symbol": "MSFT",
+            "price": 424.695,
+            "movePercent": 1.0373,
+            "liveConfidence": 100,
+            "liveConfidenceLabel": "strong",
+            "liveConfidenceReasons": [
+              "fresh live data",
+              "strong live movement",
+              "tight spread",
+              "enough recent ticks"
+            ],
+            "high": 425.59,
+            "low": 419.485,
+            "bidPrice": 424.65,
+            "askPrice": 424.74,
+            "lastType": "quote",
+            "feed": "iex",
+            "mode": "paper",
+            "updatedAt": "2026-05-28T15:43:03.505Z",
+            "ageMs": 152,
+            "fresh": true
+          }
+        },
+        "masterPermission": {
+          "adjustedSignal": {
+            "id": "live_signal_1779982983658_jwpoai",
+            "createdAt": "2026-05-28T15:43:03.658Z",
+            "mode": "paper",
+            "symbol": "MSFT",
+            "action": "BUY",
+            "status": "approved",
+            "executionStatus": "live_ready",
+            "riskLevel": "active",
+            "confidence": 100,
+            "entryMin": 422.24,
+            "entryMax": 423.51,
+            "targetPrice": 426.68,
+            "stopLoss": 420.76,
+            "positionAmount": 2275,
+            "paperLearningTrade": true,
+            "paperLiveSetup": true,
+            "rawCandidate": {
+              "symbol": "MSFT",
+              "price": 422.875,
+              "spreadPercent": 0,
+              "technicalScore": 100,
+              "liquidityScore": 70,
+              "catalystScore": 50,
+              "trend": "up",
+              "liveConfidence": 100,
+              "liveConfidenceReasons": [
+                "fresh live data",
+                "strong live movement",
+                "tight spread",
+                "enough recent ticks"
+              ],
+              "movePercent": 1.0373
+            },
+            "liveDeskSnapshot": {
+              "symbol": "MSFT",
+              "price": 424.695,
+              "movePercent": 1.0373,
+              "liveConfidence": 100,
+              "liveConfidenceLabel": "strong",
+              "liveConfidenceReasons": [
+                "fresh live data",
+                "strong live movement",
+                "tight spread",
+                "enough recent ticks"
+              ],
+              "high": 425.59,
+              "low": 419.485,
+              "bidPrice": 424.65,
+              "askPrice": 424.74,
+              "lastType": "quote",
+              "feed": "iex",
+              "mode": "paper",
+              "updatedAt": "2026-05-28T15:43:03.505Z",
+              "ageMs": 152,
+              "fresh": true
+            }
+          },
+          "requestedPositionAmount": 3500,
+          "smartPositionAmount": 2275,
+          "adjustedPositionAmount": 2275,
+          "conviction": {
+            "score": 79,
+            "sizeProfile": "balanced",
+            "rewardRiskRatio": 2.14,
+            "reasons": [
+              "high AI confidence",
+              "excellent reward/risk",
+              "strong technical confirmation",
+              "tight spread"
+            ]
+          },
+          "adjustments": [
+            {
+              "field": "positionAmount",
+              "from": 3500,
+              "to": 2275,
+              "reason": "Master conviction sizing selected balanced size for this setup."
+            }
+          ]
+        },
+        "riskSnapshot": {
+          "currentPrice": 422.875,
+          "liveMarketData": {
+            "type": "quote",
+            "symbol": "MSFT",
+            "price": 422.875,
+            "bidPrice": 421,
+            "bidSize": 40,
+            "askPrice": 424.75,
+            "askSize": 240,
+            "timestamp": "2026-05-28T15:43:02.8306823Z",
+            "feed": "iex",
+            "mode": "paper"
+          },
+          "livePriceSource": "alpaca_stream",
+          "entryMin": 422.24,
+          "entryMax": 423.51,
+          "targetPrice": 426.68,
+          "stopLoss": 420.76,
+          "confidence": 100,
+          "dailyLoss": 0,
+          "dailyProfit": 1.430000000007567,
+          "todayTradeCount": 8,
+          "plannedTradesToday": 0,
+          "tradingDirective": "TRADE",
+          "maxPositionAmountToday": 3500,
+          "dailyRiskBudget": 50,
+          "entrySlippageTolerancePercent": 0.15,
+          "strategyProfile": "gap_and_go",
+          "tradeDirection": "long_only",
+          "minRewardRiskRatio": 0.45,
+          "confidenceThreshold": 55,
+          "minTradeQualityScore": 20,
+          "paperLearning": {
+            "enabled": true,
+            "liveFresh": true,
+            "liveAgeMs": 1435,
+            "minRewardRiskRatio": 0.45,
+            "minConfidence": 55,
+            "minTradeQualityScore": 20
+          },
+          "requestedPositionAmount": 3500,
+          "smartPositionAmount": 2275,
+          "wasPositionAmountAdjusted": true,
+          "masterConviction": {
+            "score": 79,
+            "sizeProfile": "balanced",
+            "rewardRiskRatio": 2.14,
+            "reasons": [
+              "high AI confidence",
+              "excellent reward/risk",
+              "strong technical confirmation",
+              "tight spread"
+            ]
+          },
+          "masterAdjustments": [
+            {
+              "field": "positionAmount",
+              "from": 3500,
+              "to": 2275,
+              "reason": "Master conviction sizing selected balanced size for this setup."
+            }
+          ],
+          "tradeQuality": {
+            "score": 87,
+            "rewardRiskRatio": 2.14,
+            "reasons": [
+              "reward/risk is acceptable",
+              "AI confidence is strong",
+              "price is inside planned entry window",
+              "liquidity is strong",
+              "technical evidence is strong",
+              "catalyst evidence is meaningful",
+              "spread is tradable"
+            ]
+          },
+          "discipline": {
+            "blocked": false,
+            "consecutiveLosses": 1,
+            "maxConsecutiveLossesBeforePause": 2,
+            "lossCooldownMinutes": 30
+          },
+          "freshness": {
+            "blocked": false,
+            "ageMinutes": 0,
+            "maxSignalAgeMinutes": 5
+          }
+        }
+      },
+      "liveMarketData": {
+        "type": "quote",
+        "symbol": "MSFT",
+        "price": 422.875,
+        "bidPrice": 421,
+        "bidSize": 40,
+        "askPrice": 424.75,
+        "askSize": 240,
+        "timestamp": "2026-05-28T15:43:02.8306823Z",
+        "feed": "iex",
+        "mode": "paper"
+      },
+      "alpacaOrder": null
+    },
+    {
       "id": "stream_order_1779982962224_ka08cw",
       "mode": "paper",
       "symbol": "AMD",
