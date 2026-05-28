@@ -37,7 +37,7 @@
     "maxPositionAmountToday": 3500,
     "dailyRiskBudget": 50,
     "reason": "Bullish market regime with elevated relative volume/gaps supports momentum continuation setups. The setup quality is acceptable, allowing for active trading. Paper active exploration is enabled: live market data is fresh and the setup quality is acceptable, so the desk may take small paper trades while risk gates remain active.",
-    "selectedAt": "2026-05-28T15:35:23.431Z",
+    "selectedAt": "2026-05-28T15:35:58.396Z",
     "selectedBy": "ai_strategy_agent_paper_active_exploration"
   },
   "confidenceThreshold": 82,
@@ -60,7 +60,7 @@
   "scannerMaxCandidates": 20,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-05-28T15:35:23.703Z",
+  "updatedAt": "2026-05-28T15:35:58.650Z",
   "availableModes": {
     "paper": true,
     "live": true
