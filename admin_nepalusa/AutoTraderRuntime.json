@@ -1,9 +1,9 @@
 {
-  "active": false,
-  "state": "idle",
-  "message": "ROBO TRADER is idle.",
+  "active": true,
+  "state": "scanning",
+  "message": "ROBO TRADER is scanning and evaluating trade opportunities.",
   "source": "liveMarketDesk.trigger",
   "mode": "paper",
   "instructionOverride": null,
-  "updatedAt": "2026-05-28T15:43:37.687Z"
+  "updatedAt": "2026-05-28T15:44:16.798Z"
 }
