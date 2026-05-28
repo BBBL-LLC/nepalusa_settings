@@ -1,9 +1,9 @@
 {
   "active": false,
-  "state": "idle",
-  "message": "ROBO TRADER is idle.",
-  "source": "morningPrep.cron",
+  "state": "office_closed",
+  "message": "Trading office is closed until the next market session opens at 2026-05-28T09:30:00-04:00.",
+  "source": "fastOrderSupervisor.tick",
   "mode": "paper",
   "instructionOverride": null,
-  "updatedAt": "2026-05-28T12:15:38.308Z"
+  "updatedAt": "2026-05-28T12:16:21.440Z"
 }
