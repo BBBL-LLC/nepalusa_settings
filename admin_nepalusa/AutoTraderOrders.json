@@ -1,6 +1,146 @@
 {
   "orders": [
     {
+      "id": "order_1779982489790_vqe7g0",
+      "signalId": "signal_1779982488183_rg99v0",
+      "symbol": "AMD",
+      "mode": "paper",
+      "status": "not_submitted",
+      "createdAt": "2026-05-28T15:34:49.790Z",
+      "riskDecision": {
+        "approved": true,
+        "reasons": [],
+        "adjustedPositionAmount": 1200,
+        "adjustedSignal": {
+          "symbol": "AMD",
+          "action": "BUY",
+          "entryMin": 524.8,
+          "entryMax": 526.9,
+          "targetPrice": 529.79,
+          "stopLoss": 518.5,
+          "confidence": 96,
+          "riskLevel": "medium",
+          "positionAmount": 1200,
+          "reason": "Strong bullish trend with a significant price gap and solid volume. Paper active learning promoted this watchlist setup into a small test trade because live data is fresh.",
+          "paperLearningTrade": true
+        },
+        "masterPermission": {
+          "adjustedSignal": {
+            "symbol": "AMD",
+            "action": "BUY",
+            "entryMin": 524.8,
+            "entryMax": 526.9,
+            "targetPrice": 529.79,
+            "stopLoss": 518.5,
+            "confidence": 96,
+            "riskLevel": "medium",
+            "positionAmount": 1200,
+            "reason": "Strong bullish trend with a significant price gap and solid volume. Paper active learning promoted this watchlist setup into a small test trade because live data is fresh.",
+            "paperLearningTrade": true
+          },
+          "requestedPositionAmount": 1200,
+          "smartPositionAmount": 1200,
+          "adjustedPositionAmount": 1200,
+          "conviction": {
+            "score": 69,
+            "sizeProfile": "defensive",
+            "rewardRiskRatio": 0.46,
+            "reasons": [
+              "high AI confidence",
+              "strong technical confirmation",
+              "tight spread",
+              "market and stock trend aligned"
+            ]
+          },
+          "adjustments": []
+        },
+        "riskSnapshot": {
+          "currentPrice": 525.4200000000001,
+          "liveMarketData": {
+            "type": "quote",
+            "symbol": "AMD",
+            "price": 525.4200000000001,
+            "bidPrice": 525.26,
+            "bidSize": 100,
+            "askPrice": 525.58,
+            "askSize": 100,
+            "timestamp": "2026-05-28T15:34:47.494581685Z",
+            "feed": "iex",
+            "mode": "paper",
+            "previousPrice": 534.74,
+            "previousUpdatedAt": "2026-05-28T15:34:47.462Z",
+            "updatedAt": "2026-05-28T15:34:47.492Z"
+          },
+          "livePriceSource": "alpaca_stream",
+          "livePriceUpdatedAt": "2026-05-28T15:34:47.492Z",
+          "entryMin": 524.8,
+          "entryMax": 526.9,
+          "targetPrice": 529.79,
+          "stopLoss": 518.5,
+          "confidence": 96,
+          "dailyLoss": 0,
+          "dailyProfit": 4.810000000012224,
+          "todayTradeCount": 5,
+          "plannedTradesToday": 60,
+          "tradingDirective": "TRADE",
+          "maxPositionAmountToday": 3500,
+          "dailyRiskBudget": 50,
+          "entrySlippageTolerancePercent": 0.15,
+          "strategyProfile": "gap_and_go",
+          "tradeDirection": "long_only",
+          "minRewardRiskRatio": 0.45,
+          "confidenceThreshold": 55,
+          "minTradeQualityScore": 20,
+          "paperLearning": {
+            "enabled": true,
+            "liveFresh": true,
+            "liveAgeMs": 691,
+            "minRewardRiskRatio": 0.45,
+            "minConfidence": 55,
+            "minTradeQualityScore": 20
+          },
+          "requestedPositionAmount": 1200,
+          "smartPositionAmount": 1200,
+          "wasPositionAmountAdjusted": false,
+          "masterConviction": {
+            "score": 69,
+            "sizeProfile": "defensive",
+            "rewardRiskRatio": 0.46,
+            "reasons": [
+              "high AI confidence",
+              "strong technical confirmation",
+              "tight spread",
+              "market and stock trend aligned"
+            ]
+          },
+          "masterAdjustments": [],
+          "tradeQuality": {
+            "score": 73,
+            "rewardRiskRatio": 0.46,
+            "reasons": [
+              "reward/risk is acceptable",
+              "AI confidence is strong",
+              "price is inside planned entry window",
+              "technical evidence is strong",
+              "spread is tradable",
+              "setup aligns with bullish market"
+            ]
+          },
+          "discipline": {
+            "blocked": false,
+            "consecutiveLosses": 0,
+            "maxConsecutiveLossesBeforePause": 2,
+            "lossCooldownMinutes": 30
+          },
+          "freshness": {
+            "blocked": false,
+            "maxSignalAgeMinutes": 5
+          }
+        }
+      },
+      "alpacaOrder": null
+    },
+    {
       "id": "stream_order_1779982365124_u5crk5",
       "mode": "paper",
       "symbol": "TSLA",
