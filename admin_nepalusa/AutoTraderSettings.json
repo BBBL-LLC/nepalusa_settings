@@ -5,7 +5,7 @@
   "liveTradingEnabled": false,
   "autoTradingEnabled": true,
   "autoExecuteApprovedSignals": true,
-  "maxTradeAmount": 10000,
+  "maxTradeAmount": 15000,
   "maxDailyLoss": 200,
   "dailyProfitTarget": 500,
   "maxTradesPerDay": 100,
@@ -60,7 +60,7 @@
   "scannerMaxCandidates": 20,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-05-28T16:47:52.001Z",
+  "updatedAt": "2026-05-29T18:12:42.959Z",
   "availableModes": {
     "paper": true,
     "live": true
