@@ -22,8 +22,8 @@
   "emergencyStopEnabled": false,
   "emergencyStopReason": null,
   "emergencyStoppedAt": null,
-  "maxPositionAmountToday": 3500,
-  "dailyRiskBudget": 50,
+  "maxPositionAmountToday": 25000,
+  "dailyRiskBudget": 1500,
   "lastStrategyDecision": {
     "strategyProfile": "gap_and_go",
     "tradeDirection": "long_only",
@@ -61,7 +61,7 @@
   "scannerMaxCandidates": 20,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-06-03T19:12:48.002Z",
+  "updatedAt": "2026-06-03T19:17:22.581Z",
   "availableModes": {
     "paper": true,
     "live": true
