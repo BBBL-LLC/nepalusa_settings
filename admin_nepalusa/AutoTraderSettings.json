@@ -54,14 +54,14 @@
   "trailingStopActivationPercent": 0.18,
   "reentryEnabled": true,
   "maxReentriesPerSymbol": 5,
-  "maxActiveSymbols": 1,
+  "maxActiveSymbols": 6,
   "scannerMinPrice": 5,
   "scannerMaxPrice": 1000,
   "scannerMinRelativeVolume": 1.2,
   "scannerMaxCandidates": 100,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-06-04T19:33:05.511Z",
+  "updatedAt": "2026-06-04T19:34:56.368Z",
   "availableModes": {
     "paper": true,
     "live": true
