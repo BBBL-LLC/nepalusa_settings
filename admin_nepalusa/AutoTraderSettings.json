@@ -22,7 +22,7 @@
   "emergencyStopEnabled": false,
   "emergencyStopReason": null,
   "emergencyStoppedAt": null,
-  "maxPositionAmountToday": 1000,
+  "maxPositionAmountToday": 25000,
   "dailyRiskBudget": 150000,
   "lastStrategyDecision": {
     "strategyProfile": "gap_and_go",
@@ -61,15 +61,15 @@
   "scannerMaxCandidates": 100,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-06-04T19:30:18.940Z",
+  "updatedAt": "2026-06-04T19:33:05.511Z",
   "availableModes": {
     "paper": true,
     "live": true
   },
   "learningDisciplineMinTrades": 999,
   "learningNoEdgeMinTrades": 999,
-  "learningDisciplineMinProfitFactor": 0.05,
-  "learningDisciplineMinWinRate": 1,
+  "learningDisciplineMinProfitFactor": 0.2,
+  "learningDisciplineMinWinRate": 25,
   "aggressivePaperMode": true,
   "aggressivePaperModeReason": "User requested aggressive yesterday last-minute quick-scalp strategy for local paper trading.",
   "paperDrawdownStopLoss": 9000,
