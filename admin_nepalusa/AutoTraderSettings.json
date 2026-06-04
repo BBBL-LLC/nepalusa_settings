@@ -15,7 +15,7 @@
   "entryStrategy": "breakout_or_vwap_reclaim",
   "exitStrategy": "quick_scalp",
   "maxHoldMinutes": 8,
-  "maxSignalAgeMinutes": 5,
+  "maxSignalAgeMinutes": 10,
   "minRewardRiskRatio": 2.25,
   "plannedTradesToday": 0,
   "tradingDirective": "TRADE",
@@ -44,8 +44,8 @@
   "minTradeQualityScore": 90,
   "maxConsecutiveLossesBeforePause": 10,
   "lossCooldownMinutes": 1,
-  "priceAdjustmentTolerancePercent": 0.25,
-  "entrySlippageTolerancePercent": 0.25,
+  "priceAdjustmentTolerancePercent": 1,
+  "entrySlippageTolerancePercent": 1,
   "partialProfitEnabled": true,
   "partialProfitPercent": 40,
   "partialProfitTriggerPercent": 0.18,
@@ -61,7 +61,7 @@
   "scannerMaxCandidates": 100,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-06-04T19:34:56.368Z",
+  "updatedAt": "2026-06-04T19:35:59.625Z",
   "availableModes": {
     "paper": true,
     "live": true
