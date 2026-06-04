@@ -5,8 +5,8 @@
   "liveTradingEnabled": false,
   "autoTradingEnabled": true,
   "autoExecuteApprovedSignals": true,
-  "maxTradeAmount": 373477,
-  "maxDailyLoss": 130716,
+  "maxTradeAmount": 100000,
+  "maxDailyLoss": 50000,
   "dailyProfitTarget": 0,
   "maxTradesPerDay": 5000,
   "aiStrategyEnabled": true,
@@ -22,8 +22,8 @@
   "emergencyStopEnabled": false,
   "emergencyStopReason": null,
   "emergencyStoppedAt": null,
-  "maxPositionAmountToday": 373477,
-  "dailyRiskBudget": 130716,
+  "maxPositionAmountToday": 100000,
+  "dailyRiskBudget": 50000,
   "lastStrategyDecision": {
     "strategyProfile": "gap_and_go",
     "tradeDirection": "long_only",
@@ -61,7 +61,7 @@
   "scannerMaxCandidates": 100,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-06-04T14:38:47.937Z",
+  "updatedAt": "2026-06-04T14:41:30.605Z",
   "availableModes": {
     "paper": true,
     "live": true
