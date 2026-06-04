@@ -18,7 +18,7 @@
   "maxSignalAgeMinutes": 4,
   "minRewardRiskRatio": 0.55,
   "plannedTradesToday": 80,
-  "tradingDirective": "TRADE",
+  "tradingDirective": "PAUSE",
   "emergencyStopEnabled": false,
   "emergencyStopReason": null,
   "emergencyStoppedAt": null,
@@ -61,7 +61,7 @@
   "scannerMaxCandidates": 20,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-06-04T13:57:07.749Z",
+  "updatedAt": "2026-06-04T14:08:33.912Z",
   "availableModes": {
     "paper": true,
     "live": true
