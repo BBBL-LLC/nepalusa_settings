@@ -54,7 +54,7 @@
   "trailingStopActivationPercent": 0.18,
   "reentryEnabled": true,
   "maxReentriesPerSymbol": 5,
-  "maxActiveSymbols": 12,
+  "maxActiveSymbols": 10,
   "scannerMinPrice": 5,
   "scannerMaxPrice": 1000,
   "scannerMinRelativeVolume": 0,
@@ -72,7 +72,7 @@
     "AMD",
     "CRWD"
   ],
-  "updatedAt": "2026-06-05T14:57:53.776Z",
+  "updatedAt": "2026-06-05T15:01:32.907Z",
   "availableModes": {
     "paper": true,
     "live": true
