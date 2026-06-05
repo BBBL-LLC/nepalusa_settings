@@ -5,13 +5,13 @@
   "liveTradingEnabled": false,
   "autoTradingEnabled": true,
   "autoExecuteApprovedSignals": true,
-  "maxTradeAmount": 5000,
+  "maxTradeAmount": 4000,
   "maxDailyLoss": 250000,
   "dailyProfitTarget": 0,
   "maxTradesPerDay": 100,
   "aiStrategyEnabled": false,
   "strategyProfile": "gap_and_go",
-  "tradeDirection": "long_only",
+  "tradeDirection": "long_and_short",
   "entryStrategy": "breakout_or_vwap_reclaim",
   "exitStrategy": "quick_scalp",
   "maxHoldMinutes": 3,
@@ -22,7 +22,7 @@
   "emergencyStopEnabled": false,
   "emergencyStopReason": null,
   "emergencyStoppedAt": null,
-  "maxPositionAmountToday": 5000,
+  "maxPositionAmountToday": 4000,
   "dailyRiskBudget": 250000,
   "lastStrategyDecision": {
     "strategyProfile": "gap_and_go",
@@ -60,22 +60,23 @@
   "scannerMinRelativeVolume": 0,
   "scannerMaxCandidates": 75,
   "preferredSymbols": [
-    "PLTR",
+    "AAPL",
     "UBER",
-    "NVDA",
-    "MSFT",
-    "META"
+    "MSTR",
+    "PLTR",
+    "NVDA"
   ],
   "excludedSymbols": [
-    "AAPL",
     "AMZN",
     "AVGO",
     "CRM",
     "GOOGL",
     "MU",
-    "NFLX"
+    "NFLX",
+    "ARM",
+    "CRWD"
   ],
-  "updatedAt": "2026-06-05T14:05:19.849Z",
+  "updatedAt": "2026-06-05T14:07:23.059Z",
   "availableModes": {
     "paper": true,
     "live": true
