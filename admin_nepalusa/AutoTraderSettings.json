@@ -74,7 +74,7 @@
     "MSTR",
     "AMD"
   ],
-  "updatedAt": "2026-06-05T14:16:27.641Z",
+  "updatedAt": "2026-06-05T14:23:13.058Z",
   "availableModes": {
     "paper": true,
     "live": true
@@ -90,5 +90,6 @@
   "paperDrawdownMaxWinRate": 0,
   "paperDrawdownMinClosedTrades": 200,
   "lastExecutiveTradeOverrideReason": "Owner requested go-wild paper-only test posture before market open. Live trading remains disabled.",
-  "priceSlippageTolerancePercent": 2
+  "priceSlippageTolerancePercent": 2,
+  "fillFirstStopManagementEnabled": true
 }
