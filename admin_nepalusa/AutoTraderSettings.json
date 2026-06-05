@@ -3,8 +3,8 @@
   "brokerMode": "paper",
   "paperTradingOnly": true,
   "liveTradingEnabled": false,
-  "autoTradingEnabled": true,
-  "autoExecuteApprovedSignals": true,
+  "autoTradingEnabled": false,
+  "autoExecuteApprovedSignals": false,
   "maxTradeAmount": 3500,
   "maxDailyLoss": 250000,
   "dailyProfitTarget": 0,
@@ -18,7 +18,7 @@
   "maxSignalAgeMinutes": 20,
   "minRewardRiskRatio": 0.05,
   "plannedTradesToday": 0,
-  "tradingDirective": "TRADE",
+  "tradingDirective": "PAUSE",
   "emergencyStopEnabled": false,
   "emergencyStopReason": null,
   "emergencyStoppedAt": null,
@@ -74,7 +74,7 @@
     "MSTR",
     "AMD"
   ],
-  "updatedAt": "2026-06-05T14:10:57.013Z",
+  "updatedAt": "2026-06-05T14:14:13.407Z",
   "availableModes": {
     "paper": true,
     "live": true
