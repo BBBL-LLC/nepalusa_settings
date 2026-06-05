@@ -9,7 +9,7 @@
   "maxDailyLoss": 250000,
   "dailyProfitTarget": 0,
   "maxTradesPerDay": 100,
-  "aiStrategyEnabled": true,
+  "aiStrategyEnabled": false,
   "strategyProfile": "gap_and_go",
   "tradeDirection": "long_only",
   "entryStrategy": "breakout_or_vwap_reclaim",
@@ -61,7 +61,7 @@
   "scannerMaxCandidates": 50,
   "preferredSymbols": [],
   "excludedSymbols": [],
-  "updatedAt": "2026-06-05T13:41:03.843Z",
+  "updatedAt": "2026-06-05T13:42:21.593Z",
   "availableModes": {
     "paper": true,
     "live": true
