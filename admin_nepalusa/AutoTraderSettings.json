@@ -5,7 +5,7 @@
   "liveTradingEnabled": false,
   "autoTradingEnabled": true,
   "autoExecuteApprovedSignals": true,
-  "maxTradeAmount": 25000,
+  "maxTradeAmount": 40000,
   "maxDailyLoss": 250000,
   "dailyProfitTarget": 0,
   "maxTradesPerDay": 100,
@@ -22,7 +22,7 @@
   "emergencyStopEnabled": false,
   "emergencyStopReason": null,
   "emergencyStoppedAt": null,
-  "maxPositionAmountToday": 25000,
+  "maxPositionAmountToday": 40000,
   "dailyRiskBudget": 250000,
   "lastStrategyDecision": {
     "strategyProfile": "gap_and_go",
@@ -40,7 +40,7 @@
     "selectedAt": "2026-05-28T15:56:11.952Z",
     "selectedBy": "ai_strategy_agent_paper_active_exploration"
   },
-  "confidenceThreshold": 45,
+  "confidenceThreshold": 40,
   "minTradeQualityScore": 1,
   "maxConsecutiveLossesBeforePause": 10,
   "lossCooldownMinutes": 1,
@@ -64,7 +64,7 @@
     "MU",
     "NVDA",
     "PLTR",
-    "UBER",
+    "GOOGL",
     "NFLX"
   ],
   "excludedSymbols": [
@@ -72,7 +72,7 @@
     "AMD",
     "CRWD"
   ],
-  "updatedAt": "2026-06-05T14:51:49.611Z",
+  "updatedAt": "2026-06-05T14:52:56.937Z",
   "availableModes": {
     "paper": true,
     "live": true
@@ -88,7 +88,7 @@
   "paperDrawdownMaxWinRate": 0,
   "paperDrawdownMinClosedTrades": 200,
   "lastExecutiveTradeOverrideReason": "Owner requested go-wild paper-only test posture before market open. Live trading remains disabled.",
-  "priceSlippageTolerancePercent": 3,
+  "priceSlippageTolerancePercent": 4,
   "fillFirstStopManagementEnabled": true,
   "protectEveryOpenPosition": true
 }
