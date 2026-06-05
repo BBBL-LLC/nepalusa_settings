@@ -3,9 +3,9 @@
   "brokerMode": "paper",
   "paperTradingOnly": true,
   "liveTradingEnabled": false,
-  "autoTradingEnabled": false,
-  "autoExecuteApprovedSignals": false,
-  "maxTradeAmount": 3500,
+  "autoTradingEnabled": true,
+  "autoExecuteApprovedSignals": true,
+  "maxTradeAmount": 2500,
   "maxDailyLoss": 250000,
   "dailyProfitTarget": 0,
   "maxTradesPerDay": 100,
@@ -18,11 +18,11 @@
   "maxSignalAgeMinutes": 20,
   "minRewardRiskRatio": 0.05,
   "plannedTradesToday": 0,
-  "tradingDirective": "PAUSE",
+  "tradingDirective": "TRADE",
   "emergencyStopEnabled": false,
   "emergencyStopReason": null,
   "emergencyStoppedAt": null,
-  "maxPositionAmountToday": 3500,
+  "maxPositionAmountToday": 2500,
   "dailyRiskBudget": 250000,
   "lastStrategyDecision": {
     "strategyProfile": "gap_and_go",
@@ -40,7 +40,7 @@
     "selectedAt": "2026-05-28T15:56:11.952Z",
     "selectedBy": "ai_strategy_agent_paper_active_exploration"
   },
-  "confidenceThreshold": 50,
+  "confidenceThreshold": 55,
   "minTradeQualityScore": 1,
   "maxConsecutiveLossesBeforePause": 10,
   "lossCooldownMinutes": 1,
@@ -54,27 +54,24 @@
   "trailingStopActivationPercent": 0.18,
   "reentryEnabled": true,
   "maxReentriesPerSymbol": 5,
-  "maxActiveSymbols": 4,
+  "maxActiveSymbols": 3,
   "scannerMinPrice": 5,
   "scannerMaxPrice": 1000,
   "scannerMinRelativeVolume": 0,
   "scannerMaxCandidates": 75,
   "preferredSymbols": [
-    "AAPL",
-    "UBER",
     "NVDA",
-    "GOOGL"
+    "UBER",
+    "GOOGL",
+    "NFLX",
+    "AAPL"
   ],
   "excludedSymbols": [
     "PLTR",
-    "AMZN",
-    "AVGO",
-    "CRM",
-    "MU",
-    "MSTR",
-    "AMD"
+    "META",
+    "MSFT"
   ],
-  "updatedAt": "2026-06-05T14:24:23.690Z",
+  "updatedAt": "2026-06-05T14:40:08.640Z",
   "availableModes": {
     "paper": true,
     "live": true
@@ -91,5 +88,6 @@
   "paperDrawdownMinClosedTrades": 200,
   "lastExecutiveTradeOverrideReason": "Owner requested go-wild paper-only test posture before market open. Live trading remains disabled.",
   "priceSlippageTolerancePercent": 2,
-  "fillFirstStopManagementEnabled": true
+  "fillFirstStopManagementEnabled": true,
+  "protectEveryOpenPosition": true
 }
