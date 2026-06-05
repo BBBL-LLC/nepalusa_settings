@@ -5,7 +5,7 @@
   "liveTradingEnabled": false,
   "autoTradingEnabled": true,
   "autoExecuteApprovedSignals": true,
-  "maxTradeAmount": 2500,
+  "maxTradeAmount": 25000,
   "maxDailyLoss": 250000,
   "dailyProfitTarget": 0,
   "maxTradesPerDay": 100,
@@ -14,7 +14,7 @@
   "tradeDirection": "long_only",
   "entryStrategy": "breakout_or_vwap_reclaim",
   "exitStrategy": "quick_scalp",
-  "maxHoldMinutes": 3,
+  "maxHoldMinutes": 5,
   "maxSignalAgeMinutes": 20,
   "minRewardRiskRatio": 0.05,
   "plannedTradesToday": 0,
@@ -22,7 +22,7 @@
   "emergencyStopEnabled": false,
   "emergencyStopReason": null,
   "emergencyStoppedAt": null,
-  "maxPositionAmountToday": 2500,
+  "maxPositionAmountToday": 25000,
   "dailyRiskBudget": 250000,
   "lastStrategyDecision": {
     "strategyProfile": "gap_and_go",
@@ -40,7 +40,7 @@
     "selectedAt": "2026-05-28T15:56:11.952Z",
     "selectedBy": "ai_strategy_agent_paper_active_exploration"
   },
-  "confidenceThreshold": 55,
+  "confidenceThreshold": 45,
   "minTradeQualityScore": 1,
   "maxConsecutiveLossesBeforePause": 10,
   "lossCooldownMinutes": 1,
@@ -54,24 +54,25 @@
   "trailingStopActivationPercent": 0.18,
   "reentryEnabled": true,
   "maxReentriesPerSymbol": 5,
-  "maxActiveSymbols": 3,
+  "maxActiveSymbols": 12,
   "scannerMinPrice": 5,
   "scannerMaxPrice": 1000,
   "scannerMinRelativeVolume": 0,
   "scannerMaxCandidates": 75,
   "preferredSymbols": [
+    "MSTR",
+    "MU",
     "NVDA",
+    "PLTR",
     "UBER",
-    "GOOGL",
-    "NFLX",
-    "AAPL"
+    "NFLX"
   ],
   "excludedSymbols": [
-    "PLTR",
-    "META",
-    "MSFT"
+    "ARM",
+    "AMD",
+    "CRWD"
   ],
-  "updatedAt": "2026-06-05T14:40:08.640Z",
+  "updatedAt": "2026-06-05T14:51:49.611Z",
   "availableModes": {
     "paper": true,
     "live": true
@@ -83,11 +84,11 @@
   "aggressivePaperMode": true,
   "aggressivePaperModeReason": "User requested aggressive yesterday last-minute quick-scalp strategy for local paper trading.",
   "paperDrawdownStopLoss": 25000,
-  "paperMaxConsecutiveLosses": 80,
+  "paperMaxConsecutiveLosses": 100,
   "paperDrawdownMaxWinRate": 0,
   "paperDrawdownMinClosedTrades": 200,
   "lastExecutiveTradeOverrideReason": "Owner requested go-wild paper-only test posture before market open. Live trading remains disabled.",
-  "priceSlippageTolerancePercent": 2,
+  "priceSlippageTolerancePercent": 3,
   "fillFirstStopManagementEnabled": true,
   "protectEveryOpenPosition": true
 }
