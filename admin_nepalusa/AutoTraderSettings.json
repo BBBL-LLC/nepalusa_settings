@@ -5,7 +5,7 @@
   "liveTradingEnabled": false,
   "autoTradingEnabled": true,
   "autoExecuteApprovedSignals": true,
-  "maxTradeAmount": 75000,
+  "maxTradeAmount": 5000,
   "maxDailyLoss": 250000,
   "dailyProfitTarget": 0,
   "maxTradesPerDay": 100,
@@ -14,7 +14,7 @@
   "tradeDirection": "long_only",
   "entryStrategy": "breakout_or_vwap_reclaim",
   "exitStrategy": "quick_scalp",
-  "maxHoldMinutes": 8,
+  "maxHoldMinutes": 3,
   "maxSignalAgeMinutes": 20,
   "minRewardRiskRatio": 0.05,
   "plannedTradesToday": 0,
@@ -22,7 +22,7 @@
   "emergencyStopEnabled": false,
   "emergencyStopReason": null,
   "emergencyStoppedAt": null,
-  "maxPositionAmountToday": 75000,
+  "maxPositionAmountToday": 5000,
   "dailyRiskBudget": 250000,
   "lastStrategyDecision": {
     "strategyProfile": "gap_and_go",
@@ -54,14 +54,28 @@
   "trailingStopActivationPercent": 0.18,
   "reentryEnabled": true,
   "maxReentriesPerSymbol": 5,
-  "maxActiveSymbols": 30,
+  "maxActiveSymbols": 5,
   "scannerMinPrice": 5,
   "scannerMaxPrice": 1000,
   "scannerMinRelativeVolume": 0,
   "scannerMaxCandidates": 75,
-  "preferredSymbols": [],
-  "excludedSymbols": [],
-  "updatedAt": "2026-06-05T13:56:03.801Z",
+  "preferredSymbols": [
+    "PLTR",
+    "UBER",
+    "NVDA",
+    "MSFT",
+    "META"
+  ],
+  "excludedSymbols": [
+    "AAPL",
+    "AMZN",
+    "AVGO",
+    "CRM",
+    "GOOGL",
+    "MU",
+    "NFLX"
+  ],
+  "updatedAt": "2026-06-05T14:05:19.849Z",
   "availableModes": {
     "paper": true,
     "live": true
@@ -76,5 +90,6 @@
   "paperMaxConsecutiveLosses": 80,
   "paperDrawdownMaxWinRate": 0,
   "paperDrawdownMinClosedTrades": 200,
-  "lastExecutiveTradeOverrideReason": "Owner requested go-wild paper-only test posture before market open. Live trading remains disabled."
+  "lastExecutiveTradeOverrideReason": "Owner requested go-wild paper-only test posture before market open. Live trading remains disabled.",
+  "priceSlippageTolerancePercent": 2
 }
