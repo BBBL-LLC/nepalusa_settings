@@ -5,13 +5,13 @@
   "liveTradingEnabled": false,
   "autoTradingEnabled": true,
   "autoExecuteApprovedSignals": true,
-  "maxTradeAmount": 4000,
+  "maxTradeAmount": 3500,
   "maxDailyLoss": 250000,
   "dailyProfitTarget": 0,
   "maxTradesPerDay": 100,
   "aiStrategyEnabled": false,
-  "strategyProfile": "gap_and_go",
-  "tradeDirection": "long_and_short",
+  "strategyProfile": "momentum_day_trade",
+  "tradeDirection": "long_only",
   "entryStrategy": "breakout_or_vwap_reclaim",
   "exitStrategy": "quick_scalp",
   "maxHoldMinutes": 3,
@@ -22,7 +22,7 @@
   "emergencyStopEnabled": false,
   "emergencyStopReason": null,
   "emergencyStoppedAt": null,
-  "maxPositionAmountToday": 4000,
+  "maxPositionAmountToday": 3500,
   "dailyRiskBudget": 250000,
   "lastStrategyDecision": {
     "strategyProfile": "gap_and_go",
@@ -54,7 +54,7 @@
   "trailingStopActivationPercent": 0.18,
   "reentryEnabled": true,
   "maxReentriesPerSymbol": 5,
-  "maxActiveSymbols": 5,
+  "maxActiveSymbols": 4,
   "scannerMinPrice": 5,
   "scannerMaxPrice": 1000,
   "scannerMinRelativeVolume": 0,
@@ -62,21 +62,19 @@
   "preferredSymbols": [
     "AAPL",
     "UBER",
-    "MSTR",
-    "PLTR",
-    "NVDA"
+    "NVDA",
+    "GOOGL"
   ],
   "excludedSymbols": [
+    "PLTR",
     "AMZN",
     "AVGO",
     "CRM",
-    "GOOGL",
     "MU",
-    "NFLX",
-    "ARM",
-    "CRWD"
+    "MSTR",
+    "AMD"
   ],
-  "updatedAt": "2026-06-05T14:07:23.059Z",
+  "updatedAt": "2026-06-05T14:10:57.013Z",
   "availableModes": {
     "paper": true,
     "live": true
