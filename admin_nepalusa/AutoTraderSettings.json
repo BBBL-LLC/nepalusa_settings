@@ -5,7 +5,7 @@
   "liveTradingEnabled": false,
   "autoTradingEnabled": true,
   "autoExecuteApprovedSignals": true,
-  "maxTradeAmount": 40000,
+  "maxTradeAmount": 50000,
   "maxDailyLoss": 250000,
   "dailyProfitTarget": 0,
   "maxTradesPerDay": 100,
@@ -14,7 +14,7 @@
   "tradeDirection": "long_only",
   "entryStrategy": "breakout_or_vwap_reclaim",
   "exitStrategy": "quick_scalp",
-  "maxHoldMinutes": 5,
+  "maxHoldMinutes": 20,
   "maxSignalAgeMinutes": 20,
   "minRewardRiskRatio": 0.05,
   "plannedTradesToday": 0,
@@ -22,7 +22,7 @@
   "emergencyStopEnabled": false,
   "emergencyStopReason": null,
   "emergencyStoppedAt": null,
-  "maxPositionAmountToday": 40000,
+  "maxPositionAmountToday": 50000,
   "dailyRiskBudget": 250000,
   "lastStrategyDecision": {
     "strategyProfile": "gap_and_go",
@@ -46,7 +46,7 @@
   "lossCooldownMinutes": 1,
   "priceAdjustmentTolerancePercent": 2,
   "entrySlippageTolerancePercent": 2,
-  "partialProfitEnabled": true,
+  "partialProfitEnabled": false,
   "partialProfitPercent": 40,
   "partialProfitTriggerPercent": 0.18,
   "trailingStopEnabled": true,
@@ -72,7 +72,7 @@
     "AMD",
     "CRWD"
   ],
-  "updatedAt": "2026-06-05T14:52:56.937Z",
+  "updatedAt": "2026-06-05T14:57:53.776Z",
   "availableModes": {
     "paper": true,
     "live": true
@@ -90,5 +90,8 @@
   "lastExecutiveTradeOverrideReason": "Owner requested go-wild paper-only test posture before market open. Live trading remains disabled.",
   "priceSlippageTolerancePercent": 4,
   "fillFirstStopManagementEnabled": true,
-  "protectEveryOpenPosition": true
+  "protectEveryOpenPosition": true,
+  "holdWinnersAboveTarget": false,
+  "fallbackProtectiveStopLossPercent": 1,
+  "fallbackProfitProtectiveStopPercent": 1
 }
