@@ -11,7 +11,7 @@
   "maxTradesPerDay": 100,
   "aiStrategyEnabled": false,
   "strategyProfile": "momentum_day_trade",
-  "tradeDirection": "long_only",
+  "tradeDirection": "long_and_short",
   "entryStrategy": "breakout_or_vwap_reclaim",
   "exitStrategy": "quick_scalp",
   "maxHoldMinutes": 20,
@@ -72,7 +72,7 @@
     "AMD",
     "CRWD"
   ],
-  "updatedAt": "2026-07-01T16:55:15.729Z",
+  "updatedAt": "2026-08-06T18:11:12.846Z",
   "availableModes": {
     "paper": true,
     "live": true
