@@ -5,7 +5,7 @@
   "liveTradingEnabled": false,
   "autoTradingEnabled": true,
   "autoExecuteApprovedSignals": true,
-  "maxTradeAmount": 1000,
+  "maxTradeAmount": 10000,
   "maxDailyLoss": 150,
   "dailyProfitTarget": 300,
   "maxTradesPerDay": 1,
@@ -65,7 +65,7 @@
     "AMD",
     "CRWD"
   ],
-  "updatedAt": "2026-08-31T15:28:00.080Z",
+  "updatedAt": "2026-08-31T17:35:05.670Z",
   "availableModes": {
     "paper": true,
     "live": true
