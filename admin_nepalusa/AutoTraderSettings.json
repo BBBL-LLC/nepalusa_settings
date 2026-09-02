@@ -54,7 +54,7 @@
   "trailingStopActivationPercent": 0.9,
   "reentryEnabled": false,
   "maxReentriesPerSymbol": 0,
-  "maxActiveSymbols": 1,
+  "maxActiveSymbols": 10,
   "scannerMinPrice": 5,
   "scannerMaxPrice": 1000,
   "scannerMinRelativeVolume": 1,
@@ -65,7 +65,7 @@
     "AMD",
     "CRWD"
   ],
-  "updatedAt": "2026-09-02T13:50:55.406Z",
+  "updatedAt": "2026-09-02T16:28:12.975Z",
   "availableModes": {
     "paper": true,
     "live": true
@@ -90,7 +90,7 @@
   "learningEarlyProtectMinTrades": 6,
   "learningWarmupFailureMinTrades": 8,
   "learningPostWarmupFailureMinTrades": 12,
-  "oneTradeCatalystMode": true,
+  "oneTradeCatalystMode": false,
   "oneTradeMinConfidence": 85,
   "oneTradeMinRewardRisk": 1.8,
   "oneTradeAllowPaperLearning": false
