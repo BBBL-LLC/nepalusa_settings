@@ -8,7 +8,7 @@
   "maxTradeAmount": 10000,
   "maxDailyLoss": 150,
   "dailyProfitTarget": 300,
-  "maxTradesPerDay": 10,
+  "maxTradesPerDay": 0,
   "aiStrategyEnabled": false,
   "strategyProfile": "gap_and_go",
   "tradeDirection": "long_and_short",
@@ -65,7 +65,7 @@
     "AMD",
     "CRWD"
   ],
-  "updatedAt": "2026-09-02T16:28:12.975Z",
+  "updatedAt": "2026-09-02T17:38:27.323Z",
   "availableModes": {
     "paper": true,
     "live": true
