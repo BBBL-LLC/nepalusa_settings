@@ -65,13 +65,13 @@
     "AMD",
     "CRWD"
   ],
-  "updatedAt": "2026-09-04T15:39:38.910Z",
+  "updatedAt": "2026-09-04T15:40:51.160Z",
   "availableModes": {
     "paper": true,
     "live": true
   },
-  "learningDisciplineMinTrades": 10,
-  "learningNoEdgeMinTrades": 20,
+  "learningDisciplineMinTrades": 99,
+  "learningNoEdgeMinTrades": 120,
   "learningDisciplineMinProfitFactor": 0.75,
   "learningDisciplineMinWinRate": 40,
   "aggressivePaperMode": true,
@@ -89,7 +89,7 @@
   "fallbackProfitProtectiveStopPercent": 1,
   "learningEarlyProtectMinTrades": 99,
   "learningWarmupFailureMinTrades": 99,
-  "learningPostWarmupFailureMinTrades": 99,
+  "learningPostWarmupFailureMinTrades": 120,
   "oneTradeCatalystMode": false,
   "oneTradeMinConfidence": 85,
   "oneTradeMinRewardRisk": 1.8,
