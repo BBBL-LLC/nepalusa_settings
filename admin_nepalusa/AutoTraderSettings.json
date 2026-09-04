@@ -8,7 +8,7 @@
   "maxTradeAmount": 10000,
   "maxDailyLoss": 300,
   "dailyProfitTarget": 300,
-  "maxTradesPerDay": 0,
+  "maxTradesPerDay": 13,
   "aiStrategyEnabled": false,
   "strategyProfile": "gap_and_go",
   "tradeDirection": "long_and_short",
@@ -18,7 +18,7 @@
   "maxSignalAgeMinutes": 120,
   "minRewardRiskRatio": 1.8,
   "plannedTradesToday": 1,
-  "tradingDirective": "OBSERVE",
+  "tradingDirective": "TRADE",
   "emergencyStopEnabled": false,
   "emergencyStopReason": null,
   "emergencyStoppedAt": null,
@@ -65,7 +65,7 @@
     "AMD",
     "CRWD"
   ],
-  "updatedAt": "2026-09-04T15:46:00.614Z",
+  "updatedAt": "2026-09-04T15:46:38.393Z",
   "availableModes": {
     "paper": true,
     "live": true
@@ -75,7 +75,7 @@
   "learningDisciplineMinProfitFactor": 0.75,
   "learningDisciplineMinWinRate": 40,
   "aggressivePaperMode": true,
-  "aggressivePaperModeReason": "Owner requested paper-only few-stock test; fresh entries paused after positions opened so the desk can monitor results.",
+  "aggressivePaperModeReason": "Owner paper-only few-stock test is monitoring 13 counted entries; fresh entries capped while stops can keep managing.",
   "paperDrawdownStopLoss": 250,
   "paperMaxConsecutiveLosses": 6,
   "paperDrawdownMaxWinRate": 30,
