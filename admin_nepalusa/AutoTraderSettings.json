@@ -18,7 +18,7 @@
   "maxSignalAgeMinutes": 120,
   "minRewardRiskRatio": 1.8,
   "plannedTradesToday": 1,
-  "tradingDirective": "TRADE",
+  "tradingDirective": "OBSERVE",
   "emergencyStopEnabled": false,
   "emergencyStopReason": null,
   "emergencyStoppedAt": null,
@@ -54,7 +54,7 @@
   "trailingStopActivationPercent": 0.9,
   "reentryEnabled": false,
   "maxReentriesPerSymbol": 0,
-  "maxActiveSymbols": 4,
+  "maxActiveSymbols": 5,
   "scannerMinPrice": 5,
   "scannerMaxPrice": 1000,
   "scannerMinRelativeVolume": 1,
@@ -65,7 +65,7 @@
     "AMD",
     "CRWD"
   ],
-  "updatedAt": "2026-09-04T15:40:51.160Z",
+  "updatedAt": "2026-09-04T15:46:00.614Z",
   "availableModes": {
     "paper": true,
     "live": true
@@ -75,7 +75,7 @@
   "learningDisciplineMinProfitFactor": 0.75,
   "learningDisciplineMinWinRate": 40,
   "aggressivePaperMode": true,
-  "aggressivePaperModeReason": "Owner requested controlled paper-only exploration of a few stocks on Sep 4.",
+  "aggressivePaperModeReason": "Owner requested paper-only few-stock test; fresh entries paused after positions opened so the desk can monitor results.",
   "paperDrawdownStopLoss": 250,
   "paperMaxConsecutiveLosses": 6,
   "paperDrawdownMaxWinRate": 30,
