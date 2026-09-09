@@ -23,7 +23,7 @@
   "emergencyStopReason": null,
   "emergencyStoppedAt": null,
   "maxPositionAmountToday": 100000,
-  "dailyRiskBudget": 300,
+  "dailyRiskBudget": 3000,
   "lastStrategyDecision": {
     "strategyProfile": "gap_and_go",
     "tradeDirection": "long_only",
@@ -65,7 +65,7 @@
     "AMD",
     "CRWD"
   ],
-  "updatedAt": "2026-09-09T17:30:43.130Z",
+  "updatedAt": "2026-09-09T17:36:09.212Z",
   "availableModes": {
     "paper": true,
     "live": true
