@@ -6,8 +6,8 @@
   "autoTradingEnabled": true,
   "autoExecuteApprovedSignals": true,
   "maxTradeAmount": 100000,
-  "maxDailyLoss": 300,
-  "dailyProfitTarget": 500,
+  "maxDailyLoss": 3000,
+  "dailyProfitTarget": 5000,
   "maxTradesPerDay": 20,
   "aiStrategyEnabled": false,
   "strategyProfile": "gap_and_go",
@@ -65,7 +65,7 @@
     "AMD",
     "CRWD"
   ],
-  "updatedAt": "2026-09-09T12:50:54.323Z",
+  "updatedAt": "2026-09-09T17:30:43.130Z",
   "availableModes": {
     "paper": true,
     "live": true
