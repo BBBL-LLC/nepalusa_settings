@@ -5,7 +5,7 @@
   "liveTradingEnabled": false,
   "autoTradingEnabled": true,
   "autoExecuteApprovedSignals": true,
-  "maxTradeAmount": 35000,
+  "maxTradeAmount": 70000,
   "maxDailyLoss": 2500,
   "dailyProfitTarget": 5000,
   "maxTradesPerDay": 20,
@@ -22,7 +22,7 @@
   "emergencyStopEnabled": false,
   "emergencyStopReason": null,
   "emergencyStoppedAt": null,
-  "maxPositionAmountToday": 35000,
+  "maxPositionAmountToday": 70000,
   "dailyRiskBudget": 250,
   "lastStrategyDecision": {
     "strategyProfile": "gap_and_go",
@@ -74,7 +74,7 @@
     "AMD",
     "CRWD"
   ],
-  "updatedAt": "2026-10-05T13:54:32.084Z",
+  "updatedAt": "2026-10-05T13:59:00.318Z",
   "availableModes": {
     "paper": true,
     "live": true
