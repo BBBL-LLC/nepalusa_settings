@@ -52,6 +52,15 @@
   "trailingStopEnabled": true,
   "trailingStopPercent": 0.6,
   "trailingStopActivationPercent": 0.9,
+  "activeWinnerManagementEnabled": true,
+  "setupFailureShadowEnabled": true,
+  "winnerTrailGapPercent": 0.35,
+  "winnerTrailActivationPercent": 0.18,
+  "winnerProfitBufferPercent": 0.05,
+  "winnerTargetNearPercent": 0.55,
+  "winnerTargetExtensionPercent": 0.75,
+  "winnerMinVelocityPercentPer10Seconds": 0.05,
+  "winnerMaxSpreadPercent": 0.2,
   "reentryEnabled": false,
   "maxReentriesPerSymbol": 0,
   "maxActiveSymbols": 5,
@@ -65,7 +74,7 @@
     "AMD",
     "CRWD"
   ],
-  "updatedAt": "2026-09-28T14:30:18.917Z",
+  "updatedAt": "2026-10-05T13:54:32.084Z",
   "availableModes": {
     "paper": true,
     "live": true
@@ -84,7 +93,7 @@
   "priceSlippageTolerancePercent": 4,
   "fillFirstStopManagementEnabled": false,
   "protectEveryOpenPosition": true,
-  "holdWinnersAboveTarget": false,
+  "holdWinnersAboveTarget": true,
   "fallbackProtectiveStopLossPercent": 1,
   "fallbackProfitProtectiveStopPercent": 1,
   "learningEarlyProtectMinTrades": 6,
