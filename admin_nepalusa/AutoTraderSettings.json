@@ -13,6 +13,7 @@
   "strategyProfile": "gap_and_go",
   "tradeDirection": "long_and_short",
   "entryStrategy": "pullback_to_vwap",
+  "confirmedMomentumEntriesEnabled": true,
   "exitStrategy": "bracket_target_stop",
   "maxHoldMinutes": 180,
   "maxSignalAgeMinutes": 120,
@@ -74,7 +75,7 @@
     "AMD",
     "CRWD"
   ],
-  "updatedAt": "2026-10-06T22:09:41.296Z",
+  "updatedAt": "2026-10-09T17:59:18.353Z",
   "availableModes": {
     "paper": true,
     "live": true
