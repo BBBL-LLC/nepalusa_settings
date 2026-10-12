@@ -14,6 +14,8 @@
   "tradeDirection": "long_and_short",
   "entryStrategy": "pullback_to_vwap",
   "confirmedMomentumEntriesEnabled": true,
+  "momentumContinuationChecksEnabled": true,
+  "momentumMinRecentVolumeRatio": 1,
   "entryConfirmationEnabled": false,
   "exitStrategy": "bracket_target_stop",
   "maxHoldMinutes": 180,
@@ -82,7 +84,7 @@
     "AMD",
     "CRWD"
   ],
-  "updatedAt": "2026-10-12T18:56:10.827Z",
+  "updatedAt": "2026-10-12T19:53:51.390Z",
   "availableModes": {
     "paper": true,
     "live": true
