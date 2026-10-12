@@ -56,6 +56,7 @@
   "activeWinnerManagementEnabled": true,
   "setupFailureShadowEnabled": true,
   "winnerTrailGapPercent": 0.35,
+  "winnerProgressiveRetentionEnabled": true,
   "winnerTrailActivationPercent": 0.18,
   "winnerProfitBufferPercent": 0.05,
   "winnerTargetNearPercent": 0.55,
@@ -75,7 +76,7 @@
     "AMD",
     "CRWD"
   ],
-  "updatedAt": "2026-10-09T17:59:18.353Z",
+  "updatedAt": "2026-10-12T17:05:49.859Z",
   "availableModes": {
     "paper": true,
     "live": true
