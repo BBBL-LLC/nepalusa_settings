@@ -14,7 +14,7 @@
   "tradeDirection": "long_and_short",
   "entryStrategy": "pullback_to_vwap",
   "confirmedMomentumEntriesEnabled": true,
-  "momentumContinuationChecksEnabled": true,
+  "momentumContinuationChecksEnabled": false,
   "momentumMinRecentVolumeRatio": 1,
   "entryConfirmationEnabled": false,
   "exitStrategy": "bracket_target_stop",
@@ -60,7 +60,7 @@
   "setupFailureShadowEnabled": true,
   "winnerTrailGapPercent": 0.35,
   "winnerProgressiveRetentionEnabled": true,
-  "winnerStagedRiskEnabled": true,
+  "winnerStagedRiskEnabled": false,
   "winnerRiskReductionTriggerR": 0.25,
   "winnerRiskReductionFraction": 0.5,
   "winnerMomentumPersistenceMs": 5000,
@@ -84,7 +84,7 @@
     "AMD",
     "CRWD"
   ],
-  "updatedAt": "2026-10-12T19:53:51.390Z",
+  "updatedAt": "2026-10-13T14:09:15.861Z",
   "availableModes": {
     "paper": true,
     "live": true
